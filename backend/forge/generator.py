@@ -127,6 +127,109 @@ def generate_timeline(
         "weeks_count": weeks
     }
 
+def generate_timeline_adversarial(
+    weeks: int = 24,
+    ring_id: Optional[str] = None,
+    noise_factor: float = 0.035,
+    dip_probability: float = 0.04,
+    dip_magnitude: float = 0.15,
+    login_jitter: int = 1,
+    ramp_rate_variance: float = 0.05,
+    strike_week_offset: int = 0,
+    base_spend_offset: float = 0.0,
+    surge_multiplier_cap: float = 20.0,
+) -> Dict[str, Any]:
+    """
+    Generates a sleeper identity timeline using mutated Forge parameters.
+    Used by the adversarial loop to create progressively harder-to-detect attacks.
+
+    Parameters are controlled by forge/mutation.py which reads Sentinel feedback
+    and adjusts noise, dip patterns, login jitter etc. to evade detection.
+    """
+    identity_id = f"VT-ADV-{random.randint(1000, 9999)}-{uuid.uuid4().hex[:4].upper()}"
+    timeline: List[Dict[str, Any]] = []
+
+    base_spend = float(np.random.uniform(90.0, 180.0)) + base_spend_offset
+    base_spend = max(50.0, base_spend)
+
+    base_ramp = float(np.random.uniform(10.0, 22.0))
+    ramp_std = base_ramp * ramp_rate_variance
+    ramp_rate = float(np.random.normal(base_ramp, max(0.1, ramp_std)))
+    ramp_rate = max(5.0, ramp_rate)
+
+    base_login = int(np.random.choice([4, 5, 6]))
+    strike_week = max(20, min(weeks, weeks + strike_week_offset))
+
+    # Pre-compute a non-linear baseline to break R² even before noise is added
+    # At higher noise_factor values (from mutation), switch to a log-curve baseline
+    use_nonlinear = noise_factor > 0.12
+    for w in range(1, weeks + 1):
+        if w < strike_week:
+            # ── Incubation phase with mutation-controlled noise ───────────────
+            # Non-linear baseline: after enough mutation, switch to log-curve
+            # so linear R² drops dramatically
+            if use_nonlinear:
+                # Log-curved spend: fast early growth, then plateau → breaks linearity
+                t_frac = (w - 1) / max(1, strike_week - 2)
+                baseline = base_spend + ramp_rate * (strike_week - 2) * np.log1p(t_frac * 2.718) / np.log1p(2.718)
+            else:
+                baseline = base_spend + (w - 1) * ramp_rate
+
+            noise = np.random.normal(0, baseline * noise_factor)
+            spend = max(20.0, round(float(baseline) + noise, 2))
+
+            # Apply spending dip with mutation-controlled probability
+            if random.random() < dip_probability:
+                spend = max(15.0, round(spend * (1.0 - dip_magnitude * random.uniform(0.5, 1.5)), 2))
+
+            # Login with mutation-controlled jitter
+            jitter = int(np.random.choice(
+                range(-login_jitter, login_jitter + 1),
+                p=None  # uniform over the range
+            ))
+            login_count = max(1, base_login + jitter)
+
+            new_device = bool(random.random() < 0.03)
+            location_change = bool(random.random() < 0.02)
+            bill_paid_on_time = True
+            fraud_strike = False
+        else:
+            # ── Fraud strike ──────────────────────────────────────────────────
+            pre_strike_avg = base_spend + (strike_week - 1) * ramp_rate
+            # surge_multiplier_cap controls how many times bigger than the
+            # pre-strike average the bust-out spend is.
+            # At low caps (4–6x) the final spend blends closer to account history
+            # and the z-score drops, reducing transaction_anomaly signal.
+            lo = max(2.0, surge_multiplier_cap * 0.5)
+            hi = max(lo + 0.5, surge_multiplier_cap)
+            surge_multiplier = float(np.random.uniform(lo, hi))
+            spend = round(pre_strike_avg * surge_multiplier + np.random.normal(0, pre_strike_avg * 0.2), 2)
+            spend = max(pre_strike_avg * lo, spend)
+            login_count = int(np.random.randint(18, 36))
+            new_device = True
+            location_change = True
+            bill_paid_on_time = False
+            fraud_strike = True
+
+        timeline.append({
+            "week": w,
+            "spend": float(spend),
+            "login_count": int(login_count),
+            "new_device": new_device,
+            "location_change": location_change,
+            "bill_paid_on_time": bill_paid_on_time,
+            "fraud_strike": fraud_strike,
+        })
+
+    return {
+        "id": identity_id,
+        "type": "sleeper",
+        "ring_id": ring_id,
+        "timeline": timeline,
+        "weeks_count": weeks,
+    }
+
+
 def generate_batch(count: int = 10, sleeper_ratio: float = 0.5) -> List[Dict[str, Any]]:
     """Generates a batch of identities with a realistic mix including a fraud ring cluster."""
     identities = []

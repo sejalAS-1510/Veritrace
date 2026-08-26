@@ -3,6 +3,7 @@ import LiveFeed from './components/LiveFeed';
 import TimelineReplay from './components/TimelineReplay';
 import ArmsRaceChart from './components/ArmsRaceChart';
 import SimilarityGraph from './components/SimilarityGraph';
+import AdversarialLab from './components/AdversarialLab';
 import { 
   Shield, 
   Activity, 
@@ -12,7 +13,8 @@ import {
   Radio,
   Lock,
   Terminal,
-  Layers
+  Layers,
+  FlaskConical
 } from 'lucide-react';
 
 export default function App() {
@@ -92,6 +94,18 @@ export default function App() {
             </button>
 
             <button
+              onClick={() => setActiveTab('adversarial')}
+              className={`flex items-center space-x-2 px-4 py-2 rounded-lg text-xs font-semibold transition whitespace-nowrap ${
+                activeTab === 'adversarial'
+                  ? 'bg-slate-800 text-rose-400 border border-slate-700 shadow-md'
+                  : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900'
+              }`}
+            >
+              <FlaskConical className="w-4 h-4" />
+              <span>⚔️ Adversarial Lab</span>
+            </button>
+
+            <button
               onClick={() => setActiveTab('arms_race')}
               className={`flex items-center space-x-2 px-4 py-2 rounded-lg text-xs font-semibold transition whitespace-nowrap ${
                 activeTab === 'arms_race'
@@ -129,6 +143,10 @@ export default function App() {
             selectedId={selectedIdentityId} 
             onSelectIdentity={(id) => setSelectedIdentityId(id)} 
           />
+        )}
+
+        {activeTab === 'adversarial' && (
+          <AdversarialLab />
         )}
 
         {activeTab === 'arms_race' && (
