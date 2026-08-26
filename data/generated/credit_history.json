@@ -1,0 +1,32 @@
+[
+    {
+        "account_id": "SYN-B0B5A7",
+        "month": 1,
+        "utilization_percent": 20
+    },
+    {
+        "account_id": "SYN-B0B5A7",
+        "month": 2,
+        "utilization_percent": 22
+    },
+    {
+        "account_id": "SYN-B0B5A7",
+        "month": 3,
+        "utilization_percent": 25
+    },
+    {
+        "account_id": "SYN-B0B5A7",
+        "month": 4,
+        "utilization_percent": 25
+    },
+    {
+        "account_id": "SYN-B0B5A7",
+        "month": 5,
+        "utilization_percent": 23
+    },
+    {
+        "account_id": "SYN-B0B5A7",
+        "month": 6,
+        "utilization_percent": 26
+    }
+]
