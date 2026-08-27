@@ -1,1777 +1,1924 @@
 [
     {
-        "event_id": "EVT-B4BB1A9B",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-F1730B14",
+        "account_id": "SYN-6264DE",
+        "day": 1,
+        "event_type": "LOGIN",
+        "login_hour": 18,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-66196EB3",
+        "account_id": "SYN-6264DE",
         "day": 1,
         "event_type": "SALARY_CREDIT",
-        "amount": 75585,
+        "amount": 37677,
         "merchant": "Employer",
-        "location": "Bangalore",
+        "location": "Pune",
         "device_id": null
     },
     {
-        "event_id": "EVT-E92C34D6",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-2883D2EA",
+        "account_id": "SYN-6264DE",
         "day": 2,
-        "event_type": "LOGIN",
-        "login_hour": 20,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
+        "event_type": "TRANSACTION",
+        "amount": 3409,
+        "merchant": "FreshMart",
+        "merchant_category": "GROCERY",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-05F99E44",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-515DABC0",
+        "account_id": "SYN-6264DE",
         "day": 2,
         "event_type": "BILL_PAYMENT",
-        "amount": 623,
-        "merchant": "Mobile",
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
+        "amount": 2321,
+        "merchant": "Electricity",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-E09F73F2",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-881043F5",
+        "account_id": "SYN-6264DE",
         "day": 3,
         "event_type": "LOGIN",
-        "login_hour": 9,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
+        "login_hour": 12,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-377B1E7E",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-F89E14EA",
+        "account_id": "SYN-6264DE",
+        "day": 3,
+        "event_type": "BILL_PAYMENT",
+        "amount": 1411,
+        "merchant": "Internet",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-CC8069B0",
+        "account_id": "SYN-6264DE",
+        "day": 4,
+        "event_type": "LOGIN",
+        "login_hour": 18,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-7060356A",
+        "account_id": "SYN-6264DE",
         "day": 5,
         "event_type": "LOGIN",
-        "login_hour": 19,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
+        "login_hour": 18,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-04B845DC",
-        "account_id": "SYN-B0B5A7",
-        "day": 5,
-        "event_type": "TRANSACTION",
-        "amount": 2807,
-        "merchant": "Movie World",
-        "merchant_category": "ENTERTAINMENT",
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-0961BD67",
-        "account_id": "SYN-B0B5A7",
-        "day": 6,
-        "event_type": "LOGIN",
-        "login_hour": 10,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-B082401A",
-        "account_id": "SYN-B0B5A7",
-        "day": 6,
-        "event_type": "TRANSACTION",
-        "amount": 3325,
-        "merchant": "Movie World",
-        "merchant_category": "ENTERTAINMENT",
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-62D71EE0",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-7BB1DA2D",
+        "account_id": "SYN-6264DE",
         "day": 7,
         "event_type": "LOGIN",
         "login_hour": 12,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-B52D570C",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-C7194F8B",
+        "account_id": "SYN-6264DE",
         "day": 8,
         "event_type": "LOGIN",
-        "login_hour": 20,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
+        "login_hour": 8,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-1B1CA90B",
-        "account_id": "SYN-B0B5A7",
-        "day": 11,
+        "event_id": "EVT-F8C7651B",
+        "account_id": "SYN-6264DE",
+        "day": 8,
+        "event_type": "TRANSACTION",
+        "amount": 3866,
+        "merchant": "Metro Store",
+        "merchant_category": "SHOPPING",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-D8C75918",
+        "account_id": "SYN-6264DE",
+        "day": 9,
         "event_type": "LOGIN",
         "login_hour": 22,
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-DB193D01",
-        "account_id": "SYN-B0B5A7",
-        "day": 13,
-        "event_type": "LOGIN",
-        "login_hour": 18,
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
-    },
-    {
-        "event_id": "EVT-88E3F915",
-        "account_id": "SYN-B0B5A7",
-        "day": 15,
-        "event_type": "LOGIN",
-        "login_hour": 22,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-0FF7E2D3",
-        "account_id": "SYN-B0B5A7",
-        "day": 15,
+        "event_id": "EVT-C95CA64D",
+        "account_id": "SYN-6264DE",
+        "day": 9,
         "event_type": "TRANSACTION",
-        "amount": 2066,
-        "merchant": "Health Plus",
-        "merchant_category": "MEDICAL",
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-3BE1BEA5",
-        "account_id": "SYN-B0B5A7",
-        "day": 16,
-        "event_type": "TRANSACTION",
-        "amount": 2559,
+        "amount": 3871,
         "merchant": "FreshMart",
         "merchant_category": "GROCERY",
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-CB49F423",
-        "account_id": "SYN-B0B5A7",
-        "day": 18,
-        "event_type": "LOGIN",
-        "login_hour": 21,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-F2B22165",
-        "account_id": "SYN-B0B5A7",
-        "day": 19,
-        "event_type": "LOGIN",
-        "login_hour": 12,
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
-    },
-    {
-        "event_id": "EVT-18B89700",
-        "account_id": "SYN-B0B5A7",
-        "day": 21,
-        "event_type": "LOGIN",
-        "login_hour": 8,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-3A3A4930",
-        "account_id": "SYN-B0B5A7",
-        "day": 22,
-        "event_type": "LOGIN",
-        "login_hour": 9,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-D451DAB6",
-        "account_id": "SYN-B0B5A7",
-        "day": 23,
-        "event_type": "LOGIN",
-        "login_hour": 9,
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
-    },
-    {
-        "event_id": "EVT-B7E619F0",
-        "account_id": "SYN-B0B5A7",
-        "day": 24,
+        "event_id": "EVT-8F214468",
+        "account_id": "SYN-6264DE",
+        "day": 10,
         "event_type": "LOGIN",
         "login_hour": 10,
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-A434287C",
-        "account_id": "SYN-B0B5A7",
-        "day": 25,
+        "event_id": "EVT-7EA2F033",
+        "account_id": "SYN-6264DE",
+        "day": 10,
+        "event_type": "TRANSACTION",
+        "amount": 3163,
+        "merchant": "Movie World",
+        "merchant_category": "ENTERTAINMENT",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-0A7FFFB7",
+        "account_id": "SYN-6264DE",
+        "day": 12,
+        "event_type": "LOGIN",
+        "login_hour": 20,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-E0525C5C",
+        "account_id": "SYN-6264DE",
+        "day": 12,
+        "event_type": "TRANSACTION",
+        "amount": 4316,
+        "merchant": "QuickRide",
+        "merchant_category": "TRANSPORT",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-4E02D3C1",
+        "account_id": "SYN-6264DE",
+        "day": 13,
+        "event_type": "TRANSACTION",
+        "amount": 2295,
+        "merchant": "Metro Store",
+        "merchant_category": "SHOPPING",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-4B070DA0",
+        "account_id": "SYN-6264DE",
+        "day": 14,
         "event_type": "LOGIN",
         "login_hour": 22,
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-46B6CFEF",
-        "account_id": "SYN-B0B5A7",
-        "day": 26,
+        "event_id": "EVT-FB28C20E",
+        "account_id": "SYN-6264DE",
+        "day": 15,
+        "event_type": "LOGIN",
+        "login_hour": 18,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-B8715F64",
+        "account_id": "SYN-6264DE",
+        "day": 16,
+        "event_type": "LOGIN",
+        "login_hour": 21,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-B3A47AE7",
+        "account_id": "SYN-6264DE",
+        "day": 16,
+        "event_type": "TRANSACTION",
+        "amount": 2474,
+        "merchant": "Metro Store",
+        "merchant_category": "SHOPPING",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-D3F11539",
+        "account_id": "SYN-6264DE",
+        "day": 17,
+        "event_type": "LOGIN",
+        "login_hour": 18,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-589D621D",
+        "account_id": "SYN-6264DE",
+        "day": 18,
         "event_type": "LOGIN",
         "login_hour": 10,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-26D01DDD",
-        "account_id": "SYN-B0B5A7",
-        "day": 27,
+        "event_id": "EVT-4F90ADA7",
+        "account_id": "SYN-6264DE",
+        "day": 20,
         "event_type": "LOGIN",
-        "login_hour": 21,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
+        "login_hour": 10,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-465FDB9A",
-        "account_id": "SYN-B0B5A7",
-        "day": 29,
+        "event_id": "EVT-74D2EAEB",
+        "account_id": "SYN-6264DE",
+        "day": 21,
         "event_type": "LOGIN",
-        "login_hour": 21,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
+        "login_hour": 10,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-F26CAEE5",
-        "account_id": "SYN-B0B5A7",
-        "day": 29,
+        "event_id": "EVT-61A738F5",
+        "account_id": "SYN-6264DE",
+        "day": 22,
         "event_type": "TRANSACTION",
-        "amount": 1779,
-        "merchant": "Food Corner",
-        "merchant_category": "RESTAURANT",
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
+        "amount": 2463,
+        "merchant": "QuickRide",
+        "merchant_category": "TRANSPORT",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-B79F1B30",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-64357CE1",
+        "account_id": "SYN-6264DE",
+        "day": 23,
+        "event_type": "TRANSACTION",
+        "amount": 4190,
+        "merchant": "Health Plus",
+        "merchant_category": "MEDICAL",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-D9808D8F",
+        "account_id": "SYN-6264DE",
+        "day": 25,
+        "event_type": "LOGIN",
+        "login_hour": 8,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-E48069F0",
+        "account_id": "SYN-6264DE",
+        "day": 28,
+        "event_type": "LOGIN",
+        "login_hour": 10,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-5AD61C5C",
+        "account_id": "SYN-6264DE",
+        "day": 28,
+        "event_type": "TRANSACTION",
+        "amount": 846,
+        "merchant": "Movie World",
+        "merchant_category": "ENTERTAINMENT",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-2C481017",
+        "account_id": "SYN-6264DE",
+        "day": 29,
+        "event_type": "LOGIN",
+        "login_hour": 21,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-83089AFA",
+        "account_id": "SYN-6264DE",
         "day": 30,
         "event_type": "LOGIN",
-        "login_hour": 10,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
+        "login_hour": 12,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-2A8F5304",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-9600DEE7",
+        "account_id": "SYN-6264DE",
         "day": 31,
         "event_type": "LOGIN",
-        "login_hour": 21,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
+        "login_hour": 20,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-92538010",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-857DC51D",
+        "account_id": "SYN-6264DE",
         "day": 31,
         "event_type": "SALARY_CREDIT",
-        "amount": 75585,
+        "amount": 37677,
         "merchant": "Employer",
-        "location": "Bangalore",
+        "location": "Pune",
         "device_id": null
     },
     {
-        "event_id": "EVT-44408C32",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-E3B62537",
+        "account_id": "SYN-6264DE",
         "day": 32,
-        "event_type": "LOGIN",
-        "login_hour": 9,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-D61446F5",
-        "account_id": "SYN-B0B5A7",
-        "day": 32,
-        "event_type": "TRANSACTION",
-        "amount": 4894,
-        "merchant": "QuickRide",
-        "merchant_category": "TRANSPORT",
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-D4746CE5",
-        "account_id": "SYN-B0B5A7",
-        "day": 33,
         "event_type": "LOGIN",
         "login_hour": 19,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-53865B32",
-        "account_id": "SYN-B0B5A7",
-        "day": 33,
-        "event_type": "TRANSACTION",
-        "amount": 3352,
-        "merchant": "Metro Store",
-        "merchant_category": "SHOPPING",
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-6432ECA8",
-        "account_id": "SYN-B0B5A7",
-        "day": 34,
-        "event_type": "TRANSACTION",
-        "amount": 2012,
-        "merchant": "Metro Store",
-        "merchant_category": "SHOPPING",
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
-    },
-    {
-        "event_id": "EVT-0069CC87",
-        "account_id": "SYN-B0B5A7",
-        "day": 34,
+        "event_id": "EVT-6E3AB666",
+        "account_id": "SYN-6264DE",
+        "day": 32,
         "event_type": "BILL_PAYMENT",
-        "amount": 384,
-        "merchant": "Mobile",
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
+        "amount": 792,
+        "merchant": "Water",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-87561DAA",
-        "account_id": "SYN-B0B5A7",
-        "day": 36,
-        "event_type": "LOGIN",
-        "login_hour": 21,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-4CBA5724",
-        "account_id": "SYN-B0B5A7",
-        "day": 37,
-        "event_type": "LOGIN",
-        "login_hour": 19,
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
-    },
-    {
-        "event_id": "EVT-2A395EA3",
-        "account_id": "SYN-B0B5A7",
-        "day": 38,
+        "event_id": "EVT-23357646",
+        "account_id": "SYN-6264DE",
+        "day": 33,
         "event_type": "LOGIN",
         "login_hour": 20,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-5253F4D8",
-        "account_id": "SYN-B0B5A7",
-        "day": 39,
-        "event_type": "LOGIN",
-        "login_hour": 21,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-A73C50D9",
-        "account_id": "SYN-B0B5A7",
-        "day": 39,
+        "event_id": "EVT-E4C7AB9A",
+        "account_id": "SYN-6264DE",
+        "day": 33,
         "event_type": "TRANSACTION",
-        "amount": 1974,
-        "merchant": "Metro Store",
-        "merchant_category": "SHOPPING",
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
+        "amount": 3265,
+        "merchant": "Food Corner",
+        "merchant_category": "RESTAURANT",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-F14DC827",
-        "account_id": "SYN-B0B5A7",
-        "day": 40,
-        "event_type": "TRANSACTION",
-        "amount": 1202,
-        "merchant": "Metro Store",
-        "merchant_category": "SHOPPING",
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
-    },
-    {
-        "event_id": "EVT-74091E19",
-        "account_id": "SYN-B0B5A7",
-        "day": 41,
+        "event_id": "EVT-79B7458D",
+        "account_id": "SYN-6264DE",
+        "day": 34,
         "event_type": "LOGIN",
         "login_hour": 22,
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-D8E1D88D",
-        "account_id": "SYN-B0B5A7",
-        "day": 42,
+        "event_id": "EVT-E4F228FB",
+        "account_id": "SYN-6264DE",
+        "day": 35,
         "event_type": "LOGIN",
         "login_hour": 10,
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-4F5527A0",
-        "account_id": "SYN-B0B5A7",
-        "day": 42,
+        "event_id": "EVT-828E6247",
+        "account_id": "SYN-6264DE",
+        "day": 35,
         "event_type": "TRANSACTION",
-        "amount": 2742,
+        "amount": 928,
+        "merchant": "Metro Store",
+        "merchant_category": "SHOPPING",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-CC283617",
+        "account_id": "SYN-6264DE",
+        "day": 36,
+        "event_type": "LOGIN",
+        "login_hour": 22,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-62CC771C",
+        "account_id": "SYN-6264DE",
+        "day": 38,
+        "event_type": "LOGIN",
+        "login_hour": 22,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-22F7FB86",
+        "account_id": "SYN-6264DE",
+        "day": 38,
+        "event_type": "TRANSACTION",
+        "amount": 1365,
         "merchant": "Movie World",
         "merchant_category": "ENTERTAINMENT",
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-47173108",
-        "account_id": "SYN-B0B5A7",
-        "day": 43,
+        "event_id": "EVT-B0B18C7A",
+        "account_id": "SYN-6264DE",
+        "day": 39,
         "event_type": "LOGIN",
-        "login_hour": 19,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
+        "login_hour": 22,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-10658B6A",
-        "account_id": "SYN-B0B5A7",
-        "day": 44,
+        "event_id": "EVT-E0E322FF",
+        "account_id": "SYN-6264DE",
+        "day": 40,
+        "event_type": "LOGIN",
+        "login_hour": 20,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-BD3FB91A",
+        "account_id": "SYN-6264DE",
+        "day": 40,
         "event_type": "TRANSACTION",
-        "amount": 356,
+        "amount": 3920,
+        "merchant": "Metro Store",
+        "merchant_category": "SHOPPING",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-F8F54911",
+        "account_id": "SYN-6264DE",
+        "day": 42,
+        "event_type": "TRANSACTION",
+        "amount": 1249,
         "merchant": "QuickRide",
         "merchant_category": "TRANSPORT",
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-FAEB6C44",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-79DA3B56",
+        "account_id": "SYN-6264DE",
+        "day": 43,
+        "event_type": "LOGIN",
+        "login_hour": 10,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-3CA278A2",
+        "account_id": "SYN-6264DE",
         "day": 45,
         "event_type": "LOGIN",
         "login_hour": 12,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-502AAEEF",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-A8F8C31A",
+        "account_id": "SYN-6264DE",
         "day": 45,
         "event_type": "TRANSACTION",
-        "amount": 4198,
-        "merchant": "Health Plus",
-        "merchant_category": "MEDICAL",
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
+        "amount": 4050,
+        "merchant": "Food Corner",
+        "merchant_category": "RESTAURANT",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-44768869",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-BB7C1DA7",
+        "account_id": "SYN-6264DE",
         "day": 47,
         "event_type": "TRANSACTION",
-        "amount": 4258,
-        "merchant": "Metro Store",
-        "merchant_category": "SHOPPING",
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
+        "amount": 3645,
+        "merchant": "QuickRide",
+        "merchant_category": "TRANSPORT",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-C623902D",
-        "account_id": "SYN-B0B5A7",
-        "day": 48,
-        "event_type": "TRANSACTION",
-        "amount": 1033,
-        "merchant": "Metro Store",
-        "merchant_category": "SHOPPING",
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-9A80061F",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-615747B9",
+        "account_id": "SYN-6264DE",
         "day": 49,
         "event_type": "LOGIN",
-        "login_hour": 18,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
+        "login_hour": 12,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-8E274622",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-D6736372",
+        "account_id": "SYN-6264DE",
         "day": 50,
         "event_type": "LOGIN",
         "login_hour": 19,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-1BF353B8",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-BC5388AA",
+        "account_id": "SYN-6264DE",
         "day": 51,
         "event_type": "LOGIN",
-        "login_hour": 21,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
+        "login_hour": 22,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-C3C68AEC",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-597BCFE8",
+        "account_id": "SYN-6264DE",
         "day": 51,
         "event_type": "TRANSACTION",
-        "amount": 1422,
-        "merchant": "Metro Store",
-        "merchant_category": "SHOPPING",
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-09C746E6",
-        "account_id": "SYN-B0B5A7",
-        "day": 52,
-        "event_type": "LOGIN",
-        "login_hour": 22,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-C66C4881",
-        "account_id": "SYN-B0B5A7",
-        "day": 53,
-        "event_type": "LOGIN",
-        "login_hour": 9,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-99AA24CD",
-        "account_id": "SYN-B0B5A7",
-        "day": 54,
-        "event_type": "LOGIN",
-        "login_hour": 18,
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
-    },
-    {
-        "event_id": "EVT-7B239D45",
-        "account_id": "SYN-B0B5A7",
-        "day": 55,
-        "event_type": "TRANSACTION",
-        "amount": 4996,
-        "merchant": "Health Plus",
-        "merchant_category": "MEDICAL",
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-49385751",
-        "account_id": "SYN-B0B5A7",
-        "day": 56,
-        "event_type": "LOGIN",
-        "login_hour": 20,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-1714D710",
-        "account_id": "SYN-B0B5A7",
-        "day": 56,
-        "event_type": "TRANSACTION",
-        "amount": 868,
-        "merchant": "Health Plus",
-        "merchant_category": "MEDICAL",
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-06D1C5A9",
-        "account_id": "SYN-B0B5A7",
-        "day": 57,
-        "event_type": "LOGIN",
-        "login_hour": 20,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-FF344D01",
-        "account_id": "SYN-B0B5A7",
-        "day": 58,
-        "event_type": "LOGIN",
-        "login_hour": 9,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-0E39892B",
-        "account_id": "SYN-B0B5A7",
-        "day": 59,
-        "event_type": "LOGIN",
-        "login_hour": 22,
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
-    },
-    {
-        "event_id": "EVT-4B7A7D94",
-        "account_id": "SYN-B0B5A7",
-        "day": 59,
-        "event_type": "TRANSACTION",
-        "amount": 1401,
-        "merchant": "FreshMart",
-        "merchant_category": "GROCERY",
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
-    },
-    {
-        "event_id": "EVT-8C64E50D",
-        "account_id": "SYN-B0B5A7",
-        "day": 60,
-        "event_type": "LOGIN",
-        "login_hour": 21,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-2D5E65BD",
-        "account_id": "SYN-B0B5A7",
-        "day": 60,
-        "event_type": "DEVICE_CHANGE",
-        "device_id": "DEV-67C21F",
-        "location": "Bangalore"
-    },
-    {
-        "event_id": "EVT-E2BD85E9",
-        "account_id": "SYN-B0B5A7",
-        "day": 61,
-        "event_type": "LOGIN",
-        "login_hour": 20,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-554324EA",
-        "account_id": "SYN-B0B5A7",
-        "day": 61,
-        "event_type": "SALARY_CREDIT",
-        "amount": 75585,
-        "merchant": "Employer",
-        "location": "Bangalore",
-        "device_id": null
-    },
-    {
-        "event_id": "EVT-24057450",
-        "account_id": "SYN-B0B5A7",
-        "day": 63,
-        "event_type": "LOGIN",
-        "login_hour": 8,
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
-    },
-    {
-        "event_id": "EVT-B991076E",
-        "account_id": "SYN-B0B5A7",
-        "day": 64,
-        "event_type": "LOGIN",
-        "login_hour": 21,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-D5ECD873",
-        "account_id": "SYN-B0B5A7",
-        "day": 65,
-        "event_type": "LOGIN",
-        "login_hour": 12,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-6E4C0F88",
-        "account_id": "SYN-B0B5A7",
-        "day": 68,
-        "event_type": "LOGIN",
-        "login_hour": 10,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-16D0D406",
-        "account_id": "SYN-B0B5A7",
-        "day": 69,
-        "event_type": "LOGIN",
-        "login_hour": 22,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-AFCEF9A4",
-        "account_id": "SYN-B0B5A7",
-        "day": 69,
-        "event_type": "TRANSACTION",
-        "amount": 553,
-        "merchant": "QuickRide",
-        "merchant_category": "TRANSPORT",
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-8B8488FE",
-        "account_id": "SYN-B0B5A7",
-        "day": 71,
-        "event_type": "LOGIN",
-        "login_hour": 20,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-941C202F",
-        "account_id": "SYN-B0B5A7",
-        "day": 71,
-        "event_type": "TRANSACTION",
-        "amount": 2582,
-        "merchant": "Food Corner",
-        "merchant_category": "RESTAURANT",
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-C2456F87",
-        "account_id": "SYN-B0B5A7",
-        "day": 72,
-        "event_type": "LOGIN",
-        "login_hour": 9,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-2D596E72",
-        "account_id": "SYN-B0B5A7",
-        "day": 72,
-        "event_type": "TRANSACTION",
-        "amount": 4599,
-        "merchant": "Health Plus",
-        "merchant_category": "MEDICAL",
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-F7891AEE",
-        "account_id": "SYN-B0B5A7",
-        "day": 73,
-        "event_type": "LOGIN",
-        "login_hour": 12,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-D98957DD",
-        "account_id": "SYN-B0B5A7",
-        "day": 73,
-        "event_type": "TRANSACTION",
-        "amount": 2731,
+        "amount": 4029,
         "merchant": "Movie World",
         "merchant_category": "ENTERTAINMENT",
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-C5827079",
-        "account_id": "SYN-B0B5A7",
-        "day": 75,
-        "event_type": "LOGIN",
-        "login_hour": 12,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-160B105C",
-        "account_id": "SYN-B0B5A7",
-        "day": 77,
-        "event_type": "LOGIN",
-        "login_hour": 19,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-D5E83080",
-        "account_id": "SYN-B0B5A7",
-        "day": 78,
-        "event_type": "LOGIN",
-        "login_hour": 19,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-AE9E633A",
-        "account_id": "SYN-B0B5A7",
-        "day": 78,
-        "event_type": "TRANSACTION",
-        "amount": 1429,
-        "merchant": "Health Plus",
-        "merchant_category": "MEDICAL",
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-886A4485",
-        "account_id": "SYN-B0B5A7",
-        "day": 81,
+        "event_id": "EVT-598DA21D",
+        "account_id": "SYN-6264DE",
+        "day": 55,
         "event_type": "LOGIN",
         "login_hour": 21,
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-933EBCDB",
-        "account_id": "SYN-B0B5A7",
-        "day": 84,
-        "event_type": "LOGIN",
-        "login_hour": 21,
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
-    },
-    {
-        "event_id": "EVT-6BAEE24C",
-        "account_id": "SYN-B0B5A7",
-        "day": 85,
-        "event_type": "LOGIN",
-        "login_hour": 19,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-7EFD88DC",
-        "account_id": "SYN-B0B5A7",
-        "day": 87,
-        "event_type": "LOGIN",
-        "login_hour": 18,
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
-    },
-    {
-        "event_id": "EVT-2CE41B2A",
-        "account_id": "SYN-B0B5A7",
-        "day": 87,
-        "event_type": "TRANSACTION",
-        "amount": 2156,
-        "merchant": "Food Corner",
-        "merchant_category": "RESTAURANT",
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
-    },
-    {
-        "event_id": "EVT-23F9BCCA",
-        "account_id": "SYN-B0B5A7",
-        "day": 89,
-        "event_type": "TRANSACTION",
-        "amount": 3168,
-        "merchant": "Food Corner",
-        "merchant_category": "RESTAURANT",
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
-    },
-    {
-        "event_id": "EVT-E40B261A",
-        "account_id": "SYN-B0B5A7",
-        "day": 90,
-        "event_type": "LOGIN",
-        "login_hour": 19,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-FF5F38D0",
-        "account_id": "SYN-B0B5A7",
-        "day": 90,
-        "event_type": "TRANSACTION",
-        "amount": 4797,
-        "merchant": "Health Plus",
-        "merchant_category": "MEDICAL",
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-3016CD7A",
-        "account_id": "SYN-B0B5A7",
-        "day": 91,
-        "event_type": "LOGIN",
-        "login_hour": 21,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-1D2E22C9",
-        "account_id": "SYN-B0B5A7",
-        "day": 91,
-        "event_type": "SALARY_CREDIT",
-        "amount": 75585,
-        "merchant": "Employer",
-        "location": "Bangalore",
-        "device_id": null
-    },
-    {
-        "event_id": "EVT-63F18995",
-        "account_id": "SYN-B0B5A7",
-        "day": 92,
-        "event_type": "LOGIN",
-        "login_hour": 8,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-B85CD0DB",
-        "account_id": "SYN-B0B5A7",
-        "day": 93,
-        "event_type": "LOGIN",
-        "login_hour": 20,
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
-    },
-    {
-        "event_id": "EVT-C22AD35F",
-        "account_id": "SYN-B0B5A7",
-        "day": 94,
-        "event_type": "LOGIN",
-        "login_hour": 8,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-82A368B9",
-        "account_id": "SYN-B0B5A7",
-        "day": 95,
-        "event_type": "BILL_PAYMENT",
-        "amount": 1085,
-        "merchant": "Internet",
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-E0199F08",
-        "account_id": "SYN-B0B5A7",
-        "day": 96,
-        "event_type": "LOGIN",
-        "login_hour": 21,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-75A92F3F",
-        "account_id": "SYN-B0B5A7",
-        "day": 97,
-        "event_type": "LOGIN",
-        "login_hour": 22,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-7A854F09",
-        "account_id": "SYN-B0B5A7",
-        "day": 100,
-        "event_type": "LOGIN",
-        "login_hour": 12,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-B78E6FD7",
-        "account_id": "SYN-B0B5A7",
-        "day": 101,
+        "event_id": "EVT-356D5C8E",
+        "account_id": "SYN-6264DE",
+        "day": 56,
         "event_type": "LOGIN",
         "login_hour": 9,
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-A2CC0281",
-        "account_id": "SYN-B0B5A7",
-        "day": 102,
-        "event_type": "LOGIN",
-        "login_hour": 21,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-81F4F390",
-        "account_id": "SYN-B0B5A7",
-        "day": 103,
-        "event_type": "LOGIN",
-        "login_hour": 20,
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
-    },
-    {
-        "event_id": "EVT-42EB2F71",
-        "account_id": "SYN-B0B5A7",
-        "day": 104,
-        "event_type": "LOGIN",
-        "login_hour": 21,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-C5EEDF44",
-        "account_id": "SYN-B0B5A7",
-        "day": 106,
+        "event_id": "EVT-171E53C2",
+        "account_id": "SYN-6264DE",
+        "day": 56,
         "event_type": "TRANSACTION",
-        "amount": 1883,
+        "amount": 1726,
+        "merchant": "QuickRide",
+        "merchant_category": "TRANSPORT",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-0423368C",
+        "account_id": "SYN-6264DE",
+        "day": 57,
+        "event_type": "LOGIN",
+        "login_hour": 9,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-9DBF6BC1",
+        "account_id": "SYN-6264DE",
+        "day": 57,
+        "event_type": "TRANSACTION",
+        "amount": 3949,
         "merchant": "FreshMart",
         "merchant_category": "GROCERY",
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-B07F95D2",
-        "account_id": "SYN-B0B5A7",
-        "day": 107,
+        "event_id": "EVT-92270665",
+        "account_id": "SYN-6264DE",
+        "day": 58,
         "event_type": "LOGIN",
-        "login_hour": 12,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
+        "login_hour": 8,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-0A22A82A",
-        "account_id": "SYN-B0B5A7",
-        "day": 109,
-        "event_type": "LOGIN",
-        "login_hour": 12,
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
-    },
-    {
-        "event_id": "EVT-168CE608",
-        "account_id": "SYN-B0B5A7",
-        "day": 110,
-        "event_type": "LOGIN",
-        "login_hour": 19,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-1F1871CF",
-        "account_id": "SYN-B0B5A7",
-        "day": 111,
-        "event_type": "LOGIN",
-        "login_hour": 12,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-5FF3254E",
-        "account_id": "SYN-B0B5A7",
-        "day": 113,
+        "event_id": "EVT-15776136",
+        "account_id": "SYN-6264DE",
+        "day": 59,
         "event_type": "LOGIN",
         "login_hour": 22,
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-87A3A695",
-        "account_id": "SYN-B0B5A7",
-        "day": 115,
+        "event_id": "EVT-BDEC51FF",
+        "account_id": "SYN-6264DE",
+        "day": 59,
+        "event_type": "TRANSACTION",
+        "amount": 693,
+        "merchant": "Food Corner",
+        "merchant_category": "RESTAURANT",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-B21B6B51",
+        "account_id": "SYN-6264DE",
+        "day": 60,
         "event_type": "LOGIN",
         "login_hour": 18,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-E7F38176",
-        "account_id": "SYN-B0B5A7",
-        "day": 115,
-        "event_type": "TRANSACTION",
-        "amount": 1036,
-        "merchant": "Metro Store",
-        "merchant_category": "SHOPPING",
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-D3556FCE",
-        "account_id": "SYN-B0B5A7",
-        "day": 116,
-        "event_type": "LOGIN",
-        "login_hour": 18,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-EEFDC5F1",
-        "account_id": "SYN-B0B5A7",
-        "day": 117,
-        "event_type": "LOGIN",
-        "login_hour": 22,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-3ABAE9F6",
-        "account_id": "SYN-B0B5A7",
-        "day": 117,
-        "event_type": "TRANSACTION",
-        "amount": 3926,
-        "merchant": "FreshMart",
-        "merchant_category": "GROCERY",
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-A5776B3A",
-        "account_id": "SYN-B0B5A7",
-        "day": 118,
-        "event_type": "LOGIN",
-        "login_hour": 18,
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
-    },
-    {
-        "event_id": "EVT-7E0C6D3C",
-        "account_id": "SYN-B0B5A7",
-        "day": 118,
-        "event_type": "TRANSACTION",
-        "amount": 2865,
-        "merchant": "FreshMart",
-        "merchant_category": "GROCERY",
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
-    },
-    {
-        "event_id": "EVT-8B09E5BA",
-        "account_id": "SYN-B0B5A7",
-        "day": 119,
-        "event_type": "LOGIN",
-        "login_hour": 22,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-79FCB534",
-        "account_id": "SYN-B0B5A7",
-        "day": 120,
+        "event_id": "EVT-A9638660",
+        "account_id": "SYN-6264DE",
+        "day": 60,
         "event_type": "DEVICE_CHANGE",
-        "device_id": "DEV-7F05C1",
-        "location": "Bangalore"
+        "device_id": "DEV-520EA2",
+        "location": "Pune"
     },
     {
-        "event_id": "EVT-4FD92744",
-        "account_id": "SYN-B0B5A7",
-        "day": 121,
+        "event_id": "EVT-4152046A",
+        "account_id": "SYN-6264DE",
+        "day": 61,
+        "event_type": "LOGIN",
+        "login_hour": 8,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-DC12B416",
+        "account_id": "SYN-6264DE",
+        "day": 61,
         "event_type": "BILL_PAYMENT",
-        "amount": 661,
+        "amount": 331,
         "merchant": "Mobile",
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-B540551F",
-        "account_id": "SYN-B0B5A7",
-        "day": 121,
+        "event_id": "EVT-B41D77C6",
+        "account_id": "SYN-6264DE",
+        "day": 61,
         "event_type": "SALARY_CREDIT",
-        "amount": 75585,
+        "amount": 37677,
         "merchant": "Employer",
-        "location": "Bangalore",
+        "location": "Pune",
         "device_id": null
     },
     {
-        "event_id": "EVT-CE3C33C1",
-        "account_id": "SYN-B0B5A7",
-        "day": 123,
+        "event_id": "EVT-CE95CC55",
+        "account_id": "SYN-6264DE",
+        "day": 62,
         "event_type": "LOGIN",
-        "login_hour": 18,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
+        "login_hour": 22,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-ECD53562",
-        "account_id": "SYN-B0B5A7",
-        "day": 123,
-        "event_type": "TRANSACTION",
-        "amount": 1554,
-        "merchant": "QuickRide",
-        "merchant_category": "TRANSPORT",
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-C60F8D09",
-        "account_id": "SYN-B0B5A7",
-        "day": 124,
+        "event_id": "EVT-A942BD1D",
+        "account_id": "SYN-6264DE",
+        "day": 64,
         "event_type": "LOGIN",
         "login_hour": 10,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-1E8436F4",
-        "account_id": "SYN-B0B5A7",
-        "day": 124,
+        "event_id": "EVT-EF0265FF",
+        "account_id": "SYN-6264DE",
+        "day": 64,
         "event_type": "TRANSACTION",
-        "amount": 1826,
+        "amount": 2526,
+        "merchant": "Food Corner",
+        "merchant_category": "RESTAURANT",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-1B9FA62D",
+        "account_id": "SYN-6264DE",
+        "day": 65,
+        "event_type": "LOGIN",
+        "login_hour": 8,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-5C4CEB6B",
+        "account_id": "SYN-6264DE",
+        "day": 66,
+        "event_type": "LOGIN",
+        "login_hour": 12,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-7256F73D",
+        "account_id": "SYN-6264DE",
+        "day": 67,
+        "event_type": "LOGIN",
+        "login_hour": 8,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-E4D03DBD",
+        "account_id": "SYN-6264DE",
+        "day": 68,
+        "event_type": "LOGIN",
+        "login_hour": 22,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-4F4537A6",
+        "account_id": "SYN-6264DE",
+        "day": 69,
+        "event_type": "LOGIN",
+        "login_hour": 18,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-4CC0CEA2",
+        "account_id": "SYN-6264DE",
+        "day": 70,
+        "event_type": "LOGIN",
+        "login_hour": 22,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-58DCC2D1",
+        "account_id": "SYN-6264DE",
+        "day": 72,
+        "event_type": "LOGIN",
+        "login_hour": 21,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-4F25B990",
+        "account_id": "SYN-6264DE",
+        "day": 73,
+        "event_type": "LOGIN",
+        "login_hour": 10,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-8D755084",
+        "account_id": "SYN-6264DE",
+        "day": 73,
+        "event_type": "TRANSACTION",
+        "amount": 1723,
+        "merchant": "Movie World",
+        "merchant_category": "ENTERTAINMENT",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-61C90ED7",
+        "account_id": "SYN-6264DE",
+        "day": 74,
+        "event_type": "LOGIN",
+        "login_hour": 21,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-EAB5CDEC",
+        "account_id": "SYN-6264DE",
+        "day": 74,
+        "event_type": "TRANSACTION",
+        "amount": 4931,
+        "merchant": "Movie World",
+        "merchant_category": "ENTERTAINMENT",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-F5BE11FC",
+        "account_id": "SYN-6264DE",
+        "day": 75,
+        "event_type": "LOGIN",
+        "login_hour": 8,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-6B96EBEB",
+        "account_id": "SYN-6264DE",
+        "day": 76,
+        "event_type": "LOGIN",
+        "login_hour": 9,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-FFEDA459",
+        "account_id": "SYN-6264DE",
+        "day": 77,
+        "event_type": "LOGIN",
+        "login_hour": 8,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-883A1AFC",
+        "account_id": "SYN-6264DE",
+        "day": 77,
+        "event_type": "TRANSACTION",
+        "amount": 3733,
+        "merchant": "Metro Store",
+        "merchant_category": "SHOPPING",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-71CF48FD",
+        "account_id": "SYN-6264DE",
+        "day": 78,
+        "event_type": "LOGIN",
+        "login_hour": 20,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-C684F6D5",
+        "account_id": "SYN-6264DE",
+        "day": 80,
+        "event_type": "TRANSACTION",
+        "amount": 1934,
+        "merchant": "FreshMart",
+        "merchant_category": "GROCERY",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-A6238DD6",
+        "account_id": "SYN-6264DE",
+        "day": 81,
+        "event_type": "LOGIN",
+        "login_hour": 8,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-ABDFD71A",
+        "account_id": "SYN-6264DE",
+        "day": 81,
+        "event_type": "TRANSACTION",
+        "amount": 673,
+        "merchant": "Food Corner",
+        "merchant_category": "RESTAURANT",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-4DFC57B8",
+        "account_id": "SYN-6264DE",
+        "day": 82,
+        "event_type": "TRANSACTION",
+        "amount": 1691,
+        "merchant": "Metro Store",
+        "merchant_category": "SHOPPING",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-5AF6394E",
+        "account_id": "SYN-6264DE",
+        "day": 83,
+        "event_type": "LOGIN",
+        "login_hour": 21,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-D9EDFA59",
+        "account_id": "SYN-6264DE",
+        "day": 84,
+        "event_type": "LOGIN",
+        "login_hour": 9,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-7955CD4D",
+        "account_id": "SYN-6264DE",
+        "day": 85,
+        "event_type": "LOGIN",
+        "login_hour": 8,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-DEA93C0C",
+        "account_id": "SYN-6264DE",
+        "day": 85,
+        "event_type": "TRANSACTION",
+        "amount": 717,
+        "merchant": "Movie World",
+        "merchant_category": "ENTERTAINMENT",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-EBF98A1C",
+        "account_id": "SYN-6264DE",
+        "day": 86,
+        "event_type": "LOGIN",
+        "login_hour": 12,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-383F37DB",
+        "account_id": "SYN-6264DE",
+        "day": 87,
+        "event_type": "LOGIN",
+        "login_hour": 10,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-94E2744B",
+        "account_id": "SYN-6264DE",
+        "day": 88,
+        "event_type": "LOGIN",
+        "login_hour": 18,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-EC98741E",
+        "account_id": "SYN-6264DE",
+        "day": 89,
+        "event_type": "LOGIN",
+        "login_hour": 12,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-134E93CF",
+        "account_id": "SYN-6264DE",
+        "day": 90,
+        "event_type": "LOGIN",
+        "login_hour": 20,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-247703AF",
+        "account_id": "SYN-6264DE",
+        "day": 90,
+        "event_type": "TRANSACTION",
+        "amount": 3992,
+        "merchant": "Food Corner",
+        "merchant_category": "RESTAURANT",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-828CD13D",
+        "account_id": "SYN-6264DE",
+        "day": 91,
+        "event_type": "LOGIN",
+        "login_hour": 20,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-B67C2F5F",
+        "account_id": "SYN-6264DE",
+        "day": 91,
+        "event_type": "SALARY_CREDIT",
+        "amount": 37677,
+        "merchant": "Employer",
+        "location": "Pune",
+        "device_id": null
+    },
+    {
+        "event_id": "EVT-6F3AA0D8",
+        "account_id": "SYN-6264DE",
+        "day": 92,
+        "event_type": "LOGIN",
+        "login_hour": 12,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-49ED0020",
+        "account_id": "SYN-6264DE",
+        "day": 92,
+        "event_type": "TRANSACTION",
+        "amount": 1103,
         "merchant": "Health Plus",
         "merchant_category": "MEDICAL",
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-C4526B6E",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-060CE36F",
+        "account_id": "SYN-6264DE",
+        "day": 93,
+        "event_type": "LOGIN",
+        "login_hour": 22,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-9C80A41C",
+        "account_id": "SYN-6264DE",
+        "day": 93,
+        "event_type": "TRANSACTION",
+        "amount": 1969,
+        "merchant": "Health Plus",
+        "merchant_category": "MEDICAL",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-DE0402C8",
+        "account_id": "SYN-6264DE",
+        "day": 93,
+        "event_type": "BILL_PAYMENT",
+        "amount": 675,
+        "merchant": "Water",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-20E5EFCF",
+        "account_id": "SYN-6264DE",
+        "day": 94,
+        "event_type": "LOGIN",
+        "login_hour": 9,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-55A3167C",
+        "account_id": "SYN-6264DE",
+        "day": 95,
+        "event_type": "LOGIN",
+        "login_hour": 8,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-4BB04586",
+        "account_id": "SYN-6264DE",
+        "day": 96,
+        "event_type": "LOGIN",
+        "login_hour": 8,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-E9C579D2",
+        "account_id": "SYN-6264DE",
+        "day": 97,
+        "event_type": "LOGIN",
+        "login_hour": 12,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-5C51A50D",
+        "account_id": "SYN-6264DE",
+        "day": 99,
+        "event_type": "LOGIN",
+        "login_hour": 21,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-BE5A95C7",
+        "account_id": "SYN-6264DE",
+        "day": 101,
+        "event_type": "LOGIN",
+        "login_hour": 18,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-05CB316B",
+        "account_id": "SYN-6264DE",
+        "day": 101,
+        "event_type": "TRANSACTION",
+        "amount": 3424,
+        "merchant": "Health Plus",
+        "merchant_category": "MEDICAL",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-2712E0A1",
+        "account_id": "SYN-6264DE",
+        "day": 102,
+        "event_type": "LOGIN",
+        "login_hour": 10,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-19E90433",
+        "account_id": "SYN-6264DE",
+        "day": 103,
+        "event_type": "LOGIN",
+        "login_hour": 18,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-A5DE838D",
+        "account_id": "SYN-6264DE",
+        "day": 104,
+        "event_type": "LOGIN",
+        "login_hour": 18,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-8C8AC35D",
+        "account_id": "SYN-6264DE",
+        "day": 104,
+        "event_type": "TRANSACTION",
+        "amount": 781,
+        "merchant": "Health Plus",
+        "merchant_category": "MEDICAL",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-AFE2B453",
+        "account_id": "SYN-6264DE",
+        "day": 105,
+        "event_type": "LOGIN",
+        "login_hour": 20,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-E74DEDA5",
+        "account_id": "SYN-6264DE",
+        "day": 106,
+        "event_type": "LOGIN",
+        "login_hour": 9,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-6BE77FE2",
+        "account_id": "SYN-6264DE",
+        "day": 107,
+        "event_type": "LOGIN",
+        "login_hour": 19,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-8C9FBAD3",
+        "account_id": "SYN-6264DE",
+        "day": 108,
+        "event_type": "LOGIN",
+        "login_hour": 22,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-9A3BE281",
+        "account_id": "SYN-6264DE",
+        "day": 110,
+        "event_type": "TRANSACTION",
+        "amount": 2734,
+        "merchant": "Metro Store",
+        "merchant_category": "SHOPPING",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-A7F0A81F",
+        "account_id": "SYN-6264DE",
+        "day": 112,
+        "event_type": "LOGIN",
+        "login_hour": 10,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-EE7E83C1",
+        "account_id": "SYN-6264DE",
+        "day": 113,
+        "event_type": "LOGIN",
+        "login_hour": 20,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-2E86BFA9",
+        "account_id": "SYN-6264DE",
+        "day": 114,
+        "event_type": "LOGIN",
+        "login_hour": 12,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-1F1FF87F",
+        "account_id": "SYN-6264DE",
+        "day": 114,
+        "event_type": "TRANSACTION",
+        "amount": 1146,
+        "merchant": "Food Corner",
+        "merchant_category": "RESTAURANT",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-EBB4FFCF",
+        "account_id": "SYN-6264DE",
+        "day": 115,
+        "event_type": "LOGIN",
+        "login_hour": 10,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-A5AB5DD6",
+        "account_id": "SYN-6264DE",
+        "day": 116,
+        "event_type": "LOGIN",
+        "login_hour": 21,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-DF9ADE06",
+        "account_id": "SYN-6264DE",
+        "day": 118,
+        "event_type": "LOGIN",
+        "login_hour": 9,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-D92B2FFC",
+        "account_id": "SYN-6264DE",
+        "day": 118,
+        "event_type": "TRANSACTION",
+        "amount": 1883,
+        "merchant": "Metro Store",
+        "merchant_category": "SHOPPING",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-34D8D61F",
+        "account_id": "SYN-6264DE",
+        "day": 119,
+        "event_type": "LOGIN",
+        "login_hour": 12,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-258F39CC",
+        "account_id": "SYN-6264DE",
+        "day": 120,
+        "event_type": "LOGIN",
+        "login_hour": 8,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-FBFCA1B0",
+        "account_id": "SYN-6264DE",
+        "day": 120,
+        "event_type": "TRANSACTION",
+        "amount": 701,
+        "merchant": "Metro Store",
+        "merchant_category": "SHOPPING",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-928F1135",
+        "account_id": "SYN-6264DE",
+        "day": 120,
+        "event_type": "DEVICE_CHANGE",
+        "device_id": "DEV-520EA2",
+        "location": "Pune"
+    },
+    {
+        "event_id": "EVT-FD570642",
+        "account_id": "SYN-6264DE",
+        "day": 121,
+        "event_type": "SALARY_CREDIT",
+        "amount": 37677,
+        "merchant": "Employer",
+        "location": "Pune",
+        "device_id": null
+    },
+    {
+        "event_id": "EVT-EA628E9D",
+        "account_id": "SYN-6264DE",
+        "day": 122,
+        "event_type": "LOGIN",
+        "login_hour": 9,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-295BC85E",
+        "account_id": "SYN-6264DE",
+        "day": 123,
+        "event_type": "LOGIN",
+        "login_hour": 19,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-0E76DD98",
+        "account_id": "SYN-6264DE",
+        "day": 123,
+        "event_type": "BILL_PAYMENT",
+        "amount": 2033,
+        "merchant": "Electricity",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-E50A04DE",
+        "account_id": "SYN-6264DE",
+        "day": 124,
+        "event_type": "TRANSACTION",
+        "amount": 1959,
+        "merchant": "Food Corner",
+        "merchant_category": "RESTAURANT",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-8EE148AA",
+        "account_id": "SYN-6264DE",
+        "day": 124,
+        "event_type": "BILL_PAYMENT",
+        "amount": 1981,
+        "merchant": "Electricity",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-C6D933CD",
+        "account_id": "SYN-6264DE",
         "day": 125,
         "event_type": "LOGIN",
         "login_hour": 10,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-6404E6EB",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-8BCA2221",
+        "account_id": "SYN-6264DE",
         "day": 126,
         "event_type": "LOGIN",
-        "login_hour": 19,
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
+        "login_hour": 9,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-4847B31D",
-        "account_id": "SYN-B0B5A7",
-        "day": 127,
+        "event_id": "EVT-23DBDD83",
+        "account_id": "SYN-6264DE",
+        "day": 128,
         "event_type": "LOGIN",
-        "login_hour": 20,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
+        "login_hour": 19,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-25329003",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-D59D067A",
+        "account_id": "SYN-6264DE",
         "day": 128,
         "event_type": "TRANSACTION",
-        "amount": 4713,
-        "merchant": "QuickRide",
-        "merchant_category": "TRANSPORT",
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
+        "amount": 4960,
+        "merchant": "Metro Store",
+        "merchant_category": "SHOPPING",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-D5CFDB69",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-47A0B34F",
+        "account_id": "SYN-6264DE",
         "day": 129,
         "event_type": "LOGIN",
-        "login_hour": 19,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
+        "login_hour": 8,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-BFB1086F",
-        "account_id": "SYN-B0B5A7",
-        "day": 130,
+        "event_id": "EVT-95522868",
+        "account_id": "SYN-6264DE",
+        "day": 131,
         "event_type": "LOGIN",
         "login_hour": 20,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-4A13FC54",
-        "account_id": "SYN-B0B5A7",
-        "day": 131,
+        "event_id": "EVT-0F3BD2DD",
+        "account_id": "SYN-6264DE",
+        "day": 132,
         "event_type": "LOGIN",
         "login_hour": 9,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-9E1A713F",
-        "account_id": "SYN-B0B5A7",
-        "day": 131,
-        "event_type": "TRANSACTION",
-        "amount": 204,
-        "merchant": "QuickRide",
-        "merchant_category": "TRANSPORT",
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-FB17D790",
-        "account_id": "SYN-B0B5A7",
-        "day": 132,
-        "event_type": "LOGIN",
-        "login_hour": 8,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-D220A82C",
-        "account_id": "SYN-B0B5A7",
-        "day": 132,
-        "event_type": "TRANSACTION",
-        "amount": 1966,
-        "merchant": "FreshMart",
-        "merchant_category": "GROCERY",
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-D76A6E3D",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-C5849343",
+        "account_id": "SYN-6264DE",
         "day": 133,
         "event_type": "LOGIN",
-        "login_hour": 9,
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
+        "login_hour": 19,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-22127665",
-        "account_id": "SYN-B0B5A7",
-        "day": 134,
+        "event_id": "EVT-A099CE39",
+        "account_id": "SYN-6264DE",
+        "day": 136,
         "event_type": "LOGIN",
-        "login_hour": 21,
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
+        "login_hour": 20,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-9B0BB706",
-        "account_id": "SYN-B0B5A7",
-        "day": 135,
-        "event_type": "LOGIN",
-        "login_hour": 8,
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
+        "event_id": "EVT-B62AF9AF",
+        "account_id": "SYN-6264DE",
+        "day": 136,
+        "event_type": "TRANSACTION",
+        "amount": 3576,
+        "merchant": "FreshMart",
+        "merchant_category": "GROCERY",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-EB4DEAA9",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-0BDD42C8",
+        "account_id": "SYN-6264DE",
         "day": 137,
         "event_type": "LOGIN",
-        "login_hour": 12,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
+        "login_hour": 10,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-F61DBFED",
-        "account_id": "SYN-B0B5A7",
-        "day": 138,
-        "event_type": "LOGIN",
-        "login_hour": 8,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
+        "event_id": "EVT-45471631",
+        "account_id": "SYN-6264DE",
+        "day": 137,
+        "event_type": "TRANSACTION",
+        "amount": 944,
+        "merchant": "FreshMart",
+        "merchant_category": "GROCERY",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-6CEEE079",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-0C175EEC",
+        "account_id": "SYN-6264DE",
         "day": 138,
         "event_type": "TRANSACTION",
-        "amount": 1697,
-        "merchant": "Health Plus",
-        "merchant_category": "MEDICAL",
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
+        "amount": 310,
+        "merchant": "Food Corner",
+        "merchant_category": "RESTAURANT",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-63A2D5FB",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-2DEB1AD2",
+        "account_id": "SYN-6264DE",
+        "day": 139,
+        "event_type": "LOGIN",
+        "login_hour": 18,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-998312D9",
+        "account_id": "SYN-6264DE",
         "day": 140,
         "event_type": "LOGIN",
-        "login_hour": 19,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
+        "login_hour": 18,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-ED2205CB",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-352E2983",
+        "account_id": "SYN-6264DE",
         "day": 141,
         "event_type": "LOGIN",
-        "login_hour": 22,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-FAE37A43",
-        "account_id": "SYN-B0B5A7",
-        "day": 142,
-        "event_type": "LOGIN",
         "login_hour": 18,
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-2CA7CE20",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-5064A298",
+        "account_id": "SYN-6264DE",
         "day": 142,
-        "event_type": "TRANSACTION",
-        "amount": 2418,
-        "merchant": "FreshMart",
-        "merchant_category": "GROCERY",
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
+        "event_type": "LOGIN",
+        "login_hour": 20,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-969E68F3",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-342BB9D7",
+        "account_id": "SYN-6264DE",
         "day": 143,
         "event_type": "LOGIN",
-        "login_hour": 9,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
+        "login_hour": 8,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-D931A1AA",
-        "account_id": "SYN-B0B5A7",
-        "day": 143,
-        "event_type": "TRANSACTION",
-        "amount": 3977,
-        "merchant": "FreshMart",
-        "merchant_category": "GROCERY",
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-8E2AF105",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-C337044A",
+        "account_id": "SYN-6264DE",
         "day": 144,
         "event_type": "LOGIN",
-        "login_hour": 19,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
+        "login_hour": 12,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-1E16A0BB",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-57CF3F3F",
+        "account_id": "SYN-6264DE",
         "day": 145,
         "event_type": "LOGIN",
-        "login_hour": 10,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
+        "login_hour": 9,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-3A6A1A90",
-        "account_id": "SYN-B0B5A7",
-        "day": 145,
-        "event_type": "TRANSACTION",
-        "amount": 2391,
-        "merchant": "Movie World",
-        "merchant_category": "ENTERTAINMENT",
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-BD46C6D1",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-635795C6",
+        "account_id": "SYN-6264DE",
         "day": 146,
         "event_type": "LOGIN",
-        "login_hour": 21,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
+        "login_hour": 9,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-2361005C",
-        "account_id": "SYN-B0B5A7",
-        "day": 146,
-        "event_type": "TRANSACTION",
-        "amount": 2145,
-        "merchant": "Movie World",
-        "merchant_category": "ENTERTAINMENT",
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-18076F16",
-        "account_id": "SYN-B0B5A7",
-        "day": 147,
-        "event_type": "LOGIN",
-        "login_hour": 19,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-9378128A",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-5F9B981C",
+        "account_id": "SYN-6264DE",
         "day": 148,
         "event_type": "LOGIN",
-        "login_hour": 18,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
+        "login_hour": 8,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-14202730",
-        "account_id": "SYN-B0B5A7",
-        "day": 149,
+        "event_id": "EVT-3FA71B70",
+        "account_id": "SYN-6264DE",
+        "day": 148,
         "event_type": "TRANSACTION",
-        "amount": 1743,
+        "amount": 1286,
         "merchant": "FreshMart",
         "merchant_category": "GROCERY",
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-0657F89E",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-12986903",
+        "account_id": "SYN-6264DE",
+        "day": 149,
+        "event_type": "LOGIN",
+        "login_hour": 20,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-CF5C643D",
+        "account_id": "SYN-6264DE",
         "day": 150,
         "event_type": "LOGIN",
-        "login_hour": 18,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
+        "login_hour": 12,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-535EBDFE",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-0EA2EA11",
+        "account_id": "SYN-6264DE",
+        "day": 150,
+        "event_type": "TRANSACTION",
+        "amount": 2238,
+        "merchant": "Health Plus",
+        "merchant_category": "MEDICAL",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-0FFB000A",
+        "account_id": "SYN-6264DE",
         "day": 151,
         "event_type": "LOGIN",
-        "login_hour": 21,
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
+        "login_hour": 20,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-1DB475A3",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-22A230A3",
+        "account_id": "SYN-6264DE",
+        "day": 151,
+        "event_type": "TRANSACTION",
+        "amount": 2699,
+        "merchant": "Movie World",
+        "merchant_category": "ENTERTAINMENT",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-C5FD9642",
+        "account_id": "SYN-6264DE",
         "day": 151,
         "event_type": "SALARY_CREDIT",
-        "amount": 75585,
+        "amount": 37677,
         "merchant": "Employer",
-        "location": "Bangalore",
+        "location": "Pune",
         "device_id": null
     },
     {
-        "event_id": "EVT-7047F8A9",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-169F9148",
+        "account_id": "SYN-6264DE",
         "day": 153,
         "event_type": "LOGIN",
-        "login_hour": 19,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
+        "login_hour": 21,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-6909B915",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-1B776497",
+        "account_id": "SYN-6264DE",
+        "day": 153,
+        "event_type": "TRANSACTION",
+        "amount": 1690,
+        "merchant": "Health Plus",
+        "merchant_category": "MEDICAL",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-1DB789E0",
+        "account_id": "SYN-6264DE",
+        "day": 153,
+        "event_type": "BILL_PAYMENT",
+        "amount": 837,
+        "merchant": "Mobile",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-1837FD71",
+        "account_id": "SYN-6264DE",
         "day": 154,
         "event_type": "LOGIN",
-        "login_hour": 9,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
+        "login_hour": 19,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-4A0A40BB",
-        "account_id": "SYN-B0B5A7",
-        "day": 155,
-        "event_type": "LOGIN",
-        "login_hour": 9,
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
+        "event_id": "EVT-D5218C19",
+        "account_id": "SYN-6264DE",
+        "day": 154,
+        "event_type": "TRANSACTION",
+        "amount": 4842,
+        "merchant": "Movie World",
+        "merchant_category": "ENTERTAINMENT",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-B908CADF",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-B56A5E14",
+        "account_id": "SYN-6264DE",
         "day": 156,
         "event_type": "LOGIN",
-        "login_hour": 10,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
+        "login_hour": 18,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-6286B1D9",
-        "account_id": "SYN-B0B5A7",
-        "day": 160,
-        "event_type": "LOGIN",
-        "login_hour": 10,
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
-    },
-    {
-        "event_id": "EVT-49AC2207",
-        "account_id": "SYN-B0B5A7",
-        "day": 160,
+        "event_id": "EVT-DB054411",
+        "account_id": "SYN-6264DE",
+        "day": 156,
         "event_type": "TRANSACTION",
-        "amount": 2635,
-        "merchant": "Food Corner",
-        "merchant_category": "RESTAURANT",
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
+        "amount": 4142,
+        "merchant": "FreshMart",
+        "merchant_category": "GROCERY",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-C353A857",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-C9D93F85",
+        "account_id": "SYN-6264DE",
+        "day": 158,
+        "event_type": "TRANSACTION",
+        "amount": 1295,
+        "merchant": "Movie World",
+        "merchant_category": "ENTERTAINMENT",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-544ED3FB",
+        "account_id": "SYN-6264DE",
         "day": 161,
         "event_type": "TRANSACTION",
-        "amount": 1061,
-        "merchant": "QuickRide",
-        "merchant_category": "TRANSPORT",
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
+        "amount": 2963,
+        "merchant": "Food Corner",
+        "merchant_category": "RESTAURANT",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-E459CB8A",
-        "account_id": "SYN-B0B5A7",
-        "day": 162,
-        "event_type": "LOGIN",
-        "login_hour": 21,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-437D0A6F",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-3CB9F567",
+        "account_id": "SYN-6264DE",
         "day": 163,
         "event_type": "LOGIN",
-        "login_hour": 20,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
+        "login_hour": 19,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-7ABC8D8D",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-761329B6",
+        "account_id": "SYN-6264DE",
         "day": 164,
         "event_type": "LOGIN",
-        "login_hour": 19,
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
+        "login_hour": 12,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-050CD2C8",
-        "account_id": "SYN-B0B5A7",
+        "event_id": "EVT-10ACD086",
+        "account_id": "SYN-6264DE",
         "day": 165,
-        "event_type": "TRANSACTION",
-        "amount": 2719,
-        "merchant": "Food Corner",
-        "merchant_category": "RESTAURANT",
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
-    },
-    {
-        "event_id": "EVT-B32F576C",
-        "account_id": "SYN-B0B5A7",
-        "day": 166,
-        "event_type": "LOGIN",
-        "login_hour": 21,
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
-    },
-    {
-        "event_id": "EVT-EBECA6BE",
-        "account_id": "SYN-B0B5A7",
-        "day": 167,
-        "event_type": "LOGIN",
-        "login_hour": 18,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-C805C3D2",
-        "account_id": "SYN-B0B5A7",
-        "day": 167,
-        "event_type": "TRANSACTION",
-        "amount": 4647,
-        "merchant": "Movie World",
-        "merchant_category": "ENTERTAINMENT",
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-5AD36D40",
-        "account_id": "SYN-B0B5A7",
-        "day": 168,
-        "event_type": "TRANSACTION",
-        "amount": 4620,
-        "merchant": "Health Plus",
-        "merchant_category": "MEDICAL",
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-1C23BFFF",
-        "account_id": "SYN-B0B5A7",
-        "day": 169,
-        "event_type": "TRANSACTION",
-        "amount": 1013,
-        "merchant": "Health Plus",
-        "merchant_category": "MEDICAL",
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
-    },
-    {
-        "event_id": "EVT-A6CD4331",
-        "account_id": "SYN-B0B5A7",
-        "day": 170,
-        "event_type": "LOGIN",
-        "login_hour": 21,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-85EF43F4",
-        "account_id": "SYN-B0B5A7",
-        "day": 172,
-        "event_type": "TRANSACTION",
-        "amount": 4832,
-        "merchant": "Food Corner",
-        "merchant_category": "RESTAURANT",
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
-    },
-    {
-        "event_id": "EVT-34665B97",
-        "account_id": "SYN-B0B5A7",
-        "day": 174,
-        "event_type": "LOGIN",
-        "login_hour": 19,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-74B08650",
-        "account_id": "SYN-B0B5A7",
-        "day": 174,
-        "event_type": "TRANSACTION",
-        "amount": 2315,
-        "merchant": "Metro Store",
-        "merchant_category": "SHOPPING",
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-9EB5A198",
-        "account_id": "SYN-B0B5A7",
-        "day": 175,
-        "event_type": "LOGIN",
-        "login_hour": 10,
-        "location": "Bangalore",
-        "device_id": "DEV-67C21F"
-    },
-    {
-        "event_id": "EVT-F5163927",
-        "account_id": "SYN-B0B5A7",
-        "day": 176,
         "event_type": "LOGIN",
         "login_hour": 20,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-242E4C86",
-        "account_id": "SYN-B0B5A7",
-        "day": 177,
+        "event_id": "EVT-B1D88BCE",
+        "account_id": "SYN-6264DE",
+        "day": 165,
         "event_type": "TRANSACTION",
-        "amount": 1350,
-        "merchant": "Movie World",
-        "merchant_category": "ENTERTAINMENT",
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
+        "amount": 2110,
+        "merchant": "Health Plus",
+        "merchant_category": "MEDICAL",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-6D039579",
-        "account_id": "SYN-B0B5A7",
-        "day": 178,
-        "event_type": "LOGIN",
-        "login_hour": 9,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
-    },
-    {
-        "event_id": "EVT-53BEA23C",
-        "account_id": "SYN-B0B5A7",
-        "day": 179,
+        "event_id": "EVT-E723009C",
+        "account_id": "SYN-6264DE",
+        "day": 166,
         "event_type": "LOGIN",
         "login_hour": 12,
-        "location": "Bangalore",
-        "device_id": "DEV-A3362A"
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     },
     {
-        "event_id": "EVT-AEC3DA33",
-        "account_id": "SYN-B0B5A7",
-        "day": 180,
+        "event_id": "EVT-C140C40F",
+        "account_id": "SYN-6264DE",
+        "day": 166,
+        "event_type": "TRANSACTION",
+        "amount": 4333,
+        "merchant": "Health Plus",
+        "merchant_category": "MEDICAL",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-C69FD268",
+        "account_id": "SYN-6264DE",
+        "day": 168,
+        "event_type": "LOGIN",
+        "login_hour": 8,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-E3EF54D8",
+        "account_id": "SYN-6264DE",
+        "day": 169,
+        "event_type": "LOGIN",
+        "login_hour": 9,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-D73575ED",
+        "account_id": "SYN-6264DE",
+        "day": 170,
+        "event_type": "LOGIN",
+        "login_hour": 10,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-DABF7565",
+        "account_id": "SYN-6264DE",
+        "day": 173,
         "event_type": "LOGIN",
         "login_hour": 19,
-        "location": "Bangalore",
-        "device_id": "DEV-7F05C1"
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-581472FB",
+        "account_id": "SYN-6264DE",
+        "day": 173,
+        "event_type": "TRANSACTION",
+        "amount": 2120,
+        "merchant": "Food Corner",
+        "merchant_category": "RESTAURANT",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-C3FB8D8F",
+        "account_id": "SYN-6264DE",
+        "day": 174,
+        "event_type": "LOGIN",
+        "login_hour": 19,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-4F1FD82F",
+        "account_id": "SYN-6264DE",
+        "day": 175,
+        "event_type": "LOGIN",
+        "login_hour": 8,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-AB815338",
+        "account_id": "SYN-6264DE",
+        "day": 176,
+        "event_type": "LOGIN",
+        "login_hour": 18,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-6130E7CA",
+        "account_id": "SYN-6264DE",
+        "day": 176,
+        "event_type": "TRANSACTION",
+        "amount": 4525,
+        "merchant": "Food Corner",
+        "merchant_category": "RESTAURANT",
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-5E23EA0E",
+        "account_id": "SYN-6264DE",
+        "day": 177,
+        "event_type": "LOGIN",
+        "login_hour": 21,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-2B8AE949",
+        "account_id": "SYN-6264DE",
+        "day": 178,
+        "event_type": "LOGIN",
+        "login_hour": 22,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
+    },
+    {
+        "event_id": "EVT-E6C748D0",
+        "account_id": "SYN-6264DE",
+        "day": 179,
+        "event_type": "LOGIN",
+        "login_hour": 10,
+        "location": "Pune",
+        "device_id": "DEV-520EA2"
     }
 ]

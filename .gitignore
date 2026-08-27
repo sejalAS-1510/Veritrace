@@ -29,6 +29,15 @@ wheels/
 .installed.cfg
 *.egg
 
+# Generated data
+data/generated/
+
+# Large reference datasets
+data/reference/*.csv
+
+# Local datasets
+*.csv
+
 # Testing & Coverage
 coverage/
 .nyc_output/
@@ -65,3 +74,4 @@ lerna-debug.log*
 *.sln
 *.sw?
 .DS_Store
+data/reference/transactions_train.csv

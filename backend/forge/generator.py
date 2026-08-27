@@ -3,8 +3,17 @@ import random
 import uuid
 from datetime import datetime
 from pathlib import Path
+from backend.forge.dataset_loader import load_paysim_data
+from backend.forge.profile_generator import generate_profile
+from backend.forge.transaction_profile import build_paysim_profile
+from backend.forge.history_generator import generate_history
+from backend.forge.feature_extractor import (
+    extract_features
+)
+
 
 from faker import Faker
+
 
 
 fake = Faker("en_IN")
@@ -111,6 +120,155 @@ def save_json(data, filename):
         json.dump(data, file, indent=4)
 
     return file_path
+
+def generate_account_history(
+    number_of_transactions=200
+):
+
+    # ---------------------------------------
+    # Load reference data
+    # ---------------------------------------
+
+    paysim = load_paysim_data()
+
+    transaction_profile = build_paysim_profile(
+        paysim
+    )
+
+    # ---------------------------------------
+    # Generate synthetic identity
+    # ---------------------------------------
+
+    profile = generate_profile()
+
+    # ---------------------------------------
+    # Generate behavioral history
+    # ---------------------------------------
+
+    destination_balance = 50000
+
+    history = generate_history(
+
+        account_id=profile["account_id"],
+
+        starting_balance=profile[
+            "starting_balance"
+        ],
+
+        destination_balance=destination_balance,
+
+        transaction_types=transaction_profile.transaction_types ,
+
+        average_amount=transaction_profile.average_amount,
+
+        min_amount=transaction_profile.min_amount,
+
+        max_amount=transaction_profile.max_amount, 
+
+        number_of_transactions= number_of_transactions
+    )
+
+    features = extract_features(
+    history
+)
+
+    return {
+        "profile": profile,
+        "history": history,
+        "features": features
+    }
+
+
+def print_account(account):
+
+    profile = account["profile"]
+    history = account["history"]
+
+    print()
+    print("=" * 60)
+    print("                 FORGE")
+    print("=" * 60)
+
+    print()
+    print("ACCOUNT CREATED")
+    print("-" * 40)
+
+    print(
+        "Account ID:",
+        profile["account_id"]
+    )
+
+    print(
+        "Name:",
+        profile["name"]
+    )
+
+    print(
+        "City:",
+        profile["city"]
+    )
+
+    print(
+        "Income:",
+        f"₹{profile['income']}"
+    )
+
+    print(
+        "Starting balance:",
+        f"₹{profile['starting_balance']}"
+    )
+
+    print(
+        "Device:",
+        profile["device_id"]
+    )
+
+    print()
+    print("BEHAVIORAL HISTORY")
+    print("-" * 40)
+
+    print(
+        "Total transactions:",
+        len(history)
+    )
+
+    print()
+    print("BEHAVIORAL FEATURES")
+    print("-" * 40)
+
+    for key, value in account["features"].items():
+
+     print(
+        f"{key}: {value}"
+    )
+
+    print()
+
+    for transaction in history[:10]:
+
+        print(
+            f"Day {transaction['step']:>3} | "
+            f"{transaction['type']:<10} | "
+            f"₹{transaction['amount']:>10.2f} | "
+            f"Balance: ₹{transaction['newbalanceOrig']:.2f}"
+        )
+
+
+def main():
+
+    print()
+    print("Starting Forge...")
+
+    account = generate_account_history(
+        number_of_transactions=200
+    )
+
+    print_account(account)
+    
+
+if __name__ == "__main__":
+    main()
+
 
 
 if __name__ == "__main__":

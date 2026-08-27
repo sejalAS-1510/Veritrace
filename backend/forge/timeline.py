@@ -2,6 +2,7 @@ import json
 import random
 import uuid
 from pathlib import Path
+from dataclasses import dataclass
 
 from backend.forge.config import (
     ACCOUNT_AGE_DAYS,
@@ -17,6 +18,55 @@ MERCHANTS = [
     ("Movie World", "ENTERTAINMENT"),
     ("Health Plus", "MEDICAL"),
 ]
+
+from dataclasses import dataclass
+
+
+@dataclass
+class TimelinePhase:
+    name: str
+    start_step: int
+    end_step: int
+    activity_multiplier: float
+    amount_multiplier: float
+
+
+def build_normal_timeline():
+
+    return [
+
+        TimelinePhase(
+            name="EARLY_LIFE",
+            start_step=1,
+            end_step=120,
+            activity_multiplier=0.7,
+            amount_multiplier=0.8
+        ),
+
+        TimelinePhase(
+            name="NORMAL",
+            start_step=121,
+            end_step=500,
+            activity_multiplier=1.0,
+            amount_multiplier=1.0
+        ),
+
+        TimelinePhase(
+            name="MATURE",
+            start_step=501,
+            end_step=700,
+            activity_multiplier=1.1,
+            amount_multiplier=1.1
+        ),
+
+        TimelinePhase(
+            name="DORMANT",
+            start_step=701,
+            end_step=720,
+            activity_multiplier=0.1,
+            amount_multiplier=0.5
+        )
+    ]
 
 
 def create_devices(account):

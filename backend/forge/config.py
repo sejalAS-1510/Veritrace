@@ -22,3 +22,29 @@ DEFAULT_ATTACK_AMOUNT = 250000
 
 MAX_NORMAL_DEVICES = 3
 
+#Reference fields 
+REFERENCE_FIELDS = [
+    "customer_id",
+    "transaction_time",
+    "transaction_amount",
+    "payment_channel",
+    "device_type",
+    "is_international",
+    "ip_risk_score",
+    "geo_distance_from_last_txn",
+    "txn_count_1h",
+    "txn_count_24h",
+    "failed_txn_count_24h",
+    "amount_deviation_from_user_mean",
+    "account_age_days",
+    "credit_score_band",
+    "kyc_level",
+    "avg_monthly_spend",
+    "is_fraud",
+]
+
+IGNORED_FIELDS = [
+    "merchant_id",
+    "merchant_risk_score",
+    "post_auth_risk_score",
+]
