@@ -3,21 +3,12 @@ import random
 import uuid
 from pathlib import Path
 from dataclasses import dataclass
+from typing import Dict, Any
 
 from backend.forge.config import (
     ACCOUNT_AGE_DAYS,
     LOGIN_DAY_PROBABILITY,
 )
-
-
-MERCHANTS = [
-    ("FreshMart", "GROCERY"),
-    ("Food Corner", "RESTAURANT"),
-    ("Metro Store", "SHOPPING"),
-    ("QuickRide", "TRANSPORT"),
-    ("Movie World", "ENTERTAINMENT"),
-    ("Health Plus", "MEDICAL"),
-]
 
 from dataclasses import dataclass
 
@@ -30,6 +21,47 @@ class TimelinePhase:
     activity_multiplier: float
     amount_multiplier: float
 
+@dataclass
+class TimelineEvent:
+    step: int
+    day: int
+    sequence: int
+    phase: str
+    transaction: Dict[str, Any]
+
+def build_timeline(transactions):
+    timeline = []
+
+    for index, transaction in enumerate(transactions):
+
+        # Use existing step if available.
+        # Otherwise use the transaction's actual day.
+        step = transaction.get(
+            "step",
+            transaction.get("day", index + 1)
+        )
+
+        # Preserve the actual transaction day.
+        day = transaction.get(
+            "day",
+            step
+        )
+
+        event = TimelineEvent(
+            step=step,
+            day=day,
+            sequence=index + 1,
+            phase="NORMAL",
+            transaction=transaction
+        )
+
+        timeline.append(event)
+
+    return timeline
+
+def mark_phase(event, phase):
+    event.phase = phase
+    return event
 
 def build_normal_timeline():
 
@@ -67,8 +99,22 @@ def build_normal_timeline():
             amount_multiplier=0.5
         )
     ]
+    return phases
 
+def get_phase_for_step(step):
 
+    phases = build_normal_timeline()
+
+    for phase in phases:
+
+        if (
+            phase.start_step
+            <= step
+            <= phase.end_step
+        ):
+            return phase
+
+    return None
 def create_devices(account):
     """Create a small set of devices for the account."""
 
@@ -87,9 +133,7 @@ def create_devices(account):
 
 
 def create_transaction(account, day, device_id):
-    """Create a normal purchase event."""
-
-    merchant, category = random.choice(MERCHANTS)
+    """Create a normal transaction."""
 
     return {
         "event_id": "EVT-" + uuid.uuid4().hex[:8].upper(),
@@ -97,8 +141,6 @@ def create_transaction(account, day, device_id):
         "day": day,
         "event_type": "TRANSACTION",
         "amount": random.randint(200, 5000),
-        "merchant": merchant,
-        "merchant_category": category,
         "location": account["city"],
         "device_id": device_id,
     }
@@ -122,7 +164,6 @@ def create_bill_payment(account, day, device_id):
         "day": day,
         "event_type": "BILL_PAYMENT",
         "amount": amount,
-        "merchant": bill_name,
         "location": account["city"],
         "device_id": device_id,
     }
@@ -137,7 +178,6 @@ def create_salary_credit(account, day):
         "day": day,
         "event_type": "SALARY_CREDIT",
         "amount": account["income"],
-        "merchant": "Employer",
         "location": account["city"],
         "device_id": None,
     }
@@ -247,18 +287,21 @@ def create_timeline(account):
     return timeline
 
 
-def save_timeline(timeline):
-    """Save timeline as JSON."""
+def save_timeline(timeline, output_path):
+    output_path = Path(output_path)
 
-    output_folder = Path("data/generated")
-    output_folder.mkdir(parents=True, exist_ok=True)
+    output_path.parent.mkdir(
+        parents=True,
+        exist_ok=True
+    )
 
-    file_path = output_folder / "timeline.json"
-
-    with open(file_path, "w", encoding="utf-8") as file:
-        json.dump(timeline, file, indent=4)
-
-    return file_path
+    with open(output_path, "w", encoding="utf-8") as file:
+        json.dump(
+            timeline_to_dict(timeline),
+            file,
+            indent=2,
+            ensure_ascii=False
+        )
 
 def create_credit_utilization(account):
     """
@@ -289,3 +332,30 @@ def create_credit_utilization(account):
 
     return utilization
 
+def sort_timeline(timeline):
+    return sorted(
+        timeline,
+        key=lambda event: (event.step, event.sequence)
+    )
+
+def timeline_to_dict(timeline):
+    return [
+        {
+            "step": event.step,
+            "day": event.day,
+            "sequence": event.sequence,
+            "phase": event.phase,
+            "transaction": event.transaction
+        }
+        for event in timeline
+    ]
+
+def build_account_timeline(account_id, transactions):
+    timeline = build_timeline(transactions)
+    timeline = sort_timeline(timeline)
+
+    return {
+        "account_id": account_id,
+        "transaction_count": len(timeline),
+        "timeline": timeline_to_dict(timeline)
+    }

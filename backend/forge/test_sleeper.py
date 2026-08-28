@@ -1,92 +1,114 @@
-from backend.forge.dataset_loader import (
-    load_paysim_data
-)
-
-from backend.forge.transaction_profile import (
-    build_paysim_profile
-)
-
-from backend.forge.history_generator import (
-    generate_history
-)
-
 from backend.forge.sleeper_agent import (
-    inject_sleeper_attack
+    SleeperConfig,
+    apply_sleeper_agent
 )
 
 
 def main():
+    timeline = []
 
-    print("Loading PaySim...")
+    # Create a small test timeline
+    for day in range(1, 31):
+        timeline.append({
+            "step": day * 10,
+            "day": day,
+            "sequence": day,
+            "phase": "NORMAL",
+            "transaction": {
+                "amount": 1000,
+                "type": "PAYMENT",
+                "nameOrig": "SYN-TEST",
+                "nameDest": f"D-{day}"
+            }
+        })
 
-    df = load_paysim_data()
-
-    profile = build_paysim_profile(df)
-
-    history = generate_history(
-
-        account_id="SYN-SLEEPER01",
-
-        starting_balance=250000,
-
-        destination_balance=50000,
-
-        transaction_types=
-            profile.transaction_types,
-
-        average_amount=
-            profile.average_amount,
-
-        min_amount=
-            profile.min_amount,
-
-        max_amount=
-            profile.max_amount,
-
-        number_of_transactions=200
+    config = SleeperConfig(
+        dormant_days=5,
+        activation_days=2,
+        attack_days=3,
+        amount_multiplier=3.0
     )
 
-    print()
-    print(
-        "Normal transactions:",
-        len(history)
+    result = apply_sleeper_agent(
+        timeline,
+        normal_days=20,
+        config=config
     )
 
-    attacked_history = (
-        inject_sleeper_attack(
-            history
+    print("Sleeper Agent Test")
+    print("--------------------------------")
+
+    # Show generated phases
+    for event in result:
+        print(
+            f"Day {event['day']:02d} | "
+            f"{event['phase']:10s} | "
+            f"Amount: "
+            f"{event['transaction']['amount']}"
         )
-    )
 
-    attack_count = sum(
-        1
-        for transaction
-        in attacked_history
-        if transaction.get(
-            "is_attack",
-            False
-        )
-    )
-
+    print("--------------------------------")
     print(
-        "Total transactions after attack:",
-        len(attacked_history)
+        f"Events generated: {len(result)}"
     )
 
-    print(
-        "Attack transactions:",
-        attack_count
-    )
+    # ------------------------------------------------
+    # VALIDATION 1: Normal behaviour
+    # ------------------------------------------------
 
-    print()
-    print("LAST 10 TRANSACTIONS")
-    print("-" * 60)
+    normal_events = [
+        event
+        for event in result
+        if event["phase"] == "NORMAL"
+    ]
 
-    for transaction in (
-        attacked_history[-10:]
-    ):
+    assert len(normal_events) > 0
 
-        print(transaction)
+    for event in normal_events:
+        assert event["transaction"]["amount"] == 1000
+
+    print("Normal behaviour validation: PASSED")
+
+    # ------------------------------------------------
+    # VALIDATION 2: Attack behaviour
+    # ------------------------------------------------
+
+    attack_events = [
+        event
+        for event in result
+        if event["phase"] == "ATTACK"
+    ]
+
+    assert len(attack_events) > 0
+
+    for event in attack_events:
+        assert event["transaction"]["amount"] > 1000
+
+    print("Attack behaviour validation: PASSED")
+
+    # ------------------------------------------------
+    # VALIDATION 3: Phase transitions
+    # ------------------------------------------------
+
+    phases = [
+        event["phase"]
+        for event in result
+    ]
+
+    assert "NORMAL" in phases
+    assert "DORMANT" in phases
+    assert "ACTIVATION" in phases
+    assert "ATTACK" in phases
+
+    print("Phase transition validation: PASSED")
+
+    # ------------------------------------------------
+    # Final result
+    # ------------------------------------------------
+
+    print("--------------------------------")
+    print("Sleeper Agent validation completed.")
+    print("All tests passed.")
 
 
 if __name__ == "__main__":

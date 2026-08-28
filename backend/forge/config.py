@@ -44,7 +44,5 @@ REFERENCE_FIELDS = [
 ]
 
 IGNORED_FIELDS = [
-    "merchant_id",
-    "merchant_risk_score",
     "post_auth_risk_score",
 ]

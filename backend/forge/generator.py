@@ -1,44 +1,20 @@
 import json
 import random
 import uuid
+
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, Any, List, Optional
-import numpy as np
 
-try:
-    from backend.forge.dataset_loader import load_paysim_data
-    from backend.forge.profile_generator import generate_profile
-    from backend.forge.transaction_profile import build_paysim_profile
-    from backend.forge.history_generator import generate_history
-    from backend.forge.feature_extractor import extract_features
-except ImportError:
-    try:
-        from forge.dataset_loader import load_paysim_data
-        from forge.profile_generator import generate_profile
-        from forge.transaction_profile import build_paysim_profile
-        from forge.history_generator import generate_history
-        from forge.feature_extractor import extract_features
-    except ImportError:
-        pass
+from backend.forge.dataset_loader import load_paysim_data
+from backend.forge.profile_generator import generate_profile
+from backend.forge.transaction_profile import build_paysim_profile
+from backend.forge.history_generator import (
+    generate_history,
+    generate_timeline_adversarial,
+)
+from backend.forge.feature_extractor import extract_features
 
-try:
-    from faker import Faker
-    fake = Faker("en_IN")
-except ImportError:
-    fake = None
-
-
-MERCHANTS = [
-    ("FreshMart", "GROCERY"),
-    ("Food Corner", "RESTAURANT"),
-    ("City Utilities", "UTILITY"),
-    ("Metro Store", "SHOPPING"),
-    ("QuickRide", "TRANSPORT"),
-    ("Movie World", "ENTERTAINMENT"),
-    ("Health Plus", "MEDICAL"),
-]
-
+from faker import Faker
 
 CITIES = [
     "Pune",
@@ -74,15 +50,11 @@ def create_account():
 def create_transaction(account_id, day, city, device_id):
     """Create one normal purchase transaction."""
 
-    merchant, category = random.choice(MERCHANTS)
-
     transaction = {
         "transaction_id": "TX-" + uuid.uuid4().hex[:8].upper(),
         "account_id": account_id,
         "day": day,
         "amount": random.randint(200, 5000),
-        "merchant": merchant,
-        "merchant_category": category,
         "location": city,
         "device_id": device_id,
         "transaction_type": "PURCHASE",
@@ -132,18 +104,20 @@ def save_json(data, filename):
     return file_path
 
 def generate_account_history(
-    number_of_transactions=200
+    number_of_transactions=200,
+    transaction_profile=None
 ):
 
     # ---------------------------------------
-    # Load reference data
+    # Load reference data only when needed
     # ---------------------------------------
 
-    paysim = load_paysim_data()
+    if transaction_profile is None:
+        paysim = load_paysim_data()
 
-    transaction_profile = build_paysim_profile(
-        paysim
-    )
+        transaction_profile = build_paysim_profile(
+            paysim
+        )
 
     # ---------------------------------------
     # Generate synthetic identity
@@ -158,34 +132,53 @@ def generate_account_history(
     destination_balance = 50000
 
     history = generate_history(
-
         account_id=profile["account_id"],
-
-        starting_balance=profile[
-            "starting_balance"
-        ],
-
+        starting_balance=profile["starting_balance"],
         destination_balance=destination_balance,
-
-        transaction_types=transaction_profile.transaction_types ,
-
+        transaction_types=transaction_profile.transaction_types,
         average_amount=transaction_profile.average_amount,
-
         min_amount=transaction_profile.min_amount,
-
-        max_amount=transaction_profile.max_amount, 
-
-        number_of_transactions= number_of_transactions
+        max_amount=transaction_profile.max_amount,
+        number_of_transactions=number_of_transactions
     )
 
-    features = extract_features(
-    history
-)
+    # ---------------------------------------
+    # Extract behavioral features
+    # ---------------------------------------
+
+    features = extract_features(history)
 
     return {
         "profile": profile,
         "history": history,
         "features": features
+    }
+
+def generate_timeline_adversarial(
+    weeks=24,
+    ring_id=None,
+    **kwargs
+):
+    """
+    Wrapper for the adversarial engine.
+
+    Creates a synthetic identity and generates
+    an adversarial behavioral timeline.
+    """
+
+    account_id = "SYN-" + uuid.uuid4().hex[:6].upper()
+
+    timeline = _generate_timeline_adversarial(
+        account_id=account_id,
+        number_of_transactions=weeks,
+        **kwargs
+    )
+
+    return {
+        "id": account_id,
+        "type": "SYNTHETIC_IDENTITY",
+        "ring_id": ring_id,
+        "timeline": timeline
     }
 
 

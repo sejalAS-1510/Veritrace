@@ -19,7 +19,6 @@ def create_cash_out_attack(account):
         "day": 180,
         "attack_type": "CASH_OUT",
         "amount": DEFAULT_ATTACK_AMOUNT,
-        "merchant": "Unknown Cash Outlet",
         "location": account["city"],
         "device_id": account["primary_device"],
         "is_fraud": True,
