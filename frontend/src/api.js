@@ -7,11 +7,24 @@ const client = axios.create({
   headers: {
     'Content-Type': 'application/json',
   },
-  timeout: 10000,
+  timeout: 15000,
 });
 
 /**
- * Generates a synthetic identity timeline and evaluates risk
+ * Health check & system stats
+ */
+export const getSystemStatus = async () => {
+  try {
+    const response = await client.get('/');
+    return response.data;
+  } catch (error) {
+    console.error('Error fetching system status:', error);
+    throw error;
+  }
+};
+
+/**
+ * Generates a synthetic identity timeline and evaluates risk via Sentinel
  * @param {Object} options { identity_type?: 'sleeper' | 'benign', weeks?: number, ring_id?: string }
  */
 export const generateIdentity = async (options = {}) => {
@@ -25,14 +38,56 @@ export const generateIdentity = async (options = {}) => {
 };
 
 /**
- * Fetches all past evaluated identities and verdicts
+ * Generates a batch of identities including a coordinated fraud ring
+ * @param {Object} options { count?: number, sleeper_ratio?: number }
  */
-export const getHistory = async () => {
+export const generateBatch = async (options = { count: 10, sleeper_ratio: 0.5 }) => {
   try {
-    const response = await client.get('/sentinel/history');
+    const response = await client.post('/forge/batch', options);
+    return response.data;
+  } catch (error) {
+    console.error('Error generating batch:', error);
+    throw error;
+  }
+};
+
+/**
+ * Analyzes an externally supplied timeline
+ * @param {Object} payload { timeline: Array, identity_id?: string }
+ */
+export const analyzeTimeline = async (payload) => {
+  try {
+    const response = await client.post('/sentinel/analyze', payload);
+    return response.data;
+  } catch (error) {
+    console.error('Error analyzing timeline:', error);
+    throw error;
+  }
+};
+
+/**
+ * Fetches all evaluated identities and verdicts
+ * @param {Object} params { limit?: number, type_filter?: string, flagged_only?: boolean }
+ */
+export const getHistory = async (params = {}) => {
+  try {
+    const response = await client.get('/sentinel/history', { params });
     return response.data;
   } catch (error) {
     console.error('Error fetching sentinel history:', error);
+    throw error;
+  }
+};
+
+/**
+ * Fetches all sleeper-type identities (attacks) sorted by risk score
+ */
+export const getAttacks = async (limit = 100) => {
+  try {
+    const response = await client.get('/attacks', { params: { limit } });
+    return response.data;
+  } catch (error) {
+    console.error('Error fetching attacks:', error);
     throw error;
   }
 };
@@ -52,14 +107,14 @@ export const getTimeline = async (identityId) => {
 };
 
 /**
- * Fetches round-by-round catch rate data showing adversarial arms race
+ * Fetches global detection metrics across all identities
  */
-export const getRounds = async () => {
+export const getGlobalMetrics = async () => {
   try {
-    const response = await client.get('/sentinel/rounds');
+    const response = await client.get('/metrics');
     return response.data;
   } catch (error) {
-    console.error('Error fetching sentinel rounds:', error);
+    console.error('Error fetching global metrics:', error);
     throw error;
   }
 };
@@ -79,11 +134,13 @@ export const getSimilarityGraph = async (threshold = 0.88) => {
 };
 
 /**
- * Runs one full adversarial round (Forge → Sentinel → Feedback → Mutate)
+ * Runs one live adversarial round (Forge generation → Sentinel scoring → Mutation feedback)
+ * @param {string} ringId optional ring id
  */
-export const runAdversarialRound = async () => {
+export const runAdversarialRound = async (ringId = null) => {
   try {
-    const response = await client.post('/adversarial/run');
+    const params = ringId ? { ring_id: ringId } : {};
+    const response = await client.post('/adversarial/run', null, { params });
     return response.data;
   } catch (error) {
     console.error('Error running adversarial round:', error);
@@ -92,7 +149,7 @@ export const runAdversarialRound = async () => {
 };
 
 /**
- * Resets the adversarial session (round counter + Forge params)
+ * Resets the adversarial session (round counter + Forge parameters)
  */
 export const resetAdversarialSession = async () => {
   try {
@@ -105,7 +162,7 @@ export const resetAdversarialSession = async () => {
 };
 
 /**
- * Returns live adversarial round history (falls back to demo data if no rounds run)
+ * Returns live adversarial round history
  */
 export const getAdversarialRounds = async () => {
   try {
@@ -118,7 +175,7 @@ export const getAdversarialRounds = async () => {
 };
 
 /**
- * Returns adversarial session status (current Forge params, round count)
+ * Returns adversarial session status (Forge params, round count, catch rate)
  */
 export const getAdversarialStatus = async () => {
   try {
@@ -133,7 +190,7 @@ export const getAdversarialStatus = async () => {
 /**
  * Returns precision / recall / F1 / evasion rate from live adversarial rounds
  */
-export const getMetrics = async () => {
+export const getAdversarialMetrics = async () => {
   try {
     const response = await client.get('/adversarial/metrics');
     return response.data;
@@ -144,14 +201,18 @@ export const getMetrics = async () => {
 };
 
 export default {
+  getSystemStatus,
   generateIdentity,
+  generateBatch,
+  analyzeTimeline,
   getHistory,
+  getAttacks,
   getTimeline,
-  getRounds,
+  getGlobalMetrics,
   getSimilarityGraph,
   runAdversarialRound,
   resetAdversarialSession,
   getAdversarialRounds,
   getAdversarialStatus,
-  getMetrics,
+  getAdversarialMetrics,
 };

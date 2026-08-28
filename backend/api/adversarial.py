@@ -305,81 +305,12 @@ def inject_feedback(req: FeedbackRequest) -> Dict[str, Any]:
 @router.get("/rounds")
 def get_adversarial_rounds() -> List[Dict[str, Any]]:
     """
-    Returns the live history of adversarial rounds.
-    Each round includes detection outcome, risk score, Forge params used,
+    Returns the full history of adversarial rounds run so far, with outcomes,
+    Sentinel risk scores, rolling catch/evasion rates, parameter evolutions,
     and the mutation applied for the next round.
-
-    If no rounds have been run yet, returns a seeded demo sequence so the
-    frontend has something to display on first load.
     """
-    if _STATE["rounds"]:
-        return _STATE["rounds"]
+    return _STATE["rounds"]
 
-    # ── Fallback: pre-seeded demonstration sequence ───────────────────────────
-    # This mirrors the arms-race narrative: baseline → evasion → adaptation → recovery
-    demo = [
-        {
-            "round_number": 1,
-            "outcome": "DETECTED",
-            "risk_score_pct": 87.0,
-            "adversarial_score": 13.0,
-            "rolling_catch_rate": 100.0,
-            "rolling_evasion_rate": 0.0,
-            "mutation_description": "Spend noise increased → 0.078; Dip probability raised → 0.12",
-            "round_summary": "Round 1: Sentinel detected naive linear spend ramp. Forge adapting noise levels.",
-        },
-        {
-            "round_number": 2,
-            "outcome": "DETECTED",
-            "risk_score_pct": 79.5,
-            "adversarial_score": 20.5,
-            "rolling_catch_rate": 100.0,
-            "rolling_evasion_rate": 0.0,
-            "mutation_description": "Monotonicity broken; Login jitter increased → ±3",
-            "round_summary": "Round 2: Spend variance improved but login regularity still detected. Jitter increased.",
-        },
-        {
-            "round_number": 3,
-            "outcome": "DETECTED",
-            "risk_score_pct": 71.2,
-            "adversarial_score": 28.8,
-            "rolling_catch_rate": 100.0,
-            "rolling_evasion_rate": 0.0,
-            "mutation_description": "Bust-out week shifted by -1 weeks; Variance boosted",
-            "round_summary": "Round 3: Closer call — risk 71%. Forge introduces bust-out timing variance.",
-        },
-        {
-            "round_number": 4,
-            "outcome": "EVADED",
-            "risk_score_pct": 58.3,
-            "adversarial_score": 41.7,
-            "rolling_catch_rate": 75.0,
-            "rolling_evasion_rate": 25.0,
-            "mutation_description": "Minor parameter drift (undetected — no major mutation needed)",
-            "round_summary": "Round 4: Forge EVADED Sentinel! Risk 58% — below detection threshold. Sentinel adapting.",
-        },
-        {
-            "round_number": 5,
-            "outcome": "DETECTED",
-            "risk_score_pct": 76.4,
-            "adversarial_score": 23.6,
-            "rolling_catch_rate": 80.0,
-            "rolling_evasion_rate": 20.0,
-            "mutation_description": "Base spend offset shifted; spend linearity broken",
-            "round_summary": "Round 5: Sentinel recovered — updated cosine threshold caught the ring cluster.",
-        },
-        {
-            "round_number": 6,
-            "outcome": "DETECTED",
-            "risk_score_pct": 84.1,
-            "adversarial_score": 15.9,
-            "rolling_catch_rate": 83.3,
-            "rolling_evasion_rate": 16.7,
-            "mutation_description": "Login jitter increased → ±5; Dip magnitude raised → 0.32",
-            "round_summary": "Round 6: Sentinel dominant — trajectory R² still too high. Forge raising jitter.",
-        },
-    ]
-    return demo
 
 
 # ─── Route: Current adversarial status ───────────────────────────────────────

@@ -3,20 +3,30 @@ import random
 import uuid
 from datetime import datetime
 from pathlib import Path
-from backend.forge.dataset_loader import load_paysim_data
-from backend.forge.profile_generator import generate_profile
-from backend.forge.transaction_profile import build_paysim_profile
-from backend.forge.history_generator import generate_history
-from backend.forge.feature_extractor import (
-    extract_features
-)
+from typing import Dict, Any, List, Optional
+import numpy as np
 
+try:
+    from backend.forge.dataset_loader import load_paysim_data
+    from backend.forge.profile_generator import generate_profile
+    from backend.forge.transaction_profile import build_paysim_profile
+    from backend.forge.history_generator import generate_history
+    from backend.forge.feature_extractor import extract_features
+except ImportError:
+    try:
+        from forge.dataset_loader import load_paysim_data
+        from forge.profile_generator import generate_profile
+        from forge.transaction_profile import build_paysim_profile
+        from forge.history_generator import generate_history
+        from forge.feature_extractor import extract_features
+    except ImportError:
+        pass
 
-from faker import Faker
-
-
-
-fake = Faker("en_IN")
+try:
+    from faker import Faker
+    fake = Faker("en_IN")
+except ImportError:
+    fake = None
 
 
 MERCHANTS = [
@@ -266,30 +276,150 @@ def main():
     print_account(account)
     
 
-if __name__ == "__main__":
-    main()
+def generate_timeline_adversarial(
+    weeks: int = 24,
+    ring_id: Optional[str] = None,
+    noise_factor: float = 0.035,
+    dip_probability: float = 0.04,
+    dip_magnitude: float = 0.15,
+    login_jitter: int = 1,
+    ramp_rate_variance: float = 0.05,
+    strike_week_offset: int = 0,
+    base_spend_offset: float = 0.0,
+    surge_multiplier_cap: float = 20.0,
+    **kwargs
+) -> Dict[str, Any]:
+    """Generates an adversarial sleeper timeline parameterized by mutation engine."""
+    identity_id = f"VT-{random.randint(1000, 9999)}-{uuid.uuid4().hex[:4].upper()}"
+    timeline: List[Dict[str, Any]] = []
+
+    if ring_id:
+        base_spend = 120.0 + (hash(ring_id) % 50) + base_spend_offset
+        ramp_rate = 14.0 + ((hash(ring_id) >> 2) % 6)
+        base_login = 5
+    else:
+        base_spend = float(np.random.uniform(90.0, 180.0)) + base_spend_offset
+        ramp_rate = float(np.random.uniform(10.0, 22.0))
+        base_login = int(np.random.choice([4, 5, 6]))
+
+    strike_week = max(4, min(weeks, 24 + strike_week_offset))
+
+    for w in range(1, weeks + 1):
+        if w < strike_week:
+            noise = float(np.random.normal(0, max(1.0, base_spend * noise_factor)))
+            ramp_noise = float(np.random.normal(0, max(0.1, ramp_rate * ramp_rate_variance)))
+            spend = max(20.0, base_spend + (w - 1) * (ramp_rate + ramp_noise) + noise)
+            
+            if random.random() < dip_probability:
+                spend *= (1.0 - dip_magnitude)
+            spend = round(float(spend), 2)
+
+            jitter = int(np.random.randint(-login_jitter, login_jitter + 1)) if login_jitter > 0 else 0
+            login_count = max(1, int(base_login + jitter))
+
+            new_device = bool(random.random() < 0.03)
+            location_change = bool(random.random() < 0.02)
+            bill_paid_on_time = True
+            fraud_strike = False
+        else:
+            pre_strike_avg = base_spend + (strike_week - 1) * ramp_rate
+            min_surge = min(3.5, surge_multiplier_cap)
+            max_surge = max(min_surge + 0.5, surge_multiplier_cap)
+            surge_mult = float(np.random.uniform(min_surge, max_surge))
+            spend = round(pre_strike_avg * surge_mult + float(np.random.normal(500, 100)), 2)
+
+            login_count = int(np.random.randint(18, 36))
+            new_device = True
+            location_change = True
+            bill_paid_on_time = False
+            fraud_strike = True
+
+        timeline.append({
+            "week": w,
+            "spend": float(spend),
+            "login_count": int(login_count),
+            "new_device": new_device,
+            "location_change": location_change,
+            "bill_paid_on_time": bill_paid_on_time,
+            "fraud_strike": fraud_strike
+        })
+
+    return {
+        "id": identity_id,
+        "type": "sleeper",
+        "ring_id": ring_id,
+        "timeline": timeline,
+        "weeks_count": weeks
+    }
 
 
+def generate_timeline(
+    identity_type: Optional[str] = None,
+    weeks: int = 24,
+    seed: Optional[int] = None,
+    ring_id: Optional[str] = None,
+    **kwargs
+) -> Dict[str, Any]:
+    """Generates a 24-week timeline for sleeper or benign organic identity."""
+    if seed is not None:
+        np.random.seed(seed)
+        random.seed(seed)
 
-if __name__ == "__main__":
+    if identity_type is None:
+        identity_type = "sleeper" if random.random() < 0.5 else "benign"
 
-    print("Starting Forge...\n")
+    if identity_type == "sleeper":
+        return generate_timeline_adversarial(weeks=weeks, ring_id=ring_id, **kwargs)
 
-    account = create_account()
+    identity_id = f"VT-{random.randint(1000, 9999)}-{uuid.uuid4().hex[:4].upper()}"
+    timeline: List[Dict[str, Any]] = []
 
-    transactions = create_transactions(account)
+    baseline_spend = float(np.random.uniform(220.0, 650.0))
+    volatility = float(np.random.uniform(0.20, 0.45))
 
-    save_json(account, "accounts.json")
-    save_json(transactions, "transactions.json")
+    for w in range(1, weeks + 1):
+        random_factor = float(np.random.lognormal(mean=0, sigma=volatility))
+        cycle = 1.0 + 0.15 * np.sin(w * 2 * np.pi / 4.3)
+        spend = max(15.0, round(baseline_spend * random_factor * cycle, 2))
 
-    print("Account created")
-    print("-------------------------")
-    print(f"Account ID : {account['account_id']}")
-    print(f"Name       : {account['name']}")
-    print(f"City       : {account['city']}")
-    print(f"Income     : ₹{account['income']}")
-    print(f"Credit     : ₹{account['credit_limit']}")
-    print(f"Device     : {account['primary_device']}")
-    print()
-    print(f"Transactions generated: {len(transactions)}")
+        login_count = max(0, int(np.random.poisson(lam=5.5) + np.random.randint(-1, 3)))
+        new_device = bool(random.random() < 0.08)
+        location_change = bool(random.random() < 0.09)
+        bill_paid_on_time = bool(random.random() > 0.08)
+        fraud_strike = False
+
+        timeline.append({
+            "week": w,
+            "spend": float(spend),
+            "login_count": int(login_count),
+            "new_device": new_device,
+            "location_change": location_change,
+            "bill_paid_on_time": bill_paid_on_time,
+            "fraud_strike": fraud_strike
+        })
+
+    return {
+        "id": identity_id,
+        "type": "benign",
+        "ring_id": ring_id,
+        "timeline": timeline,
+        "weeks_count": weeks
+    }
+
+
+def generate_batch(count: int = 10, sleeper_ratio: float = 0.5) -> List[Dict[str, Any]]:
+    """Generates a batch of identities with a realistic mix including a fraud ring cluster."""
+    identities = []
+    ring_size = min(4, max(3, int(count * 0.35)))
+    ring_tag = f"RING-{uuid.uuid4().hex[:4].upper()}"
+
+    for _ in range(ring_size):
+        identities.append(generate_timeline(identity_type="sleeper", ring_id=ring_tag))
+
+    remaining = count - ring_size
+    for _ in range(remaining):
+        itype = "sleeper" if random.random() < sleeper_ratio else "benign"
+        identities.append(generate_timeline(identity_type=itype))
+
+    return identities
 
