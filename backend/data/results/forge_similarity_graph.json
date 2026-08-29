@@ -1,0 +1,8534 @@
+{
+  "nodes": [
+    {
+      "id": "SYN-8B6C33",
+      "label": "SYN-8B6C33",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-95E22D",
+      "label": "SYN-95E22D",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-F113EF",
+      "label": "SYN-F113EF",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-C8206D",
+      "label": "SYN-C8206D",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-319270",
+      "label": "SYN-319270",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-FA79FA",
+      "label": "SYN-FA79FA",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-E02AE4",
+      "label": "SYN-E02AE4",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-8AAAA8",
+      "label": "SYN-8AAAA8",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-3EE640",
+      "label": "SYN-3EE640",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-3FC298",
+      "label": "SYN-3FC298",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-8463E6",
+      "label": "SYN-8463E6",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-9F6AEA",
+      "label": "SYN-9F6AEA",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-B2EC3D",
+      "label": "SYN-B2EC3D",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-DCBBDE",
+      "label": "SYN-DCBBDE",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-71E58F",
+      "label": "SYN-71E58F",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-22C804",
+      "label": "SYN-22C804",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-D6D8F1",
+      "label": "SYN-D6D8F1",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-0F94D0",
+      "label": "SYN-0F94D0",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-3910B7",
+      "label": "SYN-3910B7",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-57912D",
+      "label": "SYN-57912D",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-0F6401",
+      "label": "SYN-0F6401",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-1938BA",
+      "label": "SYN-1938BA",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-9EB127",
+      "label": "SYN-9EB127",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-3FF972",
+      "label": "SYN-3FF972",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-6C94CE",
+      "label": "SYN-6C94CE",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-B0ACDD",
+      "label": "SYN-B0ACDD",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-227B89",
+      "label": "SYN-227B89",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-C46CE7",
+      "label": "SYN-C46CE7",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-C4D3B2",
+      "label": "SYN-C4D3B2",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-287C36",
+      "label": "SYN-287C36",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-A3D002",
+      "label": "SYN-A3D002",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-B79E3C",
+      "label": "SYN-B79E3C",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-A8BA1D",
+      "label": "SYN-A8BA1D",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-999A5C",
+      "label": "SYN-999A5C",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-1E00A1",
+      "label": "SYN-1E00A1",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-8553F7",
+      "label": "SYN-8553F7",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-622249",
+      "label": "SYN-622249",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-AE56EF",
+      "label": "SYN-AE56EF",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-8A57B0",
+      "label": "SYN-8A57B0",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-0E6B4F",
+      "label": "SYN-0E6B4F",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-EBA837",
+      "label": "SYN-EBA837",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-34E107",
+      "label": "SYN-34E107",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-831481",
+      "label": "SYN-831481",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-7970F3",
+      "label": "SYN-7970F3",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-AAFA52",
+      "label": "SYN-AAFA52",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-4E065E",
+      "label": "SYN-4E065E",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-346F8F",
+      "label": "SYN-346F8F",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-2674DD",
+      "label": "SYN-2674DD",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-66A646",
+      "label": "SYN-66A646",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-53C5F1",
+      "label": "SYN-53C5F1",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-644751",
+      "label": "SYN-644751",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-89964D",
+      "label": "SYN-89964D",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-3E78D9",
+      "label": "SYN-3E78D9",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-B187B5",
+      "label": "SYN-B187B5",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-56FA97",
+      "label": "SYN-56FA97",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-A05724",
+      "label": "SYN-A05724",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-A423C8",
+      "label": "SYN-A423C8",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-42933A",
+      "label": "SYN-42933A",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-EDB4A1",
+      "label": "SYN-EDB4A1",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-0DB29F",
+      "label": "SYN-0DB29F",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-99A649",
+      "label": "SYN-99A649",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-AEAE1F",
+      "label": "SYN-AEAE1F",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-3A8D3C",
+      "label": "SYN-3A8D3C",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-445B70",
+      "label": "SYN-445B70",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-D6E565",
+      "label": "SYN-D6E565",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-7D94C4",
+      "label": "SYN-7D94C4",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-F8F380",
+      "label": "SYN-F8F380",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-CA8D83",
+      "label": "SYN-CA8D83",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-B4D4C8",
+      "label": "SYN-B4D4C8",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-9105C7",
+      "label": "SYN-9105C7",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-07DB02",
+      "label": "SYN-07DB02",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-95B52F",
+      "label": "SYN-95B52F",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-AB2576",
+      "label": "SYN-AB2576",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-132682",
+      "label": "SYN-132682",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-84C7AF",
+      "label": "SYN-84C7AF",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-3717F8",
+      "label": "SYN-3717F8",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-156C1C",
+      "label": "SYN-156C1C",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-5F881E",
+      "label": "SYN-5F881E",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-9AACAB",
+      "label": "SYN-9AACAB",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-1EBD5F",
+      "label": "SYN-1EBD5F",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-B97EAB",
+      "label": "SYN-B97EAB",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-C33F66",
+      "label": "SYN-C33F66",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-56BBCC",
+      "label": "SYN-56BBCC",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-17810B",
+      "label": "SYN-17810B",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-C19D32",
+      "label": "SYN-C19D32",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-4EB1F1",
+      "label": "SYN-4EB1F1",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-10127D",
+      "label": "SYN-10127D",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-732508",
+      "label": "SYN-732508",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-C80997",
+      "label": "SYN-C80997",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-54BB46",
+      "label": "SYN-54BB46",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-2367BC",
+      "label": "SYN-2367BC",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-B750E1",
+      "label": "SYN-B750E1",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-49476E",
+      "label": "SYN-49476E",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-04C1A8",
+      "label": "SYN-04C1A8",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-3EC7EA",
+      "label": "SYN-3EC7EA",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-35F806",
+      "label": "SYN-35F806",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-C5308D",
+      "label": "SYN-C5308D",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-6A4A0B",
+      "label": "SYN-6A4A0B",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-D01DD0",
+      "label": "SYN-D01DD0",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-7A44FD",
+      "label": "SYN-7A44FD",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-3F6AA9",
+      "label": "SYN-3F6AA9",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-EE30D4",
+      "label": "SYN-EE30D4",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-7AEE31",
+      "label": "SYN-7AEE31",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-5C4A13",
+      "label": "SYN-5C4A13",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-25B1F3",
+      "label": "SYN-25B1F3",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-B8CD7D",
+      "label": "SYN-B8CD7D",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-A2E840",
+      "label": "SYN-A2E840",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-0CA7A1",
+      "label": "SYN-0CA7A1",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-48DEA8",
+      "label": "SYN-48DEA8",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-457E59",
+      "label": "SYN-457E59",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-BDAAD6",
+      "label": "SYN-BDAAD6",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-842877",
+      "label": "SYN-842877",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-F397A9",
+      "label": "SYN-F397A9",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-C48D1D",
+      "label": "SYN-C48D1D",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-CD8F5E",
+      "label": "SYN-CD8F5E",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-0B6A80",
+      "label": "SYN-0B6A80",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-070796",
+      "label": "SYN-070796",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-F47150",
+      "label": "SYN-F47150",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-3BD1E8",
+      "label": "SYN-3BD1E8",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-6E1744",
+      "label": "SYN-6E1744",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-97864E",
+      "label": "SYN-97864E",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-1E1083",
+      "label": "SYN-1E1083",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-746CD7",
+      "label": "SYN-746CD7",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-68DB54",
+      "label": "SYN-68DB54",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-E1FA9C",
+      "label": "SYN-E1FA9C",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-D0AF90",
+      "label": "SYN-D0AF90",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-B8C9F9",
+      "label": "SYN-B8C9F9",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-FD9245",
+      "label": "SYN-FD9245",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-237DD5",
+      "label": "SYN-237DD5",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-856A89",
+      "label": "SYN-856A89",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-5FCCA4",
+      "label": "SYN-5FCCA4",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-4AEC02",
+      "label": "SYN-4AEC02",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-A8C672",
+      "label": "SYN-A8C672",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-F69146",
+      "label": "SYN-F69146",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-B6DE41",
+      "label": "SYN-B6DE41",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-AE7C9C",
+      "label": "SYN-AE7C9C",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-993D32",
+      "label": "SYN-993D32",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-DB2FDF",
+      "label": "SYN-DB2FDF",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-C73B3B",
+      "label": "SYN-C73B3B",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-052473",
+      "label": "SYN-052473",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-07BB0C",
+      "label": "SYN-07BB0C",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-184438",
+      "label": "SYN-184438",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-DA8D57",
+      "label": "SYN-DA8D57",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-B90106",
+      "label": "SYN-B90106",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-68570D",
+      "label": "SYN-68570D",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-E225EE",
+      "label": "SYN-E225EE",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-BBF132",
+      "label": "SYN-BBF132",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-386D78",
+      "label": "SYN-386D78",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-6730C2",
+      "label": "SYN-6730C2",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-299883",
+      "label": "SYN-299883",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-7B86D6",
+      "label": "SYN-7B86D6",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-D1F8BD",
+      "label": "SYN-D1F8BD",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-2849B6",
+      "label": "SYN-2849B6",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-28B850",
+      "label": "SYN-28B850",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-441223",
+      "label": "SYN-441223",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-3DF436",
+      "label": "SYN-3DF436",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-DC683A",
+      "label": "SYN-DC683A",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-3BAF60",
+      "label": "SYN-3BAF60",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-338B68",
+      "label": "SYN-338B68",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-206989",
+      "label": "SYN-206989",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-A9DC4A",
+      "label": "SYN-A9DC4A",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-7E93B7",
+      "label": "SYN-7E93B7",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-3A1FC6",
+      "label": "SYN-3A1FC6",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-9309F7",
+      "label": "SYN-9309F7",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-DF5BDF",
+      "label": "SYN-DF5BDF",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-7E95F3",
+      "label": "SYN-7E95F3",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-465ECF",
+      "label": "SYN-465ECF",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-C412BA",
+      "label": "SYN-C412BA",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-8AA86F",
+      "label": "SYN-8AA86F",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-4B35A1",
+      "label": "SYN-4B35A1",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-64DD36",
+      "label": "SYN-64DD36",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-98E1E6",
+      "label": "SYN-98E1E6",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-A75413",
+      "label": "SYN-A75413",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-B206C5",
+      "label": "SYN-B206C5",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-3BAE80",
+      "label": "SYN-3BAE80",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-D5967E",
+      "label": "SYN-D5967E",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-2BA471",
+      "label": "SYN-2BA471",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-319CFD",
+      "label": "SYN-319CFD",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-4081F2",
+      "label": "SYN-4081F2",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-AC95FB",
+      "label": "SYN-AC95FB",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-A52ABB",
+      "label": "SYN-A52ABB",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-945547",
+      "label": "SYN-945547",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-09F7D6",
+      "label": "SYN-09F7D6",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-4FE96F",
+      "label": "SYN-4FE96F",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-F686A0",
+      "label": "SYN-F686A0",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-1DB1BC",
+      "label": "SYN-1DB1BC",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-71617B",
+      "label": "SYN-71617B",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-69DA29",
+      "label": "SYN-69DA29",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-E222E3",
+      "label": "SYN-E222E3",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-CC1209",
+      "label": "SYN-CC1209",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-786E4F",
+      "label": "SYN-786E4F",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-30A7E0",
+      "label": "SYN-30A7E0",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-34CA82",
+      "label": "SYN-34CA82",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-B7E4A2",
+      "label": "SYN-B7E4A2",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-32F658",
+      "label": "SYN-32F658",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-1AE3AD",
+      "label": "SYN-1AE3AD",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-7FD913",
+      "label": "SYN-7FD913",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-EEBC11",
+      "label": "SYN-EEBC11",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-1B9518",
+      "label": "SYN-1B9518",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-9C20DD",
+      "label": "SYN-9C20DD",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-B9D58D",
+      "label": "SYN-B9D58D",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-1F9C76",
+      "label": "SYN-1F9C76",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-FC41A5",
+      "label": "SYN-FC41A5",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-C88B0F",
+      "label": "SYN-C88B0F",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-D169F8",
+      "label": "SYN-D169F8",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-17B49A",
+      "label": "SYN-17B49A",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-F8BF87",
+      "label": "SYN-F8BF87",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-EDEA68",
+      "label": "SYN-EDEA68",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-A17136",
+      "label": "SYN-A17136",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-A9CFA9",
+      "label": "SYN-A9CFA9",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-B6F435",
+      "label": "SYN-B6F435",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-4A7CB1",
+      "label": "SYN-4A7CB1",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-A5767C",
+      "label": "SYN-A5767C",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-D556A2",
+      "label": "SYN-D556A2",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-DB0C49",
+      "label": "SYN-DB0C49",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-2294CF",
+      "label": "SYN-2294CF",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-F4847E",
+      "label": "SYN-F4847E",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-229AF1",
+      "label": "SYN-229AF1",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-2DF8B4",
+      "label": "SYN-2DF8B4",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-FAB2A0",
+      "label": "SYN-FAB2A0",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-EFA239",
+      "label": "SYN-EFA239",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-7BAF23",
+      "label": "SYN-7BAF23",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-951EBE",
+      "label": "SYN-951EBE",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-FCC289",
+      "label": "SYN-FCC289",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-E4C5C6",
+      "label": "SYN-E4C5C6",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-E93EC6",
+      "label": "SYN-E93EC6",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-599AF9",
+      "label": "SYN-599AF9",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-F0630D",
+      "label": "SYN-F0630D",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-A66C75",
+      "label": "SYN-A66C75",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-C4EC8E",
+      "label": "SYN-C4EC8E",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-EC43D1",
+      "label": "SYN-EC43D1",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-3414EF",
+      "label": "SYN-3414EF",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-F0D8CE",
+      "label": "SYN-F0D8CE",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-B75257",
+      "label": "SYN-B75257",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-4B70BB",
+      "label": "SYN-4B70BB",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-90DF14",
+      "label": "SYN-90DF14",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-F574CF",
+      "label": "SYN-F574CF",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-7A2163",
+      "label": "SYN-7A2163",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-C175D1",
+      "label": "SYN-C175D1",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-DEB40F",
+      "label": "SYN-DEB40F",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-046087",
+      "label": "SYN-046087",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-24ACA2",
+      "label": "SYN-24ACA2",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-B64752",
+      "label": "SYN-B64752",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-F2F530",
+      "label": "SYN-F2F530",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-03D1C4",
+      "label": "SYN-03D1C4",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-B320EF",
+      "label": "SYN-B320EF",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-D35126",
+      "label": "SYN-D35126",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-9AE448",
+      "label": "SYN-9AE448",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-B660A7",
+      "label": "SYN-B660A7",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-6A378D",
+      "label": "SYN-6A378D",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-79DDA6",
+      "label": "SYN-79DDA6",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-807C99",
+      "label": "SYN-807C99",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-9DD00C",
+      "label": "SYN-9DD00C",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-7C3BCC",
+      "label": "SYN-7C3BCC",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-CCB14A",
+      "label": "SYN-CCB14A",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-F637F9",
+      "label": "SYN-F637F9",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-81FF1C",
+      "label": "SYN-81FF1C",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-DD19B7",
+      "label": "SYN-DD19B7",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-4B2901",
+      "label": "SYN-4B2901",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-13F776",
+      "label": "SYN-13F776",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-D27416",
+      "label": "SYN-D27416",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-F1E3CF",
+      "label": "SYN-F1E3CF",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-33A84A",
+      "label": "SYN-33A84A",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-4728BF",
+      "label": "SYN-4728BF",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-994732",
+      "label": "SYN-994732",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-3C5732",
+      "label": "SYN-3C5732",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-CC0C6D",
+      "label": "SYN-CC0C6D",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-F6A752",
+      "label": "SYN-F6A752",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-3802FB",
+      "label": "SYN-3802FB",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-C0C5A6",
+      "label": "SYN-C0C5A6",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-7F0DD5",
+      "label": "SYN-7F0DD5",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-A6FE46",
+      "label": "SYN-A6FE46",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-925789",
+      "label": "SYN-925789",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-23972D",
+      "label": "SYN-23972D",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-B1F08A",
+      "label": "SYN-B1F08A",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-7B1D5D",
+      "label": "SYN-7B1D5D",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-259719",
+      "label": "SYN-259719",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-735F20",
+      "label": "SYN-735F20",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-5D44E5",
+      "label": "SYN-5D44E5",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-547BC6",
+      "label": "SYN-547BC6",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-3D2F1D",
+      "label": "SYN-3D2F1D",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-A4B8DA",
+      "label": "SYN-A4B8DA",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-07E090",
+      "label": "SYN-07E090",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-74882E",
+      "label": "SYN-74882E",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-957120",
+      "label": "SYN-957120",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-E6F216",
+      "label": "SYN-E6F216",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-F4A402",
+      "label": "SYN-F4A402",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-BA63A3",
+      "label": "SYN-BA63A3",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-F8BCF9",
+      "label": "SYN-F8BCF9",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-DCB914",
+      "label": "SYN-DCB914",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-5B0CC4",
+      "label": "SYN-5B0CC4",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-D7F17B",
+      "label": "SYN-D7F17B",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-D8A3DB",
+      "label": "SYN-D8A3DB",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-6510CE",
+      "label": "SYN-6510CE",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-3FAE52",
+      "label": "SYN-3FAE52",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-626652",
+      "label": "SYN-626652",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-A625DB",
+      "label": "SYN-A625DB",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-917C65",
+      "label": "SYN-917C65",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-E716DB",
+      "label": "SYN-E716DB",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-5AB712",
+      "label": "SYN-5AB712",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-17BC73",
+      "label": "SYN-17BC73",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-8BE794",
+      "label": "SYN-8BE794",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-7A0FE2",
+      "label": "SYN-7A0FE2",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-AB122B",
+      "label": "SYN-AB122B",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-703A74",
+      "label": "SYN-703A74",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-FF8FEF",
+      "label": "SYN-FF8FEF",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-A898B2",
+      "label": "SYN-A898B2",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-1C9962",
+      "label": "SYN-1C9962",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-42603C",
+      "label": "SYN-42603C",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-D97F1F",
+      "label": "SYN-D97F1F",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-16BE9D",
+      "label": "SYN-16BE9D",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-71A8C5",
+      "label": "SYN-71A8C5",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-414795",
+      "label": "SYN-414795",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-04CB27",
+      "label": "SYN-04CB27",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-662FEC",
+      "label": "SYN-662FEC",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-E676BC",
+      "label": "SYN-E676BC",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-5EBBB6",
+      "label": "SYN-5EBBB6",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-2F0EF2",
+      "label": "SYN-2F0EF2",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-CC2C75",
+      "label": "SYN-CC2C75",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-BC5E65",
+      "label": "SYN-BC5E65",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-5A5496",
+      "label": "SYN-5A5496",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-AE583F",
+      "label": "SYN-AE583F",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-49D677",
+      "label": "SYN-49D677",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-6E91A1",
+      "label": "SYN-6E91A1",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-1B8EAE",
+      "label": "SYN-1B8EAE",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-9DB433",
+      "label": "SYN-9DB433",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-BFFB46",
+      "label": "SYN-BFFB46",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-E678B4",
+      "label": "SYN-E678B4",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-5018E6",
+      "label": "SYN-5018E6",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-2C7569",
+      "label": "SYN-2C7569",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-9074C4",
+      "label": "SYN-9074C4",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-42976E",
+      "label": "SYN-42976E",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-F02EE0",
+      "label": "SYN-F02EE0",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-5511CA",
+      "label": "SYN-5511CA",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-214F42",
+      "label": "SYN-214F42",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-DD204D",
+      "label": "SYN-DD204D",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-830C37",
+      "label": "SYN-830C37",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-E228A3",
+      "label": "SYN-E228A3",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-B0F855",
+      "label": "SYN-B0F855",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-4008EF",
+      "label": "SYN-4008EF",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-614553",
+      "label": "SYN-614553",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-01C324",
+      "label": "SYN-01C324",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-DF09BE",
+      "label": "SYN-DF09BE",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-133989",
+      "label": "SYN-133989",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-31BCB1",
+      "label": "SYN-31BCB1",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-714EA9",
+      "label": "SYN-714EA9",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-615105",
+      "label": "SYN-615105",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-2DA346",
+      "label": "SYN-2DA346",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-15D1B0",
+      "label": "SYN-15D1B0",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-E96619",
+      "label": "SYN-E96619",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-B9CF2E",
+      "label": "SYN-B9CF2E",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-82FA7E",
+      "label": "SYN-82FA7E",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-8D56C1",
+      "label": "SYN-8D56C1",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-CAD226",
+      "label": "SYN-CAD226",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-8B1D66",
+      "label": "SYN-8B1D66",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-A5162D",
+      "label": "SYN-A5162D",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-650E85",
+      "label": "SYN-650E85",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-8D09C0",
+      "label": "SYN-8D09C0",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-5DD868",
+      "label": "SYN-5DD868",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-489FAE",
+      "label": "SYN-489FAE",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-593CF9",
+      "label": "SYN-593CF9",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-B8DBE0",
+      "label": "SYN-B8DBE0",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-01419B",
+      "label": "SYN-01419B",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-6420AD",
+      "label": "SYN-6420AD",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-DCAAE3",
+      "label": "SYN-DCAAE3",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-79EB12",
+      "label": "SYN-79EB12",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-BF399C",
+      "label": "SYN-BF399C",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-B8311D",
+      "label": "SYN-B8311D",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-BC0019",
+      "label": "SYN-BC0019",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-3737E6",
+      "label": "SYN-3737E6",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-0E1F9D",
+      "label": "SYN-0E1F9D",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-B7737B",
+      "label": "SYN-B7737B",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-349A13",
+      "label": "SYN-349A13",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-03B32F",
+      "label": "SYN-03B32F",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-F756CB",
+      "label": "SYN-F756CB",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-262746",
+      "label": "SYN-262746",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-5EF98E",
+      "label": "SYN-5EF98E",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-4BE4DC",
+      "label": "SYN-4BE4DC",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-AA8706",
+      "label": "SYN-AA8706",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-F3B736",
+      "label": "SYN-F3B736",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-E951CD",
+      "label": "SYN-E951CD",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-9906DE",
+      "label": "SYN-9906DE",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-FA9E8C",
+      "label": "SYN-FA9E8C",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-5425CC",
+      "label": "SYN-5425CC",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-116FE7",
+      "label": "SYN-116FE7",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-37A34E",
+      "label": "SYN-37A34E",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-E37920",
+      "label": "SYN-E37920",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-77E0E6",
+      "label": "SYN-77E0E6",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-0F45DF",
+      "label": "SYN-0F45DF",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-580083",
+      "label": "SYN-580083",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-D465DA",
+      "label": "SYN-D465DA",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-A04BD3",
+      "label": "SYN-A04BD3",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-7CB789",
+      "label": "SYN-7CB789",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-FC659D",
+      "label": "SYN-FC659D",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-F00CCC",
+      "label": "SYN-F00CCC",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-E39A2B",
+      "label": "SYN-E39A2B",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-A21E2B",
+      "label": "SYN-A21E2B",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-351F4D",
+      "label": "SYN-351F4D",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-84C481",
+      "label": "SYN-84C481",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-172F02",
+      "label": "SYN-172F02",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-D3C7E8",
+      "label": "SYN-D3C7E8",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-2EE390",
+      "label": "SYN-2EE390",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-D19C70",
+      "label": "SYN-D19C70",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-C6CF48",
+      "label": "SYN-C6CF48",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-63AC63",
+      "label": "SYN-63AC63",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-599195",
+      "label": "SYN-599195",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-956440",
+      "label": "SYN-956440",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-1D2920",
+      "label": "SYN-1D2920",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-A510B0",
+      "label": "SYN-A510B0",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-55337A",
+      "label": "SYN-55337A",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-A307E7",
+      "label": "SYN-A307E7",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-82336F",
+      "label": "SYN-82336F",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-42A6EA",
+      "label": "SYN-42A6EA",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-D26A6C",
+      "label": "SYN-D26A6C",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-B615BC",
+      "label": "SYN-B615BC",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-889CD7",
+      "label": "SYN-889CD7",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-0DC2B3",
+      "label": "SYN-0DC2B3",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-0B5676",
+      "label": "SYN-0B5676",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-2D16A2",
+      "label": "SYN-2D16A2",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-1E2374",
+      "label": "SYN-1E2374",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-39CAF0",
+      "label": "SYN-39CAF0",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-304BB2",
+      "label": "SYN-304BB2",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-515A03",
+      "label": "SYN-515A03",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-E3B1C1",
+      "label": "SYN-E3B1C1",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-B21800",
+      "label": "SYN-B21800",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-42EF87",
+      "label": "SYN-42EF87",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-514435",
+      "label": "SYN-514435",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-2A9209",
+      "label": "SYN-2A9209",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-447F3E",
+      "label": "SYN-447F3E",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-FDAEC1",
+      "label": "SYN-FDAEC1",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-17E32C",
+      "label": "SYN-17E32C",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-E6A921",
+      "label": "SYN-E6A921",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-873185",
+      "label": "SYN-873185",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-82BDE5",
+      "label": "SYN-82BDE5",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-C9D1A0",
+      "label": "SYN-C9D1A0",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-0C208E",
+      "label": "SYN-0C208E",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-068728",
+      "label": "SYN-068728",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-0B7DEB",
+      "label": "SYN-0B7DEB",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-ED416A",
+      "label": "SYN-ED416A",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-E88917",
+      "label": "SYN-E88917",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-99A7AA",
+      "label": "SYN-99A7AA",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-B1C728",
+      "label": "SYN-B1C728",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-C6F271",
+      "label": "SYN-C6F271",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-DE45AD",
+      "label": "SYN-DE45AD",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-786DA4",
+      "label": "SYN-786DA4",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-009BB6",
+      "label": "SYN-009BB6",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-07A03D",
+      "label": "SYN-07A03D",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-A46104",
+      "label": "SYN-A46104",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-D41858",
+      "label": "SYN-D41858",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-EFFD7C",
+      "label": "SYN-EFFD7C",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-96DCB5",
+      "label": "SYN-96DCB5",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-6C6456",
+      "label": "SYN-6C6456",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-8DDE4C",
+      "label": "SYN-8DDE4C",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-41B575",
+      "label": "SYN-41B575",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-BFCBC1",
+      "label": "SYN-BFCBC1",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-7C95C8",
+      "label": "SYN-7C95C8",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-2D9F4F",
+      "label": "SYN-2D9F4F",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-07FC1F",
+      "label": "SYN-07FC1F",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-96A3CC",
+      "label": "SYN-96A3CC",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-EB7BCD",
+      "label": "SYN-EB7BCD",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-ADA67F",
+      "label": "SYN-ADA67F",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-BF3877",
+      "label": "SYN-BF3877",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-BCB338",
+      "label": "SYN-BCB338",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-1AAB39",
+      "label": "SYN-1AAB39",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-E56670",
+      "label": "SYN-E56670",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-C3A65C",
+      "label": "SYN-C3A65C",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-2FB45C",
+      "label": "SYN-2FB45C",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-D318BB",
+      "label": "SYN-D318BB",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-1E58E9",
+      "label": "SYN-1E58E9",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-6ADC23",
+      "label": "SYN-6ADC23",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-B6F2B2",
+      "label": "SYN-B6F2B2",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-B739D1",
+      "label": "SYN-B739D1",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-7166F5",
+      "label": "SYN-7166F5",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-0F0875",
+      "label": "SYN-0F0875",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-37AABC",
+      "label": "SYN-37AABC",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-EC4C03",
+      "label": "SYN-EC4C03",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-6569ED",
+      "label": "SYN-6569ED",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-530D7F",
+      "label": "SYN-530D7F",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-5C2884",
+      "label": "SYN-5C2884",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-0F5C80",
+      "label": "SYN-0F5C80",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-E7C2E0",
+      "label": "SYN-E7C2E0",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-6960F9",
+      "label": "SYN-6960F9",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-D04135",
+      "label": "SYN-D04135",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-92C4BA",
+      "label": "SYN-92C4BA",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-D0B1C0",
+      "label": "SYN-D0B1C0",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-C50E25",
+      "label": "SYN-C50E25",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-AD3674",
+      "label": "SYN-AD3674",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-DF7E1E",
+      "label": "SYN-DF7E1E",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-3A3636",
+      "label": "SYN-3A3636",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-8086D9",
+      "label": "SYN-8086D9",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-C1CBF2",
+      "label": "SYN-C1CBF2",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-279040",
+      "label": "SYN-279040",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-55381B",
+      "label": "SYN-55381B",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-6728C7",
+      "label": "SYN-6728C7",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-26CFB2",
+      "label": "SYN-26CFB2",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-0DDBEE",
+      "label": "SYN-0DDBEE",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-989C38",
+      "label": "SYN-989C38",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-C33A1C",
+      "label": "SYN-C33A1C",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-90F17B",
+      "label": "SYN-90F17B",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    },
+    {
+      "id": "SYN-CDA9B6",
+      "label": "SYN-CDA9B6",
+      "flagged": false,
+      "type": "unknown",
+      "risk_score": 0.0,
+      "ring_id": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "SYN-8B6C33",
+      "target": "SYN-580083",
+      "weight": 0.9541
+    },
+    {
+      "source": "SYN-8B6C33",
+      "target": "SYN-447F3E",
+      "weight": 0.9566
+    },
+    {
+      "source": "SYN-95E22D",
+      "target": "SYN-34E107",
+      "weight": 0.9899
+    },
+    {
+      "source": "SYN-95E22D",
+      "target": "SYN-BA63A3",
+      "weight": 0.9771
+    },
+    {
+      "source": "SYN-95E22D",
+      "target": "SYN-5EF98E",
+      "weight": 0.9528
+    },
+    {
+      "source": "SYN-95E22D",
+      "target": "SYN-7166F5",
+      "weight": 0.9694
+    },
+    {
+      "source": "SYN-F113EF",
+      "target": "SYN-C4D3B2",
+      "weight": 0.9535
+    },
+    {
+      "source": "SYN-F113EF",
+      "target": "SYN-116FE7",
+      "weight": 0.9673
+    },
+    {
+      "source": "SYN-C8206D",
+      "target": "SYN-FA79FA",
+      "weight": 0.958
+    },
+    {
+      "source": "SYN-C8206D",
+      "target": "SYN-F47150",
+      "weight": 0.9796
+    },
+    {
+      "source": "SYN-C8206D",
+      "target": "SYN-07BB0C",
+      "weight": 0.96
+    },
+    {
+      "source": "SYN-319270",
+      "target": "SYN-B2EC3D",
+      "weight": 0.9803
+    },
+    {
+      "source": "SYN-319270",
+      "target": "SYN-457E59",
+      "weight": 0.984
+    },
+    {
+      "source": "SYN-319270",
+      "target": "SYN-7A2163",
+      "weight": 0.9802
+    },
+    {
+      "source": "SYN-319270",
+      "target": "SYN-B9CF2E",
+      "weight": 0.9755
+    },
+    {
+      "source": "SYN-319270",
+      "target": "SYN-CDA9B6",
+      "weight": 0.9557
+    },
+    {
+      "source": "SYN-FA79FA",
+      "target": "SYN-07BB0C",
+      "weight": 0.9612
+    },
+    {
+      "source": "SYN-E02AE4",
+      "target": "SYN-8553F7",
+      "weight": 0.9737
+    },
+    {
+      "source": "SYN-8AAAA8",
+      "target": "SYN-229AF1",
+      "weight": 0.9659
+    },
+    {
+      "source": "SYN-8AAAA8",
+      "target": "SYN-E93EC6",
+      "weight": 0.9673
+    },
+    {
+      "source": "SYN-3EE640",
+      "target": "SYN-622249",
+      "weight": 0.9662
+    },
+    {
+      "source": "SYN-3EE640",
+      "target": "SYN-A05724",
+      "weight": 0.9934
+    },
+    {
+      "source": "SYN-3EE640",
+      "target": "SYN-D01DD0",
+      "weight": 0.9553
+    },
+    {
+      "source": "SYN-3EE640",
+      "target": "SYN-0F45DF",
+      "weight": 0.9761
+    },
+    {
+      "source": "SYN-3EE640",
+      "target": "SYN-42EF87",
+      "weight": 0.9767
+    },
+    {
+      "source": "SYN-3FC298",
+      "target": "SYN-1E00A1",
+      "weight": 0.9541
+    },
+    {
+      "source": "SYN-3FC298",
+      "target": "SYN-7B86D6",
+      "weight": 0.954
+    },
+    {
+      "source": "SYN-3FC298",
+      "target": "SYN-D556A2",
+      "weight": 0.9767
+    },
+    {
+      "source": "SYN-3FC298",
+      "target": "SYN-F0D8CE",
+      "weight": 0.9598
+    },
+    {
+      "source": "SYN-3FC298",
+      "target": "SYN-F637F9",
+      "weight": 0.9572
+    },
+    {
+      "source": "SYN-8463E6",
+      "target": "SYN-052473",
+      "weight": 0.9796
+    },
+    {
+      "source": "SYN-8463E6",
+      "target": "SYN-1C9962",
+      "weight": 0.9833
+    },
+    {
+      "source": "SYN-8463E6",
+      "target": "SYN-BC5E65",
+      "weight": 0.959
+    },
+    {
+      "source": "SYN-8463E6",
+      "target": "SYN-615105",
+      "weight": 0.9642
+    },
+    {
+      "source": "SYN-9F6AEA",
+      "target": "SYN-24ACA2",
+      "weight": 0.9837
+    },
+    {
+      "source": "SYN-B2EC3D",
+      "target": "SYN-71E58F",
+      "weight": 0.9577
+    },
+    {
+      "source": "SYN-B2EC3D",
+      "target": "SYN-7D94C4",
+      "weight": 0.9801
+    },
+    {
+      "source": "SYN-B2EC3D",
+      "target": "SYN-457E59",
+      "weight": 0.9992
+    },
+    {
+      "source": "SYN-B2EC3D",
+      "target": "SYN-786E4F",
+      "weight": 0.9739
+    },
+    {
+      "source": "SYN-B2EC3D",
+      "target": "SYN-7A2163",
+      "weight": 0.9676
+    },
+    {
+      "source": "SYN-B2EC3D",
+      "target": "SYN-C0C5A6",
+      "weight": 0.9523
+    },
+    {
+      "source": "SYN-DCBBDE",
+      "target": "SYN-F8F380",
+      "weight": 0.9596
+    },
+    {
+      "source": "SYN-71E58F",
+      "target": "SYN-D6D8F1",
+      "weight": 0.9748
+    },
+    {
+      "source": "SYN-71E58F",
+      "target": "SYN-7D94C4",
+      "weight": 0.9895
+    },
+    {
+      "source": "SYN-71E58F",
+      "target": "SYN-3717F8",
+      "weight": 0.9583
+    },
+    {
+      "source": "SYN-71E58F",
+      "target": "SYN-457E59",
+      "weight": 0.9517
+    },
+    {
+      "source": "SYN-71E58F",
+      "target": "SYN-786E4F",
+      "weight": 0.9764
+    },
+    {
+      "source": "SYN-71E58F",
+      "target": "SYN-D169F8",
+      "weight": 0.9504
+    },
+    {
+      "source": "SYN-71E58F",
+      "target": "SYN-C0C5A6",
+      "weight": 0.9909
+    },
+    {
+      "source": "SYN-22C804",
+      "target": "SYN-33A84A",
+      "weight": 0.9566
+    },
+    {
+      "source": "SYN-D6D8F1",
+      "target": "SYN-3717F8",
+      "weight": 0.9662
+    },
+    {
+      "source": "SYN-D6D8F1",
+      "target": "SYN-C19D32",
+      "weight": 0.9646
+    },
+    {
+      "source": "SYN-D6D8F1",
+      "target": "SYN-C0C5A6",
+      "weight": 0.9704
+    },
+    {
+      "source": "SYN-D6D8F1",
+      "target": "SYN-957120",
+      "weight": 0.9874
+    },
+    {
+      "source": "SYN-D6D8F1",
+      "target": "SYN-4BE4DC",
+      "weight": 0.9612
+    },
+    {
+      "source": "SYN-0F94D0",
+      "target": "SYN-7A44FD",
+      "weight": 0.9575
+    },
+    {
+      "source": "SYN-3910B7",
+      "target": "SYN-A8C672",
+      "weight": 0.9793
+    },
+    {
+      "source": "SYN-3910B7",
+      "target": "SYN-CC1209",
+      "weight": 0.9795
+    },
+    {
+      "source": "SYN-3910B7",
+      "target": "SYN-31BCB1",
+      "weight": 0.9912
+    },
+    {
+      "source": "SYN-3910B7",
+      "target": "SYN-92C4BA",
+      "weight": 0.9607
+    },
+    {
+      "source": "SYN-57912D",
+      "target": "SYN-CD8F5E",
+      "weight": 0.9849
+    },
+    {
+      "source": "SYN-57912D",
+      "target": "SYN-9309F7",
+      "weight": 0.9711
+    },
+    {
+      "source": "SYN-57912D",
+      "target": "SYN-F1E3CF",
+      "weight": 0.9761
+    },
+    {
+      "source": "SYN-57912D",
+      "target": "SYN-E3B1C1",
+      "weight": 0.9633
+    },
+    {
+      "source": "SYN-57912D",
+      "target": "SYN-B21800",
+      "weight": 0.953
+    },
+    {
+      "source": "SYN-0F6401",
+      "target": "SYN-3F6AA9",
+      "weight": 0.9782
+    },
+    {
+      "source": "SYN-0F6401",
+      "target": "SYN-6A378D",
+      "weight": 0.9654
+    },
+    {
+      "source": "SYN-0F6401",
+      "target": "SYN-31BCB1",
+      "weight": 0.9555
+    },
+    {
+      "source": "SYN-1938BA",
+      "target": "SYN-C4D3B2",
+      "weight": 0.9606
+    },
+    {
+      "source": "SYN-1938BA",
+      "target": "SYN-842877",
+      "weight": 0.9632
+    },
+    {
+      "source": "SYN-1938BA",
+      "target": "SYN-A75413",
+      "weight": 0.9763
+    },
+    {
+      "source": "SYN-1938BA",
+      "target": "SYN-116FE7",
+      "weight": 0.9518
+    },
+    {
+      "source": "SYN-9EB127",
+      "target": "SYN-DA8D57",
+      "weight": 0.9971
+    },
+    {
+      "source": "SYN-9EB127",
+      "target": "SYN-5B0CC4",
+      "weight": 0.9699
+    },
+    {
+      "source": "SYN-9EB127",
+      "target": "SYN-D97F1F",
+      "weight": 0.9587
+    },
+    {
+      "source": "SYN-9EB127",
+      "target": "SYN-6420AD",
+      "weight": 0.957
+    },
+    {
+      "source": "SYN-9EB127",
+      "target": "SYN-ADA67F",
+      "weight": 0.9588
+    },
+    {
+      "source": "SYN-3FF972",
+      "target": "SYN-D1F8BD",
+      "weight": 0.9749
+    },
+    {
+      "source": "SYN-3FF972",
+      "target": "SYN-8AA86F",
+      "weight": 0.9639
+    },
+    {
+      "source": "SYN-3FF972",
+      "target": "SYN-23972D",
+      "weight": 0.9659
+    },
+    {
+      "source": "SYN-3FF972",
+      "target": "SYN-B8DBE0",
+      "weight": 0.9512
+    },
+    {
+      "source": "SYN-3FF972",
+      "target": "SYN-BF399C",
+      "weight": 0.9554
+    },
+    {
+      "source": "SYN-6C94CE",
+      "target": "SYN-81FF1C",
+      "weight": 0.9632
+    },
+    {
+      "source": "SYN-6C94CE",
+      "target": "SYN-735F20",
+      "weight": 0.9923
+    },
+    {
+      "source": "SYN-B0ACDD",
+      "target": "SYN-3D2F1D",
+      "weight": 0.9681
+    },
+    {
+      "source": "SYN-227B89",
+      "target": "SYN-2849B6",
+      "weight": 0.9799
+    },
+    {
+      "source": "SYN-227B89",
+      "target": "SYN-98E1E6",
+      "weight": 0.9984
+    },
+    {
+      "source": "SYN-227B89",
+      "target": "SYN-B7737B",
+      "weight": 0.9531
+    },
+    {
+      "source": "SYN-227B89",
+      "target": "SYN-6960F9",
+      "weight": 0.9834
+    },
+    {
+      "source": "SYN-C46CE7",
+      "target": "SYN-3A8D3C",
+      "weight": 0.9953
+    },
+    {
+      "source": "SYN-C46CE7",
+      "target": "SYN-0B6A80",
+      "weight": 0.9728
+    },
+    {
+      "source": "SYN-C46CE7",
+      "target": "SYN-386D78",
+      "weight": 0.964
+    },
+    {
+      "source": "SYN-C4D3B2",
+      "target": "SYN-842877",
+      "weight": 0.9829
+    },
+    {
+      "source": "SYN-C4D3B2",
+      "target": "SYN-7F0DD5",
+      "weight": 0.9807
+    },
+    {
+      "source": "SYN-C4D3B2",
+      "target": "SYN-116FE7",
+      "weight": 0.9595
+    },
+    {
+      "source": "SYN-287C36",
+      "target": "SYN-732508",
+      "weight": 0.9659
+    },
+    {
+      "source": "SYN-287C36",
+      "target": "SYN-2BA471",
+      "weight": 0.9831
+    },
+    {
+      "source": "SYN-A3D002",
+      "target": "SYN-6A4A0B",
+      "weight": 0.9806
+    },
+    {
+      "source": "SYN-A3D002",
+      "target": "SYN-A4B8DA",
+      "weight": 0.9823
+    },
+    {
+      "source": "SYN-B79E3C",
+      "target": "SYN-5FCCA4",
+      "weight": 0.965
+    },
+    {
+      "source": "SYN-A8BA1D",
+      "target": "SYN-D5967E",
+      "weight": 0.952
+    },
+    {
+      "source": "SYN-A8BA1D",
+      "target": "SYN-B9D58D",
+      "weight": 0.9504
+    },
+    {
+      "source": "SYN-A8BA1D",
+      "target": "SYN-925789",
+      "weight": 0.9607
+    },
+    {
+      "source": "SYN-A8BA1D",
+      "target": "SYN-E228A3",
+      "weight": 0.9565
+    },
+    {
+      "source": "SYN-A8BA1D",
+      "target": "SYN-82BDE5",
+      "weight": 0.9818
+    },
+    {
+      "source": "SYN-A8BA1D",
+      "target": "SYN-E56670",
+      "weight": 0.9502
+    },
+    {
+      "source": "SYN-999A5C",
+      "target": "SYN-10127D",
+      "weight": 0.9916
+    },
+    {
+      "source": "SYN-999A5C",
+      "target": "SYN-FAB2A0",
+      "weight": 0.9685
+    },
+    {
+      "source": "SYN-999A5C",
+      "target": "SYN-A898B2",
+      "weight": 0.9711
+    },
+    {
+      "source": "SYN-999A5C",
+      "target": "SYN-5A5496",
+      "weight": 0.9717
+    },
+    {
+      "source": "SYN-999A5C",
+      "target": "SYN-2D9F4F",
+      "weight": 0.9978
+    },
+    {
+      "source": "SYN-1E00A1",
+      "target": "SYN-3E78D9",
+      "weight": 0.9745
+    },
+    {
+      "source": "SYN-1E00A1",
+      "target": "SYN-32F658",
+      "weight": 0.9597
+    },
+    {
+      "source": "SYN-1E00A1",
+      "target": "SYN-79DDA6",
+      "weight": 0.9759
+    },
+    {
+      "source": "SYN-1E00A1",
+      "target": "SYN-5D44E5",
+      "weight": 0.9501
+    },
+    {
+      "source": "SYN-1E00A1",
+      "target": "SYN-1E2374",
+      "weight": 0.9716
+    },
+    {
+      "source": "SYN-8553F7",
+      "target": "SYN-229AF1",
+      "weight": 0.9554
+    },
+    {
+      "source": "SYN-8553F7",
+      "target": "SYN-13F776",
+      "weight": 0.9592
+    },
+    {
+      "source": "SYN-8553F7",
+      "target": "SYN-FF8FEF",
+      "weight": 0.9676
+    },
+    {
+      "source": "SYN-8553F7",
+      "target": "SYN-1D2920",
+      "weight": 0.9842
+    },
+    {
+      "source": "SYN-8553F7",
+      "target": "SYN-B615BC",
+      "weight": 0.9763
+    },
+    {
+      "source": "SYN-622249",
+      "target": "SYN-132682",
+      "weight": 0.9831
+    },
+    {
+      "source": "SYN-622249",
+      "target": "SYN-0F45DF",
+      "weight": 0.9973
+    },
+    {
+      "source": "SYN-AE56EF",
+      "target": "SYN-56FA97",
+      "weight": 0.9661
+    },
+    {
+      "source": "SYN-8A57B0",
+      "target": "SYN-DEB40F",
+      "weight": 0.9991
+    },
+    {
+      "source": "SYN-8A57B0",
+      "target": "SYN-92C4BA",
+      "weight": 0.9527
+    },
+    {
+      "source": "SYN-0E6B4F",
+      "target": "SYN-56BBCC",
+      "weight": 0.9728
+    },
+    {
+      "source": "SYN-0E6B4F",
+      "target": "SYN-133989",
+      "weight": 0.982
+    },
+    {
+      "source": "SYN-0E6B4F",
+      "target": "SYN-CAD226",
+      "weight": 0.952
+    },
+    {
+      "source": "SYN-0E6B4F",
+      "target": "SYN-E6A921",
+      "weight": 0.9652
+    },
+    {
+      "source": "SYN-0E6B4F",
+      "target": "SYN-D0B1C0",
+      "weight": 0.966
+    },
+    {
+      "source": "SYN-EBA837",
+      "target": "SYN-F397A9",
+      "weight": 0.9898
+    },
+    {
+      "source": "SYN-EBA837",
+      "target": "SYN-BFFB46",
+      "weight": 0.9555
+    },
+    {
+      "source": "SYN-34E107",
+      "target": "SYN-7AEE31",
+      "weight": 0.9686
+    },
+    {
+      "source": "SYN-34E107",
+      "target": "SYN-EFFD7C",
+      "weight": 0.9625
+    },
+    {
+      "source": "SYN-831481",
+      "target": "SYN-64DD36",
+      "weight": 0.9533
+    },
+    {
+      "source": "SYN-831481",
+      "target": "SYN-24ACA2",
+      "weight": 0.9504
+    },
+    {
+      "source": "SYN-831481",
+      "target": "SYN-A6FE46",
+      "weight": 0.9562
+    },
+    {
+      "source": "SYN-AAFA52",
+      "target": "SYN-A17136",
+      "weight": 0.9687
+    },
+    {
+      "source": "SYN-AAFA52",
+      "target": "SYN-172F02",
+      "weight": 0.9696
+    },
+    {
+      "source": "SYN-4E065E",
+      "target": "SYN-B750E1",
+      "weight": 0.9611
+    },
+    {
+      "source": "SYN-4E065E",
+      "target": "SYN-465ECF",
+      "weight": 0.9711
+    },
+    {
+      "source": "SYN-4E065E",
+      "target": "SYN-17B49A",
+      "weight": 0.9616
+    },
+    {
+      "source": "SYN-4E065E",
+      "target": "SYN-FC659D",
+      "weight": 0.9526
+    },
+    {
+      "source": "SYN-346F8F",
+      "target": "SYN-97864E",
+      "weight": 0.9555
+    },
+    {
+      "source": "SYN-346F8F",
+      "target": "SYN-0E1F9D",
+      "weight": 0.9761
+    },
+    {
+      "source": "SYN-346F8F",
+      "target": "SYN-E951CD",
+      "weight": 0.956
+    },
+    {
+      "source": "SYN-2674DD",
+      "target": "SYN-9AACAB",
+      "weight": 0.9643
+    },
+    {
+      "source": "SYN-2674DD",
+      "target": "SYN-FAB2A0",
+      "weight": 0.9599
+    },
+    {
+      "source": "SYN-2674DD",
+      "target": "SYN-5A5496",
+      "weight": 0.9634
+    },
+    {
+      "source": "SYN-2674DD",
+      "target": "SYN-ED416A",
+      "weight": 0.9591
+    },
+    {
+      "source": "SYN-2674DD",
+      "target": "SYN-55381B",
+      "weight": 0.9878
+    },
+    {
+      "source": "SYN-66A646",
+      "target": "SYN-DC683A",
+      "weight": 0.9598
+    },
+    {
+      "source": "SYN-66A646",
+      "target": "SYN-D26A6C",
+      "weight": 0.9886
+    },
+    {
+      "source": "SYN-53C5F1",
+      "target": "SYN-DA8D57",
+      "weight": 0.9578
+    },
+    {
+      "source": "SYN-53C5F1",
+      "target": "SYN-A66C75",
+      "weight": 0.9804
+    },
+    {
+      "source": "SYN-53C5F1",
+      "target": "SYN-D97F1F",
+      "weight": 0.9782
+    },
+    {
+      "source": "SYN-53C5F1",
+      "target": "SYN-6420AD",
+      "weight": 0.9502
+    },
+    {
+      "source": "SYN-53C5F1",
+      "target": "SYN-2EE390",
+      "weight": 0.9521
+    },
+    {
+      "source": "SYN-53C5F1",
+      "target": "SYN-42A6EA",
+      "weight": 0.9917
+    },
+    {
+      "source": "SYN-644751",
+      "target": "SYN-703A74",
+      "weight": 0.961
+    },
+    {
+      "source": "SYN-89964D",
+      "target": "SYN-FD9245",
+      "weight": 0.9859
+    },
+    {
+      "source": "SYN-89964D",
+      "target": "SYN-D1F8BD",
+      "weight": 0.9642
+    },
+    {
+      "source": "SYN-89964D",
+      "target": "SYN-8AA86F",
+      "weight": 0.9709
+    },
+    {
+      "source": "SYN-89964D",
+      "target": "SYN-EEBC11",
+      "weight": 0.9957
+    },
+    {
+      "source": "SYN-89964D",
+      "target": "SYN-F0D8CE",
+      "weight": 0.9663
+    },
+    {
+      "source": "SYN-89964D",
+      "target": "SYN-CCB14A",
+      "weight": 0.992
+    },
+    {
+      "source": "SYN-89964D",
+      "target": "SYN-9DB433",
+      "weight": 0.9554
+    },
+    {
+      "source": "SYN-89964D",
+      "target": "SYN-E96619",
+      "weight": 0.9775
+    },
+    {
+      "source": "SYN-89964D",
+      "target": "SYN-99A7AA",
+      "weight": 0.9882
+    },
+    {
+      "source": "SYN-3E78D9",
+      "target": "SYN-32F658",
+      "weight": 0.9896
+    },
+    {
+      "source": "SYN-3E78D9",
+      "target": "SYN-B75257",
+      "weight": 0.9711
+    },
+    {
+      "source": "SYN-3E78D9",
+      "target": "SYN-79DDA6",
+      "weight": 0.9646
+    },
+    {
+      "source": "SYN-3E78D9",
+      "target": "SYN-1E2374",
+      "weight": 0.963
+    },
+    {
+      "source": "SYN-B187B5",
+      "target": "SYN-68DB54",
+      "weight": 0.9734
+    },
+    {
+      "source": "SYN-B187B5",
+      "target": "SYN-17E32C",
+      "weight": 0.9709
+    },
+    {
+      "source": "SYN-B187B5",
+      "target": "SYN-B1C728",
+      "weight": 0.9904
+    },
+    {
+      "source": "SYN-A05724",
+      "target": "SYN-D01DD0",
+      "weight": 0.9695
+    },
+    {
+      "source": "SYN-A05724",
+      "target": "SYN-B8CD7D",
+      "weight": 0.9543
+    },
+    {
+      "source": "SYN-A05724",
+      "target": "SYN-4728BF",
+      "weight": 0.962
+    },
+    {
+      "source": "SYN-A05724",
+      "target": "SYN-0F45DF",
+      "weight": 0.9526
+    },
+    {
+      "source": "SYN-A05724",
+      "target": "SYN-42EF87",
+      "weight": 0.9892
+    },
+    {
+      "source": "SYN-A423C8",
+      "target": "SYN-3BD1E8",
+      "weight": 0.959
+    },
+    {
+      "source": "SYN-A423C8",
+      "target": "SYN-703A74",
+      "weight": 0.9705
+    },
+    {
+      "source": "SYN-A423C8",
+      "target": "SYN-82FA7E",
+      "weight": 0.9969
+    },
+    {
+      "source": "SYN-A423C8",
+      "target": "SYN-79EB12",
+      "weight": 0.9556
+    },
+    {
+      "source": "SYN-A423C8",
+      "target": "SYN-2A9209",
+      "weight": 0.9708
+    },
+    {
+      "source": "SYN-A423C8",
+      "target": "SYN-41B575",
+      "weight": 0.9743
+    },
+    {
+      "source": "SYN-42933A",
+      "target": "SYN-32F658",
+      "weight": 0.9749
+    },
+    {
+      "source": "SYN-42933A",
+      "target": "SYN-662FEC",
+      "weight": 0.9664
+    },
+    {
+      "source": "SYN-42933A",
+      "target": "SYN-D465DA",
+      "weight": 0.9567
+    },
+    {
+      "source": "SYN-42933A",
+      "target": "SYN-009BB6",
+      "weight": 0.9624
+    },
+    {
+      "source": "SYN-EDB4A1",
+      "target": "SYN-580083",
+      "weight": 0.9506
+    },
+    {
+      "source": "SYN-EDB4A1",
+      "target": "SYN-172F02",
+      "weight": 0.9644
+    },
+    {
+      "source": "SYN-0DB29F",
+      "target": "SYN-EFA239",
+      "weight": 0.9533
+    },
+    {
+      "source": "SYN-0DB29F",
+      "target": "SYN-A898B2",
+      "weight": 0.9583
+    },
+    {
+      "source": "SYN-0DB29F",
+      "target": "SYN-8D56C1",
+      "weight": 0.9675
+    },
+    {
+      "source": "SYN-AEAE1F",
+      "target": "SYN-184438",
+      "weight": 0.9536
+    },
+    {
+      "source": "SYN-AEAE1F",
+      "target": "SYN-71A8C5",
+      "weight": 0.952
+    },
+    {
+      "source": "SYN-AEAE1F",
+      "target": "SYN-37A34E",
+      "weight": 0.989
+    },
+    {
+      "source": "SYN-3A8D3C",
+      "target": "SYN-0B6A80",
+      "weight": 0.9792
+    },
+    {
+      "source": "SYN-445B70",
+      "target": "SYN-945547",
+      "weight": 0.9588
+    },
+    {
+      "source": "SYN-445B70",
+      "target": "SYN-1B9518",
+      "weight": 0.9513
+    },
+    {
+      "source": "SYN-D6E565",
+      "target": "SYN-132682",
+      "weight": 0.9755
+    },
+    {
+      "source": "SYN-D6E565",
+      "target": "SYN-07BB0C",
+      "weight": 0.9675
+    },
+    {
+      "source": "SYN-7D94C4",
+      "target": "SYN-3717F8",
+      "weight": 0.9643
+    },
+    {
+      "source": "SYN-7D94C4",
+      "target": "SYN-457E59",
+      "weight": 0.9768
+    },
+    {
+      "source": "SYN-7D94C4",
+      "target": "SYN-786E4F",
+      "weight": 0.9675
+    },
+    {
+      "source": "SYN-7D94C4",
+      "target": "SYN-C0C5A6",
+      "weight": 0.9917
+    },
+    {
+      "source": "SYN-CA8D83",
+      "target": "SYN-3C5732",
+      "weight": 0.9694
+    },
+    {
+      "source": "SYN-CA8D83",
+      "target": "SYN-23972D",
+      "weight": 0.9616
+    },
+    {
+      "source": "SYN-CA8D83",
+      "target": "SYN-B8DBE0",
+      "weight": 0.9655
+    },
+    {
+      "source": "SYN-CA8D83",
+      "target": "SYN-01419B",
+      "weight": 0.986
+    },
+    {
+      "source": "SYN-CA8D83",
+      "target": "SYN-A04BD3",
+      "weight": 0.9881
+    },
+    {
+      "source": "SYN-B4D4C8",
+      "target": "SYN-7BAF23",
+      "weight": 0.9883
+    },
+    {
+      "source": "SYN-B4D4C8",
+      "target": "SYN-03B32F",
+      "weight": 0.9533
+    },
+    {
+      "source": "SYN-B4D4C8",
+      "target": "SYN-CDA9B6",
+      "weight": 0.9644
+    },
+    {
+      "source": "SYN-9105C7",
+      "target": "SYN-237DD5",
+      "weight": 0.9953
+    },
+    {
+      "source": "SYN-07DB02",
+      "target": "SYN-626652",
+      "weight": 0.9505
+    },
+    {
+      "source": "SYN-07DB02",
+      "target": "SYN-E678B4",
+      "weight": 0.9781
+    },
+    {
+      "source": "SYN-95B52F",
+      "target": "SYN-B64752",
+      "weight": 0.956
+    },
+    {
+      "source": "SYN-95B52F",
+      "target": "SYN-49D677",
+      "weight": 0.9596
+    },
+    {
+      "source": "SYN-95B52F",
+      "target": "SYN-E37920",
+      "weight": 0.9735
+    },
+    {
+      "source": "SYN-95B52F",
+      "target": "SYN-D19C70",
+      "weight": 0.9657
+    },
+    {
+      "source": "SYN-95B52F",
+      "target": "SYN-07FC1F",
+      "weight": 0.9737
+    },
+    {
+      "source": "SYN-AB2576",
+      "target": "SYN-B6F435",
+      "weight": 0.979
+    },
+    {
+      "source": "SYN-AB2576",
+      "target": "SYN-DD19B7",
+      "weight": 0.9635
+    },
+    {
+      "source": "SYN-132682",
+      "target": "SYN-F2F530",
+      "weight": 0.9663
+    },
+    {
+      "source": "SYN-132682",
+      "target": "SYN-0F45DF",
+      "weight": 0.9833
+    },
+    {
+      "source": "SYN-84C7AF",
+      "target": "SYN-C48D1D",
+      "weight": 0.9578
+    },
+    {
+      "source": "SYN-84C7AF",
+      "target": "SYN-856A89",
+      "weight": 0.9695
+    },
+    {
+      "source": "SYN-84C7AF",
+      "target": "SYN-299883",
+      "weight": 0.9556
+    },
+    {
+      "source": "SYN-84C7AF",
+      "target": "SYN-3FAE52",
+      "weight": 0.9835
+    },
+    {
+      "source": "SYN-84C7AF",
+      "target": "SYN-17BC73",
+      "weight": 0.9835
+    },
+    {
+      "source": "SYN-84C7AF",
+      "target": "SYN-351F4D",
+      "weight": 0.9832
+    },
+    {
+      "source": "SYN-3717F8",
+      "target": "SYN-C0C5A6",
+      "weight": 0.9773
+    },
+    {
+      "source": "SYN-3717F8",
+      "target": "SYN-4BE4DC",
+      "weight": 0.9597
+    },
+    {
+      "source": "SYN-156C1C",
+      "target": "SYN-856A89",
+      "weight": 0.9641
+    },
+    {
+      "source": "SYN-156C1C",
+      "target": "SYN-E716DB",
+      "weight": 0.9745
+    },
+    {
+      "source": "SYN-156C1C",
+      "target": "SYN-17BC73",
+      "weight": 0.9573
+    },
+    {
+      "source": "SYN-156C1C",
+      "target": "SYN-351F4D",
+      "weight": 0.968
+    },
+    {
+      "source": "SYN-5F881E",
+      "target": "SYN-3BD1E8",
+      "weight": 0.9627
+    },
+    {
+      "source": "SYN-9AACAB",
+      "target": "SYN-97864E",
+      "weight": 0.9584
+    },
+    {
+      "source": "SYN-9AACAB",
+      "target": "SYN-626652",
+      "weight": 0.9737
+    },
+    {
+      "source": "SYN-9AACAB",
+      "target": "SYN-E678B4",
+      "weight": 0.9666
+    },
+    {
+      "source": "SYN-9AACAB",
+      "target": "SYN-0E1F9D",
+      "weight": 0.9523
+    },
+    {
+      "source": "SYN-9AACAB",
+      "target": "SYN-55381B",
+      "weight": 0.9766
+    },
+    {
+      "source": "SYN-1EBD5F",
+      "target": "SYN-DB0C49",
+      "weight": 0.9625
+    },
+    {
+      "source": "SYN-1EBD5F",
+      "target": "SYN-AB122B",
+      "weight": 0.9828
+    },
+    {
+      "source": "SYN-1EBD5F",
+      "target": "SYN-1AAB39",
+      "weight": 0.955
+    },
+    {
+      "source": "SYN-B97EAB",
+      "target": "SYN-F4847E",
+      "weight": 0.9653
+    },
+    {
+      "source": "SYN-B97EAB",
+      "target": "SYN-925789",
+      "weight": 0.9833
+    },
+    {
+      "source": "SYN-B97EAB",
+      "target": "SYN-82BDE5",
+      "weight": 0.9505
+    },
+    {
+      "source": "SYN-B97EAB",
+      "target": "SYN-8DDE4C",
+      "weight": 0.9625
+    },
+    {
+      "source": "SYN-C33F66",
+      "target": "SYN-6E1744",
+      "weight": 0.974
+    },
+    {
+      "source": "SYN-C33F66",
+      "target": "SYN-299883",
+      "weight": 0.9651
+    },
+    {
+      "source": "SYN-C33F66",
+      "target": "SYN-DF5BDF",
+      "weight": 0.9799
+    },
+    {
+      "source": "SYN-56BBCC",
+      "target": "SYN-FD9245",
+      "weight": 0.984
+    },
+    {
+      "source": "SYN-56BBCC",
+      "target": "SYN-68570D",
+      "weight": 0.9803
+    },
+    {
+      "source": "SYN-56BBCC",
+      "target": "SYN-133989",
+      "weight": 0.9827
+    },
+    {
+      "source": "SYN-56BBCC",
+      "target": "SYN-E6A921",
+      "weight": 0.9747
+    },
+    {
+      "source": "SYN-56BBCC",
+      "target": "SYN-D0B1C0",
+      "weight": 0.9703
+    },
+    {
+      "source": "SYN-17810B",
+      "target": "SYN-993D32",
+      "weight": 0.9562
+    },
+    {
+      "source": "SYN-17810B",
+      "target": "SYN-052473",
+      "weight": 0.9686
+    },
+    {
+      "source": "SYN-17810B",
+      "target": "SYN-1C9962",
+      "weight": 0.9793
+    },
+    {
+      "source": "SYN-17810B",
+      "target": "SYN-349A13",
+      "weight": 0.954
+    },
+    {
+      "source": "SYN-C19D32",
+      "target": "SYN-945547",
+      "weight": 0.9689
+    },
+    {
+      "source": "SYN-C19D32",
+      "target": "SYN-957120",
+      "weight": 0.9796
+    },
+    {
+      "source": "SYN-4EB1F1",
+      "target": "SYN-1D2920",
+      "weight": 0.9537
+    },
+    {
+      "source": "SYN-4EB1F1",
+      "target": "SYN-96A3CC",
+      "weight": 0.9772
+    },
+    {
+      "source": "SYN-10127D",
+      "target": "SYN-FAB2A0",
+      "weight": 0.9833
+    },
+    {
+      "source": "SYN-10127D",
+      "target": "SYN-A898B2",
+      "weight": 0.9594
+    },
+    {
+      "source": "SYN-10127D",
+      "target": "SYN-5A5496",
+      "weight": 0.9807
+    },
+    {
+      "source": "SYN-10127D",
+      "target": "SYN-ED416A",
+      "weight": 0.9712
+    },
+    {
+      "source": "SYN-10127D",
+      "target": "SYN-2D9F4F",
+      "weight": 0.989
+    },
+    {
+      "source": "SYN-732508",
+      "target": "SYN-6E91A1",
+      "weight": 0.9654
+    },
+    {
+      "source": "SYN-C80997",
+      "target": "SYN-54BB46",
+      "weight": 0.9533
+    },
+    {
+      "source": "SYN-2367BC",
+      "target": "SYN-206989",
+      "weight": 0.9535
+    },
+    {
+      "source": "SYN-2367BC",
+      "target": "SYN-3C5732",
+      "weight": 0.9513
+    },
+    {
+      "source": "SYN-2367BC",
+      "target": "SYN-B8DBE0",
+      "weight": 0.9581
+    },
+    {
+      "source": "SYN-2367BC",
+      "target": "SYN-01419B",
+      "weight": 0.9608
+    },
+    {
+      "source": "SYN-2367BC",
+      "target": "SYN-530D7F",
+      "weight": 0.9655
+    },
+    {
+      "source": "SYN-2367BC",
+      "target": "SYN-5C2884",
+      "weight": 0.9647
+    },
+    {
+      "source": "SYN-B750E1",
+      "target": "SYN-9C20DD",
+      "weight": 0.9553
+    },
+    {
+      "source": "SYN-B750E1",
+      "target": "SYN-17B49A",
+      "weight": 0.9733
+    },
+    {
+      "source": "SYN-B750E1",
+      "target": "SYN-BA63A3",
+      "weight": 0.9548
+    },
+    {
+      "source": "SYN-B750E1",
+      "target": "SYN-FC659D",
+      "weight": 0.9901
+    },
+    {
+      "source": "SYN-49476E",
+      "target": "SYN-42603C",
+      "weight": 0.9664
+    },
+    {
+      "source": "SYN-49476E",
+      "target": "SYN-5EBBB6",
+      "weight": 0.9646
+    },
+    {
+      "source": "SYN-04C1A8",
+      "target": "SYN-DC683A",
+      "weight": 0.962
+    },
+    {
+      "source": "SYN-04C1A8",
+      "target": "SYN-5AB712",
+      "weight": 0.9937
+    },
+    {
+      "source": "SYN-04C1A8",
+      "target": "SYN-D26A6C",
+      "weight": 0.9654
+    },
+    {
+      "source": "SYN-3EC7EA",
+      "target": "SYN-25B1F3",
+      "weight": 0.955
+    },
+    {
+      "source": "SYN-3EC7EA",
+      "target": "SYN-8BE794",
+      "weight": 0.9592
+    },
+    {
+      "source": "SYN-35F806",
+      "target": "SYN-C48D1D",
+      "weight": 0.9845
+    },
+    {
+      "source": "SYN-35F806",
+      "target": "SYN-69DA29",
+      "weight": 0.9716
+    },
+    {
+      "source": "SYN-35F806",
+      "target": "SYN-3FAE52",
+      "weight": 0.9552
+    },
+    {
+      "source": "SYN-35F806",
+      "target": "SYN-956440",
+      "weight": 0.9919
+    },
+    {
+      "source": "SYN-C5308D",
+      "target": "SYN-1E1083",
+      "weight": 0.9543
+    },
+    {
+      "source": "SYN-C5308D",
+      "target": "SYN-7FD913",
+      "weight": 0.9947
+    },
+    {
+      "source": "SYN-C5308D",
+      "target": "SYN-F8BCF9",
+      "weight": 0.9656
+    },
+    {
+      "source": "SYN-C5308D",
+      "target": "SYN-E676BC",
+      "weight": 0.9708
+    },
+    {
+      "source": "SYN-C5308D",
+      "target": "SYN-82336F",
+      "weight": 0.9881
+    },
+    {
+      "source": "SYN-C5308D",
+      "target": "SYN-07A03D",
+      "weight": 0.9749
+    },
+    {
+      "source": "SYN-C5308D",
+      "target": "SYN-7C95C8",
+      "weight": 0.971
+    },
+    {
+      "source": "SYN-6A4A0B",
+      "target": "SYN-7A44FD",
+      "weight": 0.9504
+    },
+    {
+      "source": "SYN-D01DD0",
+      "target": "SYN-2BA471",
+      "weight": 0.957
+    },
+    {
+      "source": "SYN-7A44FD",
+      "target": "SYN-B9CF2E",
+      "weight": 0.9526
+    },
+    {
+      "source": "SYN-7A44FD",
+      "target": "SYN-CDA9B6",
+      "weight": 0.9764
+    },
+    {
+      "source": "SYN-3F6AA9",
+      "target": "SYN-6A378D",
+      "weight": 0.9767
+    },
+    {
+      "source": "SYN-EE30D4",
+      "target": "SYN-B9D58D",
+      "weight": 0.9902
+    },
+    {
+      "source": "SYN-EE30D4",
+      "target": "SYN-925789",
+      "weight": 0.951
+    },
+    {
+      "source": "SYN-EE30D4",
+      "target": "SYN-5D44E5",
+      "weight": 0.9742
+    },
+    {
+      "source": "SYN-EE30D4",
+      "target": "SYN-E228A3",
+      "weight": 0.9769
+    },
+    {
+      "source": "SYN-EE30D4",
+      "target": "SYN-82BDE5",
+      "weight": 0.9828
+    },
+    {
+      "source": "SYN-5C4A13",
+      "target": "SYN-B90106",
+      "weight": 0.9773
+    },
+    {
+      "source": "SYN-5C4A13",
+      "target": "SYN-09F7D6",
+      "weight": 0.9726
+    },
+    {
+      "source": "SYN-5C4A13",
+      "target": "SYN-4B70BB",
+      "weight": 0.9567
+    },
+    {
+      "source": "SYN-25B1F3",
+      "target": "SYN-D0AF90",
+      "weight": 0.9991
+    },
+    {
+      "source": "SYN-25B1F3",
+      "target": "SYN-F6A752",
+      "weight": 0.9594
+    },
+    {
+      "source": "SYN-25B1F3",
+      "target": "SYN-2F0EF2",
+      "weight": 0.9889
+    },
+    {
+      "source": "SYN-25B1F3",
+      "target": "SYN-B0F855",
+      "weight": 0.9584
+    },
+    {
+      "source": "SYN-B8CD7D",
+      "target": "SYN-4AEC02",
+      "weight": 0.9554
+    },
+    {
+      "source": "SYN-B8CD7D",
+      "target": "SYN-F2F530",
+      "weight": 0.9699
+    },
+    {
+      "source": "SYN-B8CD7D",
+      "target": "SYN-0F45DF",
+      "weight": 0.9507
+    },
+    {
+      "source": "SYN-B8CD7D",
+      "target": "SYN-42EF87",
+      "weight": 0.9806
+    },
+    {
+      "source": "SYN-A2E840",
+      "target": "SYN-EC43D1",
+      "weight": 0.985
+    },
+    {
+      "source": "SYN-A2E840",
+      "target": "SYN-1E58E9",
+      "weight": 0.9694
+    },
+    {
+      "source": "SYN-0CA7A1",
+      "target": "SYN-614553",
+      "weight": 0.9575
+    },
+    {
+      "source": "SYN-0CA7A1",
+      "target": "SYN-DF09BE",
+      "weight": 0.9535
+    },
+    {
+      "source": "SYN-0CA7A1",
+      "target": "SYN-BF399C",
+      "weight": 0.9687
+    },
+    {
+      "source": "SYN-48DEA8",
+      "target": "SYN-3A1FC6",
+      "weight": 0.974
+    },
+    {
+      "source": "SYN-48DEA8",
+      "target": "SYN-1B9518",
+      "weight": 0.9512
+    },
+    {
+      "source": "SYN-48DEA8",
+      "target": "SYN-514435",
+      "weight": 0.9877
+    },
+    {
+      "source": "SYN-48DEA8",
+      "target": "SYN-BCB338",
+      "weight": 0.955
+    },
+    {
+      "source": "SYN-457E59",
+      "target": "SYN-786E4F",
+      "weight": 0.967
+    },
+    {
+      "source": "SYN-457E59",
+      "target": "SYN-7A2163",
+      "weight": 0.9757
+    },
+    {
+      "source": "SYN-BDAAD6",
+      "target": "SYN-E1FA9C",
+      "weight": 0.9512
+    },
+    {
+      "source": "SYN-842877",
+      "target": "SYN-7F0DD5",
+      "weight": 0.9833
+    },
+    {
+      "source": "SYN-F397A9",
+      "target": "SYN-01C324",
+      "weight": 0.9561
+    },
+    {
+      "source": "SYN-C48D1D",
+      "target": "SYN-856A89",
+      "weight": 0.9749
+    },
+    {
+      "source": "SYN-C48D1D",
+      "target": "SYN-69DA29",
+      "weight": 0.9519
+    },
+    {
+      "source": "SYN-C48D1D",
+      "target": "SYN-3FAE52",
+      "weight": 0.9901
+    },
+    {
+      "source": "SYN-C48D1D",
+      "target": "SYN-351F4D",
+      "weight": 0.9802
+    },
+    {
+      "source": "SYN-C48D1D",
+      "target": "SYN-956440",
+      "weight": 0.9807
+    },
+    {
+      "source": "SYN-CD8F5E",
+      "target": "SYN-9309F7",
+      "weight": 0.9743
+    },
+    {
+      "source": "SYN-CD8F5E",
+      "target": "SYN-F1E3CF",
+      "weight": 0.9635
+    },
+    {
+      "source": "SYN-CD8F5E",
+      "target": "SYN-B21800",
+      "weight": 0.9827
+    },
+    {
+      "source": "SYN-0B6A80",
+      "target": "SYN-EC43D1",
+      "weight": 0.9647
+    },
+    {
+      "source": "SYN-070796",
+      "target": "SYN-DB0C49",
+      "weight": 0.9509
+    },
+    {
+      "source": "SYN-070796",
+      "target": "SYN-A21E2B",
+      "weight": 0.9568
+    },
+    {
+      "source": "SYN-F47150",
+      "target": "SYN-26CFB2",
+      "weight": 0.9501
+    },
+    {
+      "source": "SYN-3BD1E8",
+      "target": "SYN-703A74",
+      "weight": 0.998
+    },
+    {
+      "source": "SYN-3BD1E8",
+      "target": "SYN-82FA7E",
+      "weight": 0.9568
+    },
+    {
+      "source": "SYN-6E1744",
+      "target": "SYN-DF5BDF",
+      "weight": 0.9959
+    },
+    {
+      "source": "SYN-6E1744",
+      "target": "SYN-B320EF",
+      "weight": 0.9841
+    },
+    {
+      "source": "SYN-6E1744",
+      "target": "SYN-5A5496",
+      "weight": 0.9584
+    },
+    {
+      "source": "SYN-6E1744",
+      "target": "SYN-ED416A",
+      "weight": 0.9801
+    },
+    {
+      "source": "SYN-97864E",
+      "target": "SYN-441223",
+      "weight": 0.9911
+    },
+    {
+      "source": "SYN-97864E",
+      "target": "SYN-F4A402",
+      "weight": 0.9547
+    },
+    {
+      "source": "SYN-97864E",
+      "target": "SYN-626652",
+      "weight": 0.9581
+    },
+    {
+      "source": "SYN-97864E",
+      "target": "SYN-0E1F9D",
+      "weight": 0.9843
+    },
+    {
+      "source": "SYN-1E1083",
+      "target": "SYN-7FD913",
+      "weight": 0.9678
+    },
+    {
+      "source": "SYN-1E1083",
+      "target": "SYN-A625DB",
+      "weight": 0.9794
+    },
+    {
+      "source": "SYN-1E1083",
+      "target": "SYN-E676BC",
+      "weight": 0.9703
+    },
+    {
+      "source": "SYN-1E1083",
+      "target": "SYN-7C95C8",
+      "weight": 0.961
+    },
+    {
+      "source": "SYN-1E1083",
+      "target": "SYN-C33A1C",
+      "weight": 0.9569
+    },
+    {
+      "source": "SYN-746CD7",
+      "target": "SYN-D8A3DB",
+      "weight": 0.9761
+    },
+    {
+      "source": "SYN-746CD7",
+      "target": "SYN-AE583F",
+      "weight": 0.9595
+    },
+    {
+      "source": "SYN-746CD7",
+      "target": "SYN-599195",
+      "weight": 0.9505
+    },
+    {
+      "source": "SYN-746CD7",
+      "target": "SYN-DE45AD",
+      "weight": 0.9515
+    },
+    {
+      "source": "SYN-68DB54",
+      "target": "SYN-319CFD",
+      "weight": 0.9542
+    },
+    {
+      "source": "SYN-68DB54",
+      "target": "SYN-17E32C",
+      "weight": 0.9656
+    },
+    {
+      "source": "SYN-E1FA9C",
+      "target": "SYN-8D56C1",
+      "weight": 0.9594
+    },
+    {
+      "source": "SYN-D0AF90",
+      "target": "SYN-F6A752",
+      "weight": 0.9539
+    },
+    {
+      "source": "SYN-D0AF90",
+      "target": "SYN-2F0EF2",
+      "weight": 0.9921
+    },
+    {
+      "source": "SYN-D0AF90",
+      "target": "SYN-B0F855",
+      "weight": 0.9688
+    },
+    {
+      "source": "SYN-B8C9F9",
+      "target": "SYN-55337A",
+      "weight": 0.9666
+    },
+    {
+      "source": "SYN-FD9245",
+      "target": "SYN-68570D",
+      "weight": 0.9724
+    },
+    {
+      "source": "SYN-FD9245",
+      "target": "SYN-8AA86F",
+      "weight": 0.9761
+    },
+    {
+      "source": "SYN-FD9245",
+      "target": "SYN-EEBC11",
+      "weight": 0.9799
+    },
+    {
+      "source": "SYN-FD9245",
+      "target": "SYN-CCB14A",
+      "weight": 0.9686
+    },
+    {
+      "source": "SYN-FD9245",
+      "target": "SYN-133989",
+      "weight": 0.9699
+    },
+    {
+      "source": "SYN-FD9245",
+      "target": "SYN-99A7AA",
+      "weight": 0.9675
+    },
+    {
+      "source": "SYN-FD9245",
+      "target": "SYN-D0B1C0",
+      "weight": 0.966
+    },
+    {
+      "source": "SYN-237DD5",
+      "target": "SYN-714EA9",
+      "weight": 0.9504
+    },
+    {
+      "source": "SYN-856A89",
+      "target": "SYN-3FAE52",
+      "weight": 0.993
+    },
+    {
+      "source": "SYN-856A89",
+      "target": "SYN-17BC73",
+      "weight": 0.9626
+    },
+    {
+      "source": "SYN-856A89",
+      "target": "SYN-351F4D",
+      "weight": 0.9946
+    },
+    {
+      "source": "SYN-5FCCA4",
+      "target": "SYN-1F9C76",
+      "weight": 0.9974
+    },
+    {
+      "source": "SYN-A8C672",
+      "target": "SYN-CC1209",
+      "weight": 0.9838
+    },
+    {
+      "source": "SYN-A8C672",
+      "target": "SYN-DEB40F",
+      "weight": 0.958
+    },
+    {
+      "source": "SYN-A8C672",
+      "target": "SYN-31BCB1",
+      "weight": 0.957
+    },
+    {
+      "source": "SYN-A8C672",
+      "target": "SYN-37AABC",
+      "weight": 0.9616
+    },
+    {
+      "source": "SYN-A8C672",
+      "target": "SYN-92C4BA",
+      "weight": 0.995
+    },
+    {
+      "source": "SYN-F69146",
+      "target": "SYN-28B850",
+      "weight": 0.9841
+    },
+    {
+      "source": "SYN-F69146",
+      "target": "SYN-2A9209",
+      "weight": 0.9506
+    },
+    {
+      "source": "SYN-F69146",
+      "target": "SYN-C3A65C",
+      "weight": 0.9617
+    },
+    {
+      "source": "SYN-B6DE41",
+      "target": "SYN-F574CF",
+      "weight": 0.9734
+    },
+    {
+      "source": "SYN-B6DE41",
+      "target": "SYN-3C5732",
+      "weight": 0.9695
+    },
+    {
+      "source": "SYN-B6DE41",
+      "target": "SYN-01419B",
+      "weight": 0.9561
+    },
+    {
+      "source": "SYN-993D32",
+      "target": "SYN-052473",
+      "weight": 0.9849
+    },
+    {
+      "source": "SYN-993D32",
+      "target": "SYN-1C9962",
+      "weight": 0.9616
+    },
+    {
+      "source": "SYN-993D32",
+      "target": "SYN-D3C7E8",
+      "weight": 0.9742
+    },
+    {
+      "source": "SYN-993D32",
+      "target": "SYN-90F17B",
+      "weight": 0.9779
+    },
+    {
+      "source": "SYN-DB2FDF",
+      "target": "SYN-B320EF",
+      "weight": 0.9577
+    },
+    {
+      "source": "SYN-DB2FDF",
+      "target": "SYN-5A5496",
+      "weight": 0.9688
+    },
+    {
+      "source": "SYN-C73B3B",
+      "target": "SYN-B64752",
+      "weight": 0.9669
+    },
+    {
+      "source": "SYN-C73B3B",
+      "target": "SYN-9DD00C",
+      "weight": 0.9803
+    },
+    {
+      "source": "SYN-C73B3B",
+      "target": "SYN-E716DB",
+      "weight": 0.9635
+    },
+    {
+      "source": "SYN-C73B3B",
+      "target": "SYN-49D677",
+      "weight": 0.9763
+    },
+    {
+      "source": "SYN-C73B3B",
+      "target": "SYN-D19C70",
+      "weight": 0.9566
+    },
+    {
+      "source": "SYN-C73B3B",
+      "target": "SYN-068728",
+      "weight": 0.9731
+    },
+    {
+      "source": "SYN-052473",
+      "target": "SYN-1C9962",
+      "weight": 0.9914
+    },
+    {
+      "source": "SYN-052473",
+      "target": "SYN-BC5E65",
+      "weight": 0.9589
+    },
+    {
+      "source": "SYN-052473",
+      "target": "SYN-D3C7E8",
+      "weight": 0.953
+    },
+    {
+      "source": "SYN-052473",
+      "target": "SYN-90F17B",
+      "weight": 0.9612
+    },
+    {
+      "source": "SYN-184438",
+      "target": "SYN-69DA29",
+      "weight": 0.9563
+    },
+    {
+      "source": "SYN-184438",
+      "target": "SYN-71A8C5",
+      "weight": 0.9839
+    },
+    {
+      "source": "SYN-184438",
+      "target": "SYN-37A34E",
+      "weight": 0.9829
+    },
+    {
+      "source": "SYN-DA8D57",
+      "target": "SYN-5B0CC4",
+      "weight": 0.9755
+    },
+    {
+      "source": "SYN-DA8D57",
+      "target": "SYN-D97F1F",
+      "weight": 0.9753
+    },
+    {
+      "source": "SYN-DA8D57",
+      "target": "SYN-6420AD",
+      "weight": 0.9634
+    },
+    {
+      "source": "SYN-DA8D57",
+      "target": "SYN-2EE390",
+      "weight": 0.9525
+    },
+    {
+      "source": "SYN-B90106",
+      "target": "SYN-7A0FE2",
+      "weight": 0.9643
+    },
+    {
+      "source": "SYN-68570D",
+      "target": "SYN-A75413",
+      "weight": 0.9524
+    },
+    {
+      "source": "SYN-68570D",
+      "target": "SYN-B75257",
+      "weight": 0.9535
+    },
+    {
+      "source": "SYN-E225EE",
+      "target": "SYN-046087",
+      "weight": 0.9831
+    },
+    {
+      "source": "SYN-E225EE",
+      "target": "SYN-6E91A1",
+      "weight": 0.959
+    },
+    {
+      "source": "SYN-E225EE",
+      "target": "SYN-8D09C0",
+      "weight": 0.9722
+    },
+    {
+      "source": "SYN-E225EE",
+      "target": "SYN-889CD7",
+      "weight": 0.9524
+    },
+    {
+      "source": "SYN-E225EE",
+      "target": "SYN-96DCB5",
+      "weight": 0.9832
+    },
+    {
+      "source": "SYN-BBF132",
+      "target": "SYN-2D16A2",
+      "weight": 1.0
+    },
+    {
+      "source": "SYN-6730C2",
+      "target": "SYN-A9DC4A",
+      "weight": 0.9553
+    },
+    {
+      "source": "SYN-6730C2",
+      "target": "SYN-3BAE80",
+      "weight": 0.9607
+    },
+    {
+      "source": "SYN-6730C2",
+      "target": "SYN-2DF8B4",
+      "weight": 0.9555
+    },
+    {
+      "source": "SYN-6730C2",
+      "target": "SYN-A66C75",
+      "weight": 0.9519
+    },
+    {
+      "source": "SYN-6730C2",
+      "target": "SYN-E7C2E0",
+      "weight": 0.954
+    },
+    {
+      "source": "SYN-6730C2",
+      "target": "SYN-D04135",
+      "weight": 0.9626
+    },
+    {
+      "source": "SYN-7B86D6",
+      "target": "SYN-D556A2",
+      "weight": 0.9573
+    },
+    {
+      "source": "SYN-7B86D6",
+      "target": "SYN-42603C",
+      "weight": 0.965
+    },
+    {
+      "source": "SYN-7B86D6",
+      "target": "SYN-5EBBB6",
+      "weight": 0.9681
+    },
+    {
+      "source": "SYN-D1F8BD",
+      "target": "SYN-8AA86F",
+      "weight": 0.9765
+    },
+    {
+      "source": "SYN-D1F8BD",
+      "target": "SYN-EEBC11",
+      "weight": 0.9566
+    },
+    {
+      "source": "SYN-D1F8BD",
+      "target": "SYN-F0D8CE",
+      "weight": 0.9587
+    },
+    {
+      "source": "SYN-D1F8BD",
+      "target": "SYN-CCB14A",
+      "weight": 0.9879
+    },
+    {
+      "source": "SYN-D1F8BD",
+      "target": "SYN-E96619",
+      "weight": 0.9603
+    },
+    {
+      "source": "SYN-D1F8BD",
+      "target": "SYN-BF399C",
+      "weight": 0.9568
+    },
+    {
+      "source": "SYN-D1F8BD",
+      "target": "SYN-99A7AA",
+      "weight": 0.9884
+    },
+    {
+      "source": "SYN-2849B6",
+      "target": "SYN-98E1E6",
+      "weight": 0.9861
+    },
+    {
+      "source": "SYN-28B850",
+      "target": "SYN-90DF14",
+      "weight": 0.9706
+    },
+    {
+      "source": "SYN-28B850",
+      "target": "SYN-C3A65C",
+      "weight": 0.9758
+    },
+    {
+      "source": "SYN-441223",
+      "target": "SYN-F4A402",
+      "weight": 0.9809
+    },
+    {
+      "source": "SYN-441223",
+      "target": "SYN-626652",
+      "weight": 0.9556
+    },
+    {
+      "source": "SYN-441223",
+      "target": "SYN-71A8C5",
+      "weight": 0.967
+    },
+    {
+      "source": "SYN-441223",
+      "target": "SYN-0E1F9D",
+      "weight": 0.9609
+    },
+    {
+      "source": "SYN-441223",
+      "target": "SYN-8DDE4C",
+      "weight": 0.9552
+    },
+    {
+      "source": "SYN-3DF436",
+      "target": "SYN-C88B0F",
+      "weight": 0.981
+    },
+    {
+      "source": "SYN-DC683A",
+      "target": "SYN-30A7E0",
+      "weight": 0.9514
+    },
+    {
+      "source": "SYN-DC683A",
+      "target": "SYN-5AB712",
+      "weight": 0.9596
+    },
+    {
+      "source": "SYN-DC683A",
+      "target": "SYN-D26A6C",
+      "weight": 0.9871
+    },
+    {
+      "source": "SYN-3BAF60",
+      "target": "SYN-3802FB",
+      "weight": 0.9886
+    },
+    {
+      "source": "SYN-3BAF60",
+      "target": "SYN-B1F08A",
+      "weight": 0.9596
+    },
+    {
+      "source": "SYN-3BAF60",
+      "target": "SYN-74882E",
+      "weight": 0.9592
+    },
+    {
+      "source": "SYN-3BAF60",
+      "target": "SYN-AA8706",
+      "weight": 0.9698
+    },
+    {
+      "source": "SYN-3BAF60",
+      "target": "SYN-9906DE",
+      "weight": 0.972
+    },
+    {
+      "source": "SYN-3BAF60",
+      "target": "SYN-A21E2B",
+      "weight": 0.9702
+    },
+    {
+      "source": "SYN-338B68",
+      "target": "SYN-B1F08A",
+      "weight": 0.9816
+    },
+    {
+      "source": "SYN-338B68",
+      "target": "SYN-A21E2B",
+      "weight": 0.9733
+    },
+    {
+      "source": "SYN-338B68",
+      "target": "SYN-63AC63",
+      "weight": 0.9896
+    },
+    {
+      "source": "SYN-338B68",
+      "target": "SYN-1AAB39",
+      "weight": 0.9586
+    },
+    {
+      "source": "SYN-338B68",
+      "target": "SYN-26CFB2",
+      "weight": 0.9847
+    },
+    {
+      "source": "SYN-206989",
+      "target": "SYN-34CA82",
+      "weight": 0.9976
+    },
+    {
+      "source": "SYN-206989",
+      "target": "SYN-A510B0",
+      "weight": 0.9768
+    },
+    {
+      "source": "SYN-206989",
+      "target": "SYN-5C2884",
+      "weight": 0.9703
+    },
+    {
+      "source": "SYN-A9DC4A",
+      "target": "SYN-3BAE80",
+      "weight": 0.9505
+    },
+    {
+      "source": "SYN-A9DC4A",
+      "target": "SYN-F02EE0",
+      "weight": 0.9543
+    },
+    {
+      "source": "SYN-A9DC4A",
+      "target": "SYN-ADA67F",
+      "weight": 0.9653
+    },
+    {
+      "source": "SYN-7E93B7",
+      "target": "SYN-4FE96F",
+      "weight": 0.9871
+    },
+    {
+      "source": "SYN-7E93B7",
+      "target": "SYN-69DA29",
+      "weight": 0.9623
+    },
+    {
+      "source": "SYN-7E93B7",
+      "target": "SYN-82336F",
+      "weight": 0.9568
+    },
+    {
+      "source": "SYN-7E93B7",
+      "target": "SYN-889CD7",
+      "weight": 0.9542
+    },
+    {
+      "source": "SYN-7E93B7",
+      "target": "SYN-07A03D",
+      "weight": 0.9648
+    },
+    {
+      "source": "SYN-3A1FC6",
+      "target": "SYN-1B9518",
+      "weight": 0.9715
+    },
+    {
+      "source": "SYN-3A1FC6",
+      "target": "SYN-2DF8B4",
+      "weight": 0.9545
+    },
+    {
+      "source": "SYN-9309F7",
+      "target": "SYN-FA9E8C",
+      "weight": 0.9559
+    },
+    {
+      "source": "SYN-DF5BDF",
+      "target": "SYN-B320EF",
+      "weight": 0.9891
+    },
+    {
+      "source": "SYN-DF5BDF",
+      "target": "SYN-917C65",
+      "weight": 0.9595
+    },
+    {
+      "source": "SYN-DF5BDF",
+      "target": "SYN-ED416A",
+      "weight": 0.9611
+    },
+    {
+      "source": "SYN-DF5BDF",
+      "target": "SYN-6728C7",
+      "weight": 0.9632
+    },
+    {
+      "source": "SYN-7E95F3",
+      "target": "SYN-EDEA68",
+      "weight": 0.9867
+    },
+    {
+      "source": "SYN-7E95F3",
+      "target": "SYN-4A7CB1",
+      "weight": 0.9853
+    },
+    {
+      "source": "SYN-7E95F3",
+      "target": "SYN-81FF1C",
+      "weight": 0.9873
+    },
+    {
+      "source": "SYN-465ECF",
+      "target": "SYN-3A3636",
+      "weight": 0.9545
+    },
+    {
+      "source": "SYN-C412BA",
+      "target": "SYN-662FEC",
+      "weight": 0.9584
+    },
+    {
+      "source": "SYN-C412BA",
+      "target": "SYN-0DDBEE",
+      "weight": 0.9652
+    },
+    {
+      "source": "SYN-8AA86F",
+      "target": "SYN-EEBC11",
+      "weight": 0.9592
+    },
+    {
+      "source": "SYN-8AA86F",
+      "target": "SYN-CCB14A",
+      "weight": 0.98
+    },
+    {
+      "source": "SYN-8AA86F",
+      "target": "SYN-DF09BE",
+      "weight": 0.9539
+    },
+    {
+      "source": "SYN-8AA86F",
+      "target": "SYN-133989",
+      "weight": 0.9711
+    },
+    {
+      "source": "SYN-8AA86F",
+      "target": "SYN-BF399C",
+      "weight": 0.981
+    },
+    {
+      "source": "SYN-8AA86F",
+      "target": "SYN-99A7AA",
+      "weight": 0.9837
+    },
+    {
+      "source": "SYN-8AA86F",
+      "target": "SYN-D0B1C0",
+      "weight": 0.9687
+    },
+    {
+      "source": "SYN-4B35A1",
+      "target": "SYN-807C99",
+      "weight": 0.9539
+    },
+    {
+      "source": "SYN-64DD36",
+      "target": "SYN-A6FE46",
+      "weight": 0.9802
+    },
+    {
+      "source": "SYN-64DD36",
+      "target": "SYN-04CB27",
+      "weight": 0.9726
+    },
+    {
+      "source": "SYN-98E1E6",
+      "target": "SYN-6960F9",
+      "weight": 0.9811
+    },
+    {
+      "source": "SYN-A75413",
+      "target": "SYN-6C6456",
+      "weight": 0.9532
+    },
+    {
+      "source": "SYN-B206C5",
+      "target": "SYN-07E090",
+      "weight": 0.9559
+    },
+    {
+      "source": "SYN-D5967E",
+      "target": "SYN-4008EF",
+      "weight": 0.9573
+    },
+    {
+      "source": "SYN-D5967E",
+      "target": "SYN-77E0E6",
+      "weight": 0.9693
+    },
+    {
+      "source": "SYN-319CFD",
+      "target": "SYN-614553",
+      "weight": 0.9711
+    },
+    {
+      "source": "SYN-4081F2",
+      "target": "SYN-CC0C6D",
+      "weight": 0.9796
+    },
+    {
+      "source": "SYN-4081F2",
+      "target": "SYN-C3A65C",
+      "weight": 0.9558
+    },
+    {
+      "source": "SYN-AC95FB",
+      "target": "SYN-5EF98E",
+      "weight": 0.9843
+    },
+    {
+      "source": "SYN-AC95FB",
+      "target": "SYN-7166F5",
+      "weight": 0.9949
+    },
+    {
+      "source": "SYN-AC95FB",
+      "target": "SYN-6569ED",
+      "weight": 0.9572
+    },
+    {
+      "source": "SYN-A52ABB",
+      "target": "SYN-BFCBC1",
+      "weight": 0.9596
+    },
+    {
+      "source": "SYN-945547",
+      "target": "SYN-4BE4DC",
+      "weight": 0.9565
+    },
+    {
+      "source": "SYN-09F7D6",
+      "target": "SYN-4B70BB",
+      "weight": 0.9757
+    },
+    {
+      "source": "SYN-09F7D6",
+      "target": "SYN-03D1C4",
+      "weight": 0.9602
+    },
+    {
+      "source": "SYN-4FE96F",
+      "target": "SYN-CC1209",
+      "weight": 0.9566
+    },
+    {
+      "source": "SYN-4FE96F",
+      "target": "SYN-07A03D",
+      "weight": 0.9571
+    },
+    {
+      "source": "SYN-F686A0",
+      "target": "SYN-1AE3AD",
+      "weight": 0.9785
+    },
+    {
+      "source": "SYN-F686A0",
+      "target": "SYN-DCB914",
+      "weight": 0.9508
+    },
+    {
+      "source": "SYN-F686A0",
+      "target": "SYN-515A03",
+      "weight": 0.9526
+    },
+    {
+      "source": "SYN-1DB1BC",
+      "target": "SYN-71617B",
+      "weight": 0.9579
+    },
+    {
+      "source": "SYN-1DB1BC",
+      "target": "SYN-EEBC11",
+      "weight": 0.9573
+    },
+    {
+      "source": "SYN-1DB1BC",
+      "target": "SYN-9DB433",
+      "weight": 0.9896
+    },
+    {
+      "source": "SYN-1DB1BC",
+      "target": "SYN-E96619",
+      "weight": 0.9635
+    },
+    {
+      "source": "SYN-1DB1BC",
+      "target": "SYN-873185",
+      "weight": 0.9519
+    },
+    {
+      "source": "SYN-1DB1BC",
+      "target": "SYN-989C38",
+      "weight": 0.9859
+    },
+    {
+      "source": "SYN-71617B",
+      "target": "SYN-9DB433",
+      "weight": 0.9588
+    },
+    {
+      "source": "SYN-71617B",
+      "target": "SYN-873185",
+      "weight": 0.9854
+    },
+    {
+      "source": "SYN-69DA29",
+      "target": "SYN-71A8C5",
+      "weight": 0.9701
+    },
+    {
+      "source": "SYN-69DA29",
+      "target": "SYN-37A34E",
+      "weight": 0.9583
+    },
+    {
+      "source": "SYN-69DA29",
+      "target": "SYN-07A03D",
+      "weight": 0.9904
+    },
+    {
+      "source": "SYN-E222E3",
+      "target": "SYN-BFFB46",
+      "weight": 0.9795
+    },
+    {
+      "source": "SYN-E222E3",
+      "target": "SYN-1E58E9",
+      "weight": 0.9502
+    },
+    {
+      "source": "SYN-CC1209",
+      "target": "SYN-31BCB1",
+      "weight": 0.9579
+    },
+    {
+      "source": "SYN-CC1209",
+      "target": "SYN-37AABC",
+      "weight": 0.9527
+    },
+    {
+      "source": "SYN-CC1209",
+      "target": "SYN-92C4BA",
+      "weight": 0.9845
+    },
+    {
+      "source": "SYN-786E4F",
+      "target": "SYN-D169F8",
+      "weight": 0.9539
+    },
+    {
+      "source": "SYN-30A7E0",
+      "target": "SYN-16BE9D",
+      "weight": 0.9512
+    },
+    {
+      "source": "SYN-34CA82",
+      "target": "SYN-A510B0",
+      "weight": 0.9615
+    },
+    {
+      "source": "SYN-34CA82",
+      "target": "SYN-5C2884",
+      "weight": 0.9547
+    },
+    {
+      "source": "SYN-B7E4A2",
+      "target": "SYN-F1E3CF",
+      "weight": 0.952
+    },
+    {
+      "source": "SYN-B7E4A2",
+      "target": "SYN-599195",
+      "weight": 0.9557
+    },
+    {
+      "source": "SYN-32F658",
+      "target": "SYN-B75257",
+      "weight": 0.9613
+    },
+    {
+      "source": "SYN-32F658",
+      "target": "SYN-009BB6",
+      "weight": 0.971
+    },
+    {
+      "source": "SYN-1AE3AD",
+      "target": "SYN-6A378D",
+      "weight": 0.9657
+    },
+    {
+      "source": "SYN-1AE3AD",
+      "target": "SYN-DCB914",
+      "weight": 0.9588
+    },
+    {
+      "source": "SYN-1AE3AD",
+      "target": "SYN-515A03",
+      "weight": 0.9865
+    },
+    {
+      "source": "SYN-7FD913",
+      "target": "SYN-F8BCF9",
+      "weight": 0.9786
+    },
+    {
+      "source": "SYN-7FD913",
+      "target": "SYN-A625DB",
+      "weight": 0.9618
+    },
+    {
+      "source": "SYN-7FD913",
+      "target": "SYN-E676BC",
+      "weight": 0.9818
+    },
+    {
+      "source": "SYN-7FD913",
+      "target": "SYN-82336F",
+      "weight": 0.9721
+    },
+    {
+      "source": "SYN-7FD913",
+      "target": "SYN-07A03D",
+      "weight": 0.9781
+    },
+    {
+      "source": "SYN-7FD913",
+      "target": "SYN-7C95C8",
+      "weight": 0.9696
+    },
+    {
+      "source": "SYN-EEBC11",
+      "target": "SYN-F0D8CE",
+      "weight": 0.9575
+    },
+    {
+      "source": "SYN-EEBC11",
+      "target": "SYN-CCB14A",
+      "weight": 0.9826
+    },
+    {
+      "source": "SYN-EEBC11",
+      "target": "SYN-9DB433",
+      "weight": 0.9738
+    },
+    {
+      "source": "SYN-EEBC11",
+      "target": "SYN-E96619",
+      "weight": 0.9837
+    },
+    {
+      "source": "SYN-EEBC11",
+      "target": "SYN-99A7AA",
+      "weight": 0.9755
+    },
+    {
+      "source": "SYN-1B9518",
+      "target": "SYN-4BE4DC",
+      "weight": 0.9741
+    },
+    {
+      "source": "SYN-1B9518",
+      "target": "SYN-D41858",
+      "weight": 0.9538
+    },
+    {
+      "source": "SYN-9C20DD",
+      "target": "SYN-B0F855",
+      "weight": 0.9606
+    },
+    {
+      "source": "SYN-B9D58D",
+      "target": "SYN-5D44E5",
+      "weight": 0.9852
+    },
+    {
+      "source": "SYN-B9D58D",
+      "target": "SYN-E228A3",
+      "weight": 0.9877
+    },
+    {
+      "source": "SYN-B9D58D",
+      "target": "SYN-82BDE5",
+      "weight": 0.9811
+    },
+    {
+      "source": "SYN-FC41A5",
+      "target": "SYN-951EBE",
+      "weight": 0.9708
+    },
+    {
+      "source": "SYN-FC41A5",
+      "target": "SYN-5018E6",
+      "weight": 0.9695
+    },
+    {
+      "source": "SYN-FC41A5",
+      "target": "SYN-84C481",
+      "weight": 0.9507
+    },
+    {
+      "source": "SYN-FC41A5",
+      "target": "SYN-786DA4",
+      "weight": 0.973
+    },
+    {
+      "source": "SYN-C88B0F",
+      "target": "SYN-F6A752",
+      "weight": 0.9627
+    },
+    {
+      "source": "SYN-C88B0F",
+      "target": "SYN-E716DB",
+      "weight": 0.9675
+    },
+    {
+      "source": "SYN-C88B0F",
+      "target": "SYN-068728",
+      "weight": 0.9732
+    },
+    {
+      "source": "SYN-17B49A",
+      "target": "SYN-8086D9",
+      "weight": 0.9536
+    },
+    {
+      "source": "SYN-F8BF87",
+      "target": "SYN-3A3636",
+      "weight": 0.9623
+    },
+    {
+      "source": "SYN-EDEA68",
+      "target": "SYN-4A7CB1",
+      "weight": 0.9786
+    },
+    {
+      "source": "SYN-EDEA68",
+      "target": "SYN-81FF1C",
+      "weight": 0.9595
+    },
+    {
+      "source": "SYN-A17136",
+      "target": "SYN-650E85",
+      "weight": 0.9691
+    },
+    {
+      "source": "SYN-A9CFA9",
+      "target": "SYN-3414EF",
+      "weight": 0.954
+    },
+    {
+      "source": "SYN-B6F435",
+      "target": "SYN-BCB338",
+      "weight": 0.9589
+    },
+    {
+      "source": "SYN-4A7CB1",
+      "target": "SYN-81FF1C",
+      "weight": 0.9826
+    },
+    {
+      "source": "SYN-4A7CB1",
+      "target": "SYN-E39A2B",
+      "weight": 0.9643
+    },
+    {
+      "source": "SYN-A5767C",
+      "target": "SYN-AA8706",
+      "weight": 0.9698
+    },
+    {
+      "source": "SYN-A5767C",
+      "target": "SYN-BF3877",
+      "weight": 0.9932
+    },
+    {
+      "source": "SYN-D556A2",
+      "target": "SYN-F0D8CE",
+      "weight": 0.9799
+    },
+    {
+      "source": "SYN-D556A2",
+      "target": "SYN-5D44E5",
+      "weight": 0.9514
+    },
+    {
+      "source": "SYN-D556A2",
+      "target": "SYN-5EBBB6",
+      "weight": 0.9526
+    },
+    {
+      "source": "SYN-DB0C49",
+      "target": "SYN-B1F08A",
+      "weight": 0.9611
+    },
+    {
+      "source": "SYN-DB0C49",
+      "target": "SYN-AB122B",
+      "weight": 0.992
+    },
+    {
+      "source": "SYN-DB0C49",
+      "target": "SYN-A21E2B",
+      "weight": 0.958
+    },
+    {
+      "source": "SYN-DB0C49",
+      "target": "SYN-1AAB39",
+      "weight": 0.978
+    },
+    {
+      "source": "SYN-DB0C49",
+      "target": "SYN-26CFB2",
+      "weight": 0.9609
+    },
+    {
+      "source": "SYN-2294CF",
+      "target": "SYN-7B1D5D",
+      "weight": 0.9598
+    },
+    {
+      "source": "SYN-F4847E",
+      "target": "SYN-599AF9",
+      "weight": 0.9522
+    },
+    {
+      "source": "SYN-F4847E",
+      "target": "SYN-3414EF",
+      "weight": 0.9696
+    },
+    {
+      "source": "SYN-F4847E",
+      "target": "SYN-925789",
+      "weight": 0.9731
+    },
+    {
+      "source": "SYN-229AF1",
+      "target": "SYN-E93EC6",
+      "weight": 0.9715
+    },
+    {
+      "source": "SYN-229AF1",
+      "target": "SYN-13F776",
+      "weight": 0.983
+    },
+    {
+      "source": "SYN-229AF1",
+      "target": "SYN-FF8FEF",
+      "weight": 0.9516
+    },
+    {
+      "source": "SYN-229AF1",
+      "target": "SYN-349A13",
+      "weight": 0.9817
+    },
+    {
+      "source": "SYN-229AF1",
+      "target": "SYN-B615BC",
+      "weight": 0.9519
+    },
+    {
+      "source": "SYN-2DF8B4",
+      "target": "SYN-A66C75",
+      "weight": 0.9829
+    },
+    {
+      "source": "SYN-FAB2A0",
+      "target": "SYN-EFA239",
+      "weight": 0.9709
+    },
+    {
+      "source": "SYN-FAB2A0",
+      "target": "SYN-A898B2",
+      "weight": 0.9767
+    },
+    {
+      "source": "SYN-FAB2A0",
+      "target": "SYN-5A5496",
+      "weight": 0.9708
+    },
+    {
+      "source": "SYN-FAB2A0",
+      "target": "SYN-2D9F4F",
+      "weight": 0.9735
+    },
+    {
+      "source": "SYN-FAB2A0",
+      "target": "SYN-55381B",
+      "weight": 0.966
+    },
+    {
+      "source": "SYN-EFA239",
+      "target": "SYN-DCAAE3",
+      "weight": 0.9573
+    },
+    {
+      "source": "SYN-EFA239",
+      "target": "SYN-E951CD",
+      "weight": 0.9949
+    },
+    {
+      "source": "SYN-EFA239",
+      "target": "SYN-55381B",
+      "weight": 0.9774
+    },
+    {
+      "source": "SYN-7BAF23",
+      "target": "SYN-03B32F",
+      "weight": 0.9682
+    },
+    {
+      "source": "SYN-951EBE",
+      "target": "SYN-F1E3CF",
+      "weight": 0.964
+    },
+    {
+      "source": "SYN-951EBE",
+      "target": "SYN-259719",
+      "weight": 0.9601
+    },
+    {
+      "source": "SYN-951EBE",
+      "target": "SYN-5018E6",
+      "weight": 0.9743
+    },
+    {
+      "source": "SYN-951EBE",
+      "target": "SYN-84C481",
+      "weight": 0.9818
+    },
+    {
+      "source": "SYN-951EBE",
+      "target": "SYN-786DA4",
+      "weight": 0.9657
+    },
+    {
+      "source": "SYN-FCC289",
+      "target": "SYN-E6F216",
+      "weight": 0.959
+    },
+    {
+      "source": "SYN-FCC289",
+      "target": "SYN-714EA9",
+      "weight": 0.9657
+    },
+    {
+      "source": "SYN-E93EC6",
+      "target": "SYN-349A13",
+      "weight": 0.9792
+    },
+    {
+      "source": "SYN-599AF9",
+      "target": "SYN-3414EF",
+      "weight": 0.9868
+    },
+    {
+      "source": "SYN-599AF9",
+      "target": "SYN-0DDBEE",
+      "weight": 0.9537
+    },
+    {
+      "source": "SYN-F0630D",
+      "target": "SYN-CC2C75",
+      "weight": 0.9564
+    },
+    {
+      "source": "SYN-F0630D",
+      "target": "SYN-6C6456",
+      "weight": 0.9728
+    },
+    {
+      "source": "SYN-A66C75",
+      "target": "SYN-42A6EA",
+      "weight": 0.9745
+    },
+    {
+      "source": "SYN-C4EC8E",
+      "target": "SYN-1C9962",
+      "weight": 0.9519
+    },
+    {
+      "source": "SYN-C4EC8E",
+      "target": "SYN-BC5E65",
+      "weight": 0.9599
+    },
+    {
+      "source": "SYN-3414EF",
+      "target": "SYN-A5162D",
+      "weight": 0.9552
+    },
+    {
+      "source": "SYN-3414EF",
+      "target": "SYN-0DDBEE",
+      "weight": 0.9794
+    },
+    {
+      "source": "SYN-F0D8CE",
+      "target": "SYN-CCB14A",
+      "weight": 0.9768
+    },
+    {
+      "source": "SYN-F0D8CE",
+      "target": "SYN-9DB433",
+      "weight": 0.9516
+    },
+    {
+      "source": "SYN-F0D8CE",
+      "target": "SYN-E96619",
+      "weight": 0.9831
+    },
+    {
+      "source": "SYN-F0D8CE",
+      "target": "SYN-99A7AA",
+      "weight": 0.9722
+    },
+    {
+      "source": "SYN-B75257",
+      "target": "SYN-009BB6",
+      "weight": 0.959
+    },
+    {
+      "source": "SYN-4B70BB",
+      "target": "SYN-03D1C4",
+      "weight": 0.9586
+    },
+    {
+      "source": "SYN-4B70BB",
+      "target": "SYN-8B1D66",
+      "weight": 0.984
+    },
+    {
+      "source": "SYN-90DF14",
+      "target": "SYN-C3A65C",
+      "weight": 0.9691
+    },
+    {
+      "source": "SYN-90DF14",
+      "target": "SYN-D04135",
+      "weight": 0.9658
+    },
+    {
+      "source": "SYN-F574CF",
+      "target": "SYN-3C5732",
+      "weight": 0.967
+    },
+    {
+      "source": "SYN-F574CF",
+      "target": "SYN-515A03",
+      "weight": 0.9681
+    },
+    {
+      "source": "SYN-F574CF",
+      "target": "SYN-530D7F",
+      "weight": 0.9844
+    },
+    {
+      "source": "SYN-C175D1",
+      "target": "SYN-7A0FE2",
+      "weight": 0.9525
+    },
+    {
+      "source": "SYN-C175D1",
+      "target": "SYN-0DC2B3",
+      "weight": 0.9751
+    },
+    {
+      "source": "SYN-DEB40F",
+      "target": "SYN-92C4BA",
+      "weight": 0.9634
+    },
+    {
+      "source": "SYN-046087",
+      "target": "SYN-8D09C0",
+      "weight": 0.9741
+    },
+    {
+      "source": "SYN-046087",
+      "target": "SYN-82336F",
+      "weight": 0.9766
+    },
+    {
+      "source": "SYN-046087",
+      "target": "SYN-889CD7",
+      "weight": 0.9689
+    },
+    {
+      "source": "SYN-046087",
+      "target": "SYN-96DCB5",
+      "weight": 0.9598
+    },
+    {
+      "source": "SYN-24ACA2",
+      "target": "SYN-A6FE46",
+      "weight": 0.9662
+    },
+    {
+      "source": "SYN-24ACA2",
+      "target": "SYN-830C37",
+      "weight": 0.9648
+    },
+    {
+      "source": "SYN-24ACA2",
+      "target": "SYN-2FB45C",
+      "weight": 0.9715
+    },
+    {
+      "source": "SYN-B64752",
+      "target": "SYN-9DD00C",
+      "weight": 0.9938
+    },
+    {
+      "source": "SYN-B64752",
+      "target": "SYN-49D677",
+      "weight": 0.9707
+    },
+    {
+      "source": "SYN-B64752",
+      "target": "SYN-E37920",
+      "weight": 0.9612
+    },
+    {
+      "source": "SYN-B64752",
+      "target": "SYN-07FC1F",
+      "weight": 0.9926
+    },
+    {
+      "source": "SYN-B64752",
+      "target": "SYN-D318BB",
+      "weight": 0.956
+    },
+    {
+      "source": "SYN-F2F530",
+      "target": "SYN-FA9E8C",
+      "weight": 0.9568
+    },
+    {
+      "source": "SYN-B320EF",
+      "target": "SYN-5A5496",
+      "weight": 0.9657
+    },
+    {
+      "source": "SYN-B320EF",
+      "target": "SYN-ED416A",
+      "weight": 0.9502
+    },
+    {
+      "source": "SYN-B320EF",
+      "target": "SYN-6728C7",
+      "weight": 0.9789
+    },
+    {
+      "source": "SYN-D35126",
+      "target": "SYN-79DDA6",
+      "weight": 0.975
+    },
+    {
+      "source": "SYN-D35126",
+      "target": "SYN-E228A3",
+      "weight": 0.9662
+    },
+    {
+      "source": "SYN-D35126",
+      "target": "SYN-A5162D",
+      "weight": 0.9676
+    },
+    {
+      "source": "SYN-D35126",
+      "target": "SYN-1E2374",
+      "weight": 0.9803
+    },
+    {
+      "source": "SYN-9AE448",
+      "target": "SYN-279040",
+      "weight": 0.9786
+    },
+    {
+      "source": "SYN-B660A7",
+      "target": "SYN-259719",
+      "weight": 0.9605
+    },
+    {
+      "source": "SYN-6A378D",
+      "target": "SYN-DCB914",
+      "weight": 0.976
+    },
+    {
+      "source": "SYN-6A378D",
+      "target": "SYN-515A03",
+      "weight": 0.9611
+    },
+    {
+      "source": "SYN-6A378D",
+      "target": "SYN-C50E25",
+      "weight": 0.9501
+    },
+    {
+      "source": "SYN-79DDA6",
+      "target": "SYN-2DA346",
+      "weight": 0.959
+    },
+    {
+      "source": "SYN-79DDA6",
+      "target": "SYN-1E2374",
+      "weight": 0.9994
+    },
+    {
+      "source": "SYN-807C99",
+      "target": "SYN-0C208E",
+      "weight": 0.9659
+    },
+    {
+      "source": "SYN-9DD00C",
+      "target": "SYN-49D677",
+      "weight": 0.9805
+    },
+    {
+      "source": "SYN-9DD00C",
+      "target": "SYN-07FC1F",
+      "weight": 0.9796
+    },
+    {
+      "source": "SYN-9DD00C",
+      "target": "SYN-D318BB",
+      "weight": 0.9673
+    },
+    {
+      "source": "SYN-7C3BCC",
+      "target": "SYN-7A0FE2",
+      "weight": 0.9757
+    },
+    {
+      "source": "SYN-7C3BCC",
+      "target": "SYN-F02EE0",
+      "weight": 0.9792
+    },
+    {
+      "source": "SYN-CCB14A",
+      "target": "SYN-E96619",
+      "weight": 0.9761
+    },
+    {
+      "source": "SYN-CCB14A",
+      "target": "SYN-BF399C",
+      "weight": 0.9615
+    },
+    {
+      "source": "SYN-CCB14A",
+      "target": "SYN-99A7AA",
+      "weight": 0.9991
+    },
+    {
+      "source": "SYN-F637F9",
+      "target": "SYN-BF399C",
+      "weight": 0.9552
+    },
+    {
+      "source": "SYN-81FF1C",
+      "target": "SYN-DCB914",
+      "weight": 0.9738
+    },
+    {
+      "source": "SYN-81FF1C",
+      "target": "SYN-C50E25",
+      "weight": 0.971
+    },
+    {
+      "source": "SYN-4B2901",
+      "target": "SYN-B8311D",
+      "weight": 0.9909
+    },
+    {
+      "source": "SYN-4B2901",
+      "target": "SYN-0B5676",
+      "weight": 0.9909
+    },
+    {
+      "source": "SYN-13F776",
+      "target": "SYN-FF8FEF",
+      "weight": 0.9816
+    },
+    {
+      "source": "SYN-13F776",
+      "target": "SYN-615105",
+      "weight": 0.9672
+    },
+    {
+      "source": "SYN-13F776",
+      "target": "SYN-349A13",
+      "weight": 0.9639
+    },
+    {
+      "source": "SYN-13F776",
+      "target": "SYN-1D2920",
+      "weight": 0.9746
+    },
+    {
+      "source": "SYN-13F776",
+      "target": "SYN-A307E7",
+      "weight": 0.9623
+    },
+    {
+      "source": "SYN-13F776",
+      "target": "SYN-B615BC",
+      "weight": 0.9862
+    },
+    {
+      "source": "SYN-D27416",
+      "target": "SYN-5B0CC4",
+      "weight": 0.9729
+    },
+    {
+      "source": "SYN-D27416",
+      "target": "SYN-6420AD",
+      "weight": 0.9924
+    },
+    {
+      "source": "SYN-D27416",
+      "target": "SYN-2EE390",
+      "weight": 0.9563
+    },
+    {
+      "source": "SYN-D27416",
+      "target": "SYN-B739D1",
+      "weight": 0.9595
+    },
+    {
+      "source": "SYN-F1E3CF",
+      "target": "SYN-E3B1C1",
+      "weight": 0.9577
+    },
+    {
+      "source": "SYN-F1E3CF",
+      "target": "SYN-786DA4",
+      "weight": 0.9637
+    },
+    {
+      "source": "SYN-33A84A",
+      "target": "SYN-DE45AD",
+      "weight": 0.971
+    },
+    {
+      "source": "SYN-4728BF",
+      "target": "SYN-42EF87",
+      "weight": 0.9628
+    },
+    {
+      "source": "SYN-994732",
+      "target": "SYN-830C37",
+      "weight": 0.9551
+    },
+    {
+      "source": "SYN-3C5732",
+      "target": "SYN-01419B",
+      "weight": 0.9956
+    },
+    {
+      "source": "SYN-3C5732",
+      "target": "SYN-A04BD3",
+      "weight": 0.9548
+    },
+    {
+      "source": "SYN-3C5732",
+      "target": "SYN-530D7F",
+      "weight": 0.957
+    },
+    {
+      "source": "SYN-F6A752",
+      "target": "SYN-01C324",
+      "weight": 0.952
+    },
+    {
+      "source": "SYN-F6A752",
+      "target": "SYN-C1CBF2",
+      "weight": 0.9851
+    },
+    {
+      "source": "SYN-3802FB",
+      "target": "SYN-B1F08A",
+      "weight": 0.9535
+    },
+    {
+      "source": "SYN-7F0DD5",
+      "target": "SYN-BC0019",
+      "weight": 0.9602
+    },
+    {
+      "source": "SYN-7F0DD5",
+      "target": "SYN-CDA9B6",
+      "weight": 0.9526
+    },
+    {
+      "source": "SYN-A6FE46",
+      "target": "SYN-04CB27",
+      "weight": 0.9533
+    },
+    {
+      "source": "SYN-A6FE46",
+      "target": "SYN-ADA67F",
+      "weight": 0.9526
+    },
+    {
+      "source": "SYN-A6FE46",
+      "target": "SYN-2FB45C",
+      "weight": 0.982
+    },
+    {
+      "source": "SYN-925789",
+      "target": "SYN-E228A3",
+      "weight": 0.9527
+    },
+    {
+      "source": "SYN-925789",
+      "target": "SYN-82BDE5",
+      "weight": 0.9807
+    },
+    {
+      "source": "SYN-23972D",
+      "target": "SYN-B8DBE0",
+      "weight": 0.9963
+    },
+    {
+      "source": "SYN-23972D",
+      "target": "SYN-A04BD3",
+      "weight": 0.9746
+    },
+    {
+      "source": "SYN-B1F08A",
+      "target": "SYN-A21E2B",
+      "weight": 0.9935
+    },
+    {
+      "source": "SYN-B1F08A",
+      "target": "SYN-63AC63",
+      "weight": 0.9724
+    },
+    {
+      "source": "SYN-B1F08A",
+      "target": "SYN-1AAB39",
+      "weight": 0.9661
+    },
+    {
+      "source": "SYN-B1F08A",
+      "target": "SYN-26CFB2",
+      "weight": 0.9794
+    },
+    {
+      "source": "SYN-7B1D5D",
+      "target": "SYN-9074C4",
+      "weight": 0.9528
+    },
+    {
+      "source": "SYN-7B1D5D",
+      "target": "SYN-DD204D",
+      "weight": 0.9861
+    },
+    {
+      "source": "SYN-7B1D5D",
+      "target": "SYN-C6F271",
+      "weight": 0.9855
+    },
+    {
+      "source": "SYN-259719",
+      "target": "SYN-84C481",
+      "weight": 0.9944
+    },
+    {
+      "source": "SYN-5D44E5",
+      "target": "SYN-E228A3",
+      "weight": 0.955
+    },
+    {
+      "source": "SYN-547BC6",
+      "target": "SYN-6510CE",
+      "weight": 0.9797
+    },
+    {
+      "source": "SYN-547BC6",
+      "target": "SYN-DD204D",
+      "weight": 0.9713
+    },
+    {
+      "source": "SYN-A4B8DA",
+      "target": "SYN-39CAF0",
+      "weight": 0.9684
+    },
+    {
+      "source": "SYN-A4B8DA",
+      "target": "SYN-FDAEC1",
+      "weight": 0.9711
+    },
+    {
+      "source": "SYN-74882E",
+      "target": "SYN-16BE9D",
+      "weight": 0.9592
+    },
+    {
+      "source": "SYN-74882E",
+      "target": "SYN-9074C4",
+      "weight": 0.9641
+    },
+    {
+      "source": "SYN-74882E",
+      "target": "SYN-AA8706",
+      "weight": 0.9665
+    },
+    {
+      "source": "SYN-74882E",
+      "target": "SYN-9906DE",
+      "weight": 0.9982
+    },
+    {
+      "source": "SYN-F4A402",
+      "target": "SYN-71A8C5",
+      "weight": 0.9668
+    },
+    {
+      "source": "SYN-BA63A3",
+      "target": "SYN-FC659D",
+      "weight": 0.9857
+    },
+    {
+      "source": "SYN-BA63A3",
+      "target": "SYN-7166F5",
+      "weight": 0.969
+    },
+    {
+      "source": "SYN-BA63A3",
+      "target": "SYN-3A3636",
+      "weight": 0.972
+    },
+    {
+      "source": "SYN-F8BCF9",
+      "target": "SYN-A625DB",
+      "weight": 0.976
+    },
+    {
+      "source": "SYN-F8BCF9",
+      "target": "SYN-E676BC",
+      "weight": 0.9927
+    },
+    {
+      "source": "SYN-F8BCF9",
+      "target": "SYN-07A03D",
+      "weight": 0.9643
+    },
+    {
+      "source": "SYN-DCB914",
+      "target": "SYN-C50E25",
+      "weight": 0.9914
+    },
+    {
+      "source": "SYN-5B0CC4",
+      "target": "SYN-D97F1F",
+      "weight": 0.9599
+    },
+    {
+      "source": "SYN-5B0CC4",
+      "target": "SYN-6420AD",
+      "weight": 0.9842
+    },
+    {
+      "source": "SYN-5B0CC4",
+      "target": "SYN-2EE390",
+      "weight": 0.9695
+    },
+    {
+      "source": "SYN-D7F17B",
+      "target": "SYN-FDAEC1",
+      "weight": 0.9807
+    },
+    {
+      "source": "SYN-D7F17B",
+      "target": "SYN-D41858",
+      "weight": 0.97
+    },
+    {
+      "source": "SYN-D8A3DB",
+      "target": "SYN-AE583F",
+      "weight": 0.9533
+    },
+    {
+      "source": "SYN-D8A3DB",
+      "target": "SYN-599195",
+      "weight": 0.9878
+    },
+    {
+      "source": "SYN-D8A3DB",
+      "target": "SYN-DE45AD",
+      "weight": 0.9663
+    },
+    {
+      "source": "SYN-D8A3DB",
+      "target": "SYN-B6F2B2",
+      "weight": 0.9523
+    },
+    {
+      "source": "SYN-6510CE",
+      "target": "SYN-F3B736",
+      "weight": 0.976
+    },
+    {
+      "source": "SYN-6510CE",
+      "target": "SYN-DF7E1E",
+      "weight": 0.9727
+    },
+    {
+      "source": "SYN-3FAE52",
+      "target": "SYN-17BC73",
+      "weight": 0.959
+    },
+    {
+      "source": "SYN-3FAE52",
+      "target": "SYN-351F4D",
+      "weight": 0.9973
+    },
+    {
+      "source": "SYN-3FAE52",
+      "target": "SYN-956440",
+      "weight": 0.9561
+    },
+    {
+      "source": "SYN-626652",
+      "target": "SYN-E678B4",
+      "weight": 0.9915
+    },
+    {
+      "source": "SYN-626652",
+      "target": "SYN-0E1F9D",
+      "weight": 0.9603
+    },
+    {
+      "source": "SYN-A625DB",
+      "target": "SYN-E676BC",
+      "weight": 0.9931
+    },
+    {
+      "source": "SYN-E716DB",
+      "target": "SYN-068728",
+      "weight": 0.9653
+    },
+    {
+      "source": "SYN-5AB712",
+      "target": "SYN-D26A6C",
+      "weight": 0.969
+    },
+    {
+      "source": "SYN-17BC73",
+      "target": "SYN-351F4D",
+      "weight": 0.969
+    },
+    {
+      "source": "SYN-AB122B",
+      "target": "SYN-1AAB39",
+      "weight": 0.9649
+    },
+    {
+      "source": "SYN-703A74",
+      "target": "SYN-82FA7E",
+      "weight": 0.9696
+    },
+    {
+      "source": "SYN-FF8FEF",
+      "target": "SYN-1D2920",
+      "weight": 0.9802
+    },
+    {
+      "source": "SYN-FF8FEF",
+      "target": "SYN-B615BC",
+      "weight": 0.9893
+    },
+    {
+      "source": "SYN-A898B2",
+      "target": "SYN-2D9F4F",
+      "weight": 0.9799
+    },
+    {
+      "source": "SYN-42603C",
+      "target": "SYN-5EBBB6",
+      "weight": 0.9999
+    },
+    {
+      "source": "SYN-D97F1F",
+      "target": "SYN-6420AD",
+      "weight": 0.9712
+    },
+    {
+      "source": "SYN-D97F1F",
+      "target": "SYN-2EE390",
+      "weight": 0.9887
+    },
+    {
+      "source": "SYN-D97F1F",
+      "target": "SYN-42A6EA",
+      "weight": 0.9701
+    },
+    {
+      "source": "SYN-D97F1F",
+      "target": "SYN-39CAF0",
+      "weight": 0.9817
+    },
+    {
+      "source": "SYN-71A8C5",
+      "target": "SYN-37A34E",
+      "weight": 0.9684
+    },
+    {
+      "source": "SYN-414795",
+      "target": "SYN-42976E",
+      "weight": 0.955
+    },
+    {
+      "source": "SYN-662FEC",
+      "target": "SYN-D465DA",
+      "weight": 0.9639
+    },
+    {
+      "source": "SYN-2F0EF2",
+      "target": "SYN-B0F855",
+      "weight": 0.9651
+    },
+    {
+      "source": "SYN-2F0EF2",
+      "target": "SYN-D318BB",
+      "weight": 0.9583
+    },
+    {
+      "source": "SYN-CC2C75",
+      "target": "SYN-6C6456",
+      "weight": 0.9753
+    },
+    {
+      "source": "SYN-CC2C75",
+      "target": "SYN-989C38",
+      "weight": 0.9826
+    },
+    {
+      "source": "SYN-5A5496",
+      "target": "SYN-ED416A",
+      "weight": 0.9666
+    },
+    {
+      "source": "SYN-5A5496",
+      "target": "SYN-2D9F4F",
+      "weight": 0.9624
+    },
+    {
+      "source": "SYN-AE583F",
+      "target": "SYN-B6F2B2",
+      "weight": 0.9862
+    },
+    {
+      "source": "SYN-49D677",
+      "target": "SYN-E37920",
+      "weight": 0.9674
+    },
+    {
+      "source": "SYN-49D677",
+      "target": "SYN-07FC1F",
+      "weight": 0.9637
+    },
+    {
+      "source": "SYN-6E91A1",
+      "target": "SYN-96DCB5",
+      "weight": 0.9873
+    },
+    {
+      "source": "SYN-9DB433",
+      "target": "SYN-E96619",
+      "weight": 0.991
+    },
+    {
+      "source": "SYN-9DB433",
+      "target": "SYN-873185",
+      "weight": 0.955
+    },
+    {
+      "source": "SYN-9DB433",
+      "target": "SYN-989C38",
+      "weight": 0.9608
+    },
+    {
+      "source": "SYN-5018E6",
+      "target": "SYN-593CF9",
+      "weight": 0.9746
+    },
+    {
+      "source": "SYN-9074C4",
+      "target": "SYN-DD204D",
+      "weight": 0.971
+    },
+    {
+      "source": "SYN-9074C4",
+      "target": "SYN-9906DE",
+      "weight": 0.9549
+    },
+    {
+      "source": "SYN-9074C4",
+      "target": "SYN-BF3877",
+      "weight": 0.9556
+    },
+    {
+      "source": "SYN-5511CA",
+      "target": "SYN-79EB12",
+      "weight": 0.9935
+    },
+    {
+      "source": "SYN-5511CA",
+      "target": "SYN-63AC63",
+      "weight": 0.959
+    },
+    {
+      "source": "SYN-5511CA",
+      "target": "SYN-55337A",
+      "weight": 0.9563
+    },
+    {
+      "source": "SYN-214F42",
+      "target": "SYN-447F3E",
+      "weight": 0.9549
+    },
+    {
+      "source": "SYN-214F42",
+      "target": "SYN-07FC1F",
+      "weight": 0.9616
+    },
+    {
+      "source": "SYN-DD204D",
+      "target": "SYN-C6F271",
+      "weight": 0.9717
+    },
+    {
+      "source": "SYN-830C37",
+      "target": "SYN-2FB45C",
+      "weight": 0.9516
+    },
+    {
+      "source": "SYN-E228A3",
+      "target": "SYN-A5162D",
+      "weight": 0.9548
+    },
+    {
+      "source": "SYN-E228A3",
+      "target": "SYN-82BDE5",
+      "weight": 0.9796
+    },
+    {
+      "source": "SYN-DF09BE",
+      "target": "SYN-133989",
+      "weight": 0.9649
+    },
+    {
+      "source": "SYN-DF09BE",
+      "target": "SYN-D0B1C0",
+      "weight": 0.9654
+    },
+    {
+      "source": "SYN-133989",
+      "target": "SYN-E6A921",
+      "weight": 0.971
+    },
+    {
+      "source": "SYN-133989",
+      "target": "SYN-D0B1C0",
+      "weight": 0.9893
+    },
+    {
+      "source": "SYN-714EA9",
+      "target": "SYN-0F0875",
+      "weight": 0.988
+    },
+    {
+      "source": "SYN-615105",
+      "target": "SYN-349A13",
+      "weight": 0.9526
+    },
+    {
+      "source": "SYN-615105",
+      "target": "SYN-A307E7",
+      "weight": 0.9547
+    },
+    {
+      "source": "SYN-615105",
+      "target": "SYN-514435",
+      "weight": 0.9723
+    },
+    {
+      "source": "SYN-2DA346",
+      "target": "SYN-1E2374",
+      "weight": 0.957
+    },
+    {
+      "source": "SYN-15D1B0",
+      "target": "SYN-304BB2",
+      "weight": 0.9891
+    },
+    {
+      "source": "SYN-E96619",
+      "target": "SYN-99A7AA",
+      "weight": 0.9664
+    },
+    {
+      "source": "SYN-B9CF2E",
+      "target": "SYN-BC0019",
+      "weight": 0.9831
+    },
+    {
+      "source": "SYN-B9CF2E",
+      "target": "SYN-CDA9B6",
+      "weight": 0.9886
+    },
+    {
+      "source": "SYN-82FA7E",
+      "target": "SYN-2A9209",
+      "weight": 0.9709
+    },
+    {
+      "source": "SYN-82FA7E",
+      "target": "SYN-41B575",
+      "weight": 0.9601
+    },
+    {
+      "source": "SYN-8D56C1",
+      "target": "SYN-C33A1C",
+      "weight": 0.9702
+    },
+    {
+      "source": "SYN-CAD226",
+      "target": "SYN-D0B1C0",
+      "weight": 0.977
+    },
+    {
+      "source": "SYN-A5162D",
+      "target": "SYN-0DDBEE",
+      "weight": 0.9851
+    },
+    {
+      "source": "SYN-650E85",
+      "target": "SYN-580083",
+      "weight": 0.9533
+    },
+    {
+      "source": "SYN-650E85",
+      "target": "SYN-0F5C80",
+      "weight": 0.9562
+    },
+    {
+      "source": "SYN-8D09C0",
+      "target": "SYN-889CD7",
+      "weight": 0.9697
+    },
+    {
+      "source": "SYN-8D09C0",
+      "target": "SYN-96DCB5",
+      "weight": 0.9785
+    },
+    {
+      "source": "SYN-489FAE",
+      "target": "SYN-03B32F",
+      "weight": 0.9852
+    },
+    {
+      "source": "SYN-B8DBE0",
+      "target": "SYN-A04BD3",
+      "weight": 0.9806
+    },
+    {
+      "source": "SYN-B8DBE0",
+      "target": "SYN-A510B0",
+      "weight": 0.9556
+    },
+    {
+      "source": "SYN-B8DBE0",
+      "target": "SYN-5C2884",
+      "weight": 0.9631
+    },
+    {
+      "source": "SYN-01419B",
+      "target": "SYN-A04BD3",
+      "weight": 0.9781
+    },
+    {
+      "source": "SYN-6420AD",
+      "target": "SYN-2EE390",
+      "weight": 0.9843
+    },
+    {
+      "source": "SYN-6420AD",
+      "target": "SYN-B739D1",
+      "weight": 0.9661
+    },
+    {
+      "source": "SYN-DCAAE3",
+      "target": "SYN-E951CD",
+      "weight": 0.9693
+    },
+    {
+      "source": "SYN-DCAAE3",
+      "target": "SYN-7C95C8",
+      "weight": 0.9556
+    },
+    {
+      "source": "SYN-DCAAE3",
+      "target": "SYN-55381B",
+      "weight": 0.9519
+    },
+    {
+      "source": "SYN-79EB12",
+      "target": "SYN-63AC63",
+      "weight": 0.9697
+    },
+    {
+      "source": "SYN-79EB12",
+      "target": "SYN-55337A",
+      "weight": 0.9697
+    },
+    {
+      "source": "SYN-BF399C",
+      "target": "SYN-99A7AA",
+      "weight": 0.9721
+    },
+    {
+      "source": "SYN-BF399C",
+      "target": "SYN-D0B1C0",
+      "weight": 0.963
+    },
+    {
+      "source": "SYN-B8311D",
+      "target": "SYN-0B5676",
+      "weight": 0.9948
+    },
+    {
+      "source": "SYN-BC0019",
+      "target": "SYN-CDA9B6",
+      "weight": 0.9554
+    },
+    {
+      "source": "SYN-3737E6",
+      "target": "SYN-8DDE4C",
+      "weight": 0.9664
+    },
+    {
+      "source": "SYN-0E1F9D",
+      "target": "SYN-E951CD",
+      "weight": 0.9573
+    },
+    {
+      "source": "SYN-B7737B",
+      "target": "SYN-6960F9",
+      "weight": 0.9577
+    },
+    {
+      "source": "SYN-F756CB",
+      "target": "SYN-E3B1C1",
+      "weight": 0.9834
+    },
+    {
+      "source": "SYN-262746",
+      "target": "SYN-C1CBF2",
+      "weight": 0.9619
+    },
+    {
+      "source": "SYN-5EF98E",
+      "target": "SYN-7166F5",
+      "weight": 0.979
+    },
+    {
+      "source": "SYN-5EF98E",
+      "target": "SYN-6569ED",
+      "weight": 0.9815
+    },
+    {
+      "source": "SYN-4BE4DC",
+      "target": "SYN-D41858",
+      "weight": 0.972
+    },
+    {
+      "source": "SYN-AA8706",
+      "target": "SYN-9906DE",
+      "weight": 0.977
+    },
+    {
+      "source": "SYN-AA8706",
+      "target": "SYN-A21E2B",
+      "weight": 0.965
+    },
+    {
+      "source": "SYN-AA8706",
+      "target": "SYN-BF3877",
+      "weight": 0.9656
+    },
+    {
+      "source": "SYN-F3B736",
+      "target": "SYN-BF3877",
+      "weight": 0.9515
+    },
+    {
+      "source": "SYN-F3B736",
+      "target": "SYN-DF7E1E",
+      "weight": 0.9951
+    },
+    {
+      "source": "SYN-E951CD",
+      "target": "SYN-55381B",
+      "weight": 0.9599
+    },
+    {
+      "source": "SYN-FA9E8C",
+      "target": "SYN-7CB789",
+      "weight": 0.9967
+    },
+    {
+      "source": "SYN-FA9E8C",
+      "target": "SYN-D3C7E8",
+      "weight": 0.9585
+    },
+    {
+      "source": "SYN-5425CC",
+      "target": "SYN-D465DA",
+      "weight": 0.9674
+    },
+    {
+      "source": "SYN-5425CC",
+      "target": "SYN-17E32C",
+      "weight": 0.9773
+    },
+    {
+      "source": "SYN-5425CC",
+      "target": "SYN-009BB6",
+      "weight": 0.994
+    },
+    {
+      "source": "SYN-E37920",
+      "target": "SYN-07FC1F",
+      "weight": 0.9794
+    },
+    {
+      "source": "SYN-0F45DF",
+      "target": "SYN-7CB789",
+      "weight": 0.9524
+    },
+    {
+      "source": "SYN-D465DA",
+      "target": "SYN-009BB6",
+      "weight": 0.9731
+    },
+    {
+      "source": "SYN-7CB789",
+      "target": "SYN-279040",
+      "weight": 0.9683
+    },
+    {
+      "source": "SYN-FC659D",
+      "target": "SYN-3A3636",
+      "weight": 0.9614
+    },
+    {
+      "source": "SYN-A21E2B",
+      "target": "SYN-63AC63",
+      "weight": 0.9567
+    },
+    {
+      "source": "SYN-A21E2B",
+      "target": "SYN-1AAB39",
+      "weight": 0.9659
+    },
+    {
+      "source": "SYN-A21E2B",
+      "target": "SYN-26CFB2",
+      "weight": 0.9791
+    },
+    {
+      "source": "SYN-172F02",
+      "target": "SYN-C9D1A0",
+      "weight": 0.9574
+    },
+    {
+      "source": "SYN-172F02",
+      "target": "SYN-6569ED",
+      "weight": 0.9552
+    },
+    {
+      "source": "SYN-D3C7E8",
+      "target": "SYN-90F17B",
+      "weight": 0.9987
+    },
+    {
+      "source": "SYN-2EE390",
+      "target": "SYN-39CAF0",
+      "weight": 0.9873
+    },
+    {
+      "source": "SYN-2EE390",
+      "target": "SYN-B739D1",
+      "weight": 0.9637
+    },
+    {
+      "source": "SYN-D19C70",
+      "target": "SYN-068728",
+      "weight": 0.9572
+    },
+    {
+      "source": "SYN-63AC63",
+      "target": "SYN-1AAB39",
+      "weight": 0.9765
+    },
+    {
+      "source": "SYN-63AC63",
+      "target": "SYN-26CFB2",
+      "weight": 0.9892
+    },
+    {
+      "source": "SYN-599195",
+      "target": "SYN-DE45AD",
+      "weight": 0.952
+    },
+    {
+      "source": "SYN-599195",
+      "target": "SYN-B6F2B2",
+      "weight": 0.9577
+    },
+    {
+      "source": "SYN-1D2920",
+      "target": "SYN-A307E7",
+      "weight": 0.9772
+    },
+    {
+      "source": "SYN-1D2920",
+      "target": "SYN-B615BC",
+      "weight": 0.997
+    },
+    {
+      "source": "SYN-A510B0",
+      "target": "SYN-5C2884",
+      "weight": 0.979
+    },
+    {
+      "source": "SYN-55337A",
+      "target": "SYN-2A9209",
+      "weight": 0.9754
+    },
+    {
+      "source": "SYN-55337A",
+      "target": "SYN-41B575",
+      "weight": 0.9597
+    },
+    {
+      "source": "SYN-A307E7",
+      "target": "SYN-B615BC",
+      "weight": 0.9793
+    },
+    {
+      "source": "SYN-82336F",
+      "target": "SYN-07A03D",
+      "weight": 0.9605
+    },
+    {
+      "source": "SYN-82336F",
+      "target": "SYN-7C95C8",
+      "weight": 0.9747
+    },
+    {
+      "source": "SYN-42A6EA",
+      "target": "SYN-39CAF0",
+      "weight": 0.9503
+    },
+    {
+      "source": "SYN-889CD7",
+      "target": "SYN-96DCB5",
+      "weight": 0.9724
+    },
+    {
+      "source": "SYN-39CAF0",
+      "target": "SYN-FDAEC1",
+      "weight": 0.9609
+    },
+    {
+      "source": "SYN-515A03",
+      "target": "SYN-530D7F",
+      "weight": 0.9539
+    },
+    {
+      "source": "SYN-2A9209",
+      "target": "SYN-41B575",
+      "weight": 0.9714
+    },
+    {
+      "source": "SYN-17E32C",
+      "target": "SYN-B1C728",
+      "weight": 0.9559
+    },
+    {
+      "source": "SYN-17E32C",
+      "target": "SYN-009BB6",
+      "weight": 0.9535
+    },
+    {
+      "source": "SYN-82BDE5",
+      "target": "SYN-E56670",
+      "weight": 0.9509
+    },
+    {
+      "source": "SYN-C9D1A0",
+      "target": "SYN-0B7DEB",
+      "weight": 0.9966
+    },
+    {
+      "source": "SYN-C9D1A0",
+      "target": "SYN-6569ED",
+      "weight": 0.962
+    },
+    {
+      "source": "SYN-0B7DEB",
+      "target": "SYN-6569ED",
+      "weight": 0.9701
+    },
+    {
+      "source": "SYN-ED416A",
+      "target": "SYN-6960F9",
+      "weight": 0.9664
+    },
+    {
+      "source": "SYN-E88917",
+      "target": "SYN-A46104",
+      "weight": 0.9666
+    },
+    {
+      "source": "SYN-B1C728",
+      "target": "SYN-AD3674",
+      "weight": 0.9624
+    },
+    {
+      "source": "SYN-EB7BCD",
+      "target": "SYN-B739D1",
+      "weight": 0.9651
+    },
+    {
+      "source": "SYN-ADA67F",
+      "target": "SYN-2FB45C",
+      "weight": 0.9765
+    },
+    {
+      "source": "SYN-1AAB39",
+      "target": "SYN-26CFB2",
+      "weight": 0.9928
+    },
+    {
+      "source": "SYN-6ADC23",
+      "target": "SYN-530D7F",
+      "weight": 0.9576
+    },
+    {
+      "source": "SYN-37AABC",
+      "target": "SYN-92C4BA",
+      "weight": 0.9835
+    },
+    {
+      "source": "SYN-E7C2E0",
+      "target": "SYN-D04135",
+      "weight": 0.9922
+    }
+  ],
+  "total_nodes": 500,
+  "total_edges": 905,
+  "fraud_rings": []
+}
