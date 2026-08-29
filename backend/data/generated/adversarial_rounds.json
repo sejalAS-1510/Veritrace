@@ -1,0 +1,212 @@
+[
+    {
+        "round": 1,
+        "account_id": "ADV-TEST-001",
+        "risk_score": 0.287,
+        "flagged": false,
+        "features": {
+            "spend_smoothness": 0.1283,
+            "spend_monotonicity": 0.8986,
+            "login_regularity": 0.5574,
+            "variance_score": 1.0,
+            "bust_out_ratio": 0.993,
+            "device_change_rate": 0.0134
+        },
+        "risk_breakdown": {
+            "trajectory_risk": 0.4684,
+            "transaction_anomaly": 0.0148
+        },
+        "parameters_before": {
+            "noise_factor": 0.035,
+            "dip_probability": 0.04,
+            "dip_magnitude": 0.15,
+            "login_jitter": 1,
+            "ramp_rate_variance": 0.05,
+            "strike_week_offset": 0,
+            "base_spend_offset": 0.0,
+            "surge_multiplier_cap": 20.0,
+            "stealth_level": 1
+        },
+        "parameters_after": {
+            "noise_factor": 0.038011144853224356,
+            "dip_probability": 0.04,
+            "dip_magnitude": 0.15,
+            "login_jitter": 1,
+            "ramp_rate_variance": 0.05,
+            "strike_week_offset": 0,
+            "base_spend_offset": 0.0,
+            "surge_multiplier_cap": 20.0,
+            "stealth_level": 1
+        },
+        "mutation": "Minor parameter drift (undetected \u2014 no major mutation needed)",
+        "event_count": 200
+    },
+    {
+        "round": 2,
+        "account_id": "ADV-TEST-001",
+        "risk_score": 0.29,
+        "flagged": false,
+        "features": {
+            "spend_smoothness": 0.1271,
+            "spend_monotonicity": 0.9189,
+            "login_regularity": 0.5609,
+            "variance_score": 1.0,
+            "bust_out_ratio": 0.993,
+            "device_change_rate": 0.0134
+        },
+        "risk_breakdown": {
+            "trajectory_risk": 0.4736,
+            "transaction_anomaly": 0.0148
+        },
+        "parameters_before": {
+            "noise_factor": 0.038011144853224356,
+            "dip_probability": 0.04,
+            "dip_magnitude": 0.15,
+            "login_jitter": 1,
+            "ramp_rate_variance": 0.05,
+            "strike_week_offset": 0,
+            "base_spend_offset": 0.0,
+            "surge_multiplier_cap": 20.0,
+            "stealth_level": 1
+        },
+        "parameters_after": {
+            "noise_factor": 0.038121974509146575,
+            "dip_probability": 0.04,
+            "dip_magnitude": 0.15,
+            "login_jitter": 1,
+            "ramp_rate_variance": 0.05,
+            "strike_week_offset": 0,
+            "base_spend_offset": 0.0,
+            "surge_multiplier_cap": 20.0,
+            "stealth_level": 1
+        },
+        "mutation": "Minor parameter drift (undetected \u2014 no major mutation needed)",
+        "event_count": 200
+    },
+    {
+        "round": 3,
+        "account_id": "ADV-TEST-001",
+        "risk_score": 0.285,
+        "flagged": false,
+        "features": {
+            "spend_smoothness": 0.1275,
+            "spend_monotonicity": 0.8919,
+            "login_regularity": 0.5495,
+            "variance_score": 1.0,
+            "bust_out_ratio": 0.993,
+            "device_change_rate": 0.0134
+        },
+        "risk_breakdown": {
+            "trajectory_risk": 0.4653,
+            "transaction_anomaly": 0.0148
+        },
+        "parameters_before": {
+            "noise_factor": 0.038121974509146575,
+            "dip_probability": 0.04,
+            "dip_magnitude": 0.15,
+            "login_jitter": 1,
+            "ramp_rate_variance": 0.05,
+            "strike_week_offset": 0,
+            "base_spend_offset": 0.0,
+            "surge_multiplier_cap": 20.0,
+            "stealth_level": 1
+        },
+        "parameters_after": {
+            "noise_factor": 0.03799995340750938,
+            "dip_probability": 0.04,
+            "dip_magnitude": 0.15,
+            "login_jitter": 1,
+            "ramp_rate_variance": 0.05,
+            "strike_week_offset": 0,
+            "base_spend_offset": 0.0,
+            "surge_multiplier_cap": 20.0,
+            "stealth_level": 1
+        },
+        "mutation": "Minor parameter drift (undetected \u2014 no major mutation needed)",
+        "event_count": 200
+    },
+    {
+        "round": 4,
+        "account_id": "ADV-TEST-001",
+        "risk_score": 0.29,
+        "flagged": false,
+        "features": {
+            "spend_smoothness": 0.1257,
+            "spend_monotonicity": 0.9189,
+            "login_regularity": 0.5591,
+            "variance_score": 1.0,
+            "bust_out_ratio": 0.993,
+            "device_change_rate": 0.0134
+        },
+        "risk_breakdown": {
+            "trajectory_risk": 0.4729,
+            "transaction_anomaly": 0.0148
+        },
+        "parameters_before": {
+            "noise_factor": 0.03799995340750938,
+            "dip_probability": 0.04,
+            "dip_magnitude": 0.15,
+            "login_jitter": 1,
+            "ramp_rate_variance": 0.05,
+            "strike_week_offset": 0,
+            "base_spend_offset": 0.0,
+            "surge_multiplier_cap": 20.0,
+            "stealth_level": 1
+        },
+        "parameters_after": {
+            "noise_factor": 0.03436462021719686,
+            "dip_probability": 0.04,
+            "dip_magnitude": 0.15,
+            "login_jitter": 1,
+            "ramp_rate_variance": 0.05,
+            "strike_week_offset": 0,
+            "base_spend_offset": 0.0,
+            "surge_multiplier_cap": 20.0,
+            "stealth_level": 1
+        },
+        "mutation": "Minor parameter drift (undetected \u2014 no major mutation needed)",
+        "event_count": 200
+    },
+    {
+        "round": 5,
+        "account_id": "ADV-TEST-001",
+        "risk_score": 0.281,
+        "flagged": false,
+        "features": {
+            "spend_smoothness": 0.1254,
+            "spend_monotonicity": 0.9122,
+            "login_regularity": 0.5539,
+            "variance_score": 1.0,
+            "bust_out_ratio": 0.993,
+            "device_change_rate": 0.0067
+        },
+        "risk_breakdown": {
+            "trajectory_risk": 0.4592,
+            "transaction_anomaly": 0.0148
+        },
+        "parameters_before": {
+            "noise_factor": 0.03436462021719686,
+            "dip_probability": 0.04,
+            "dip_magnitude": 0.15,
+            "login_jitter": 1,
+            "ramp_rate_variance": 0.05,
+            "strike_week_offset": 0,
+            "base_spend_offset": 0.0,
+            "surge_multiplier_cap": 20.0,
+            "stealth_level": 1
+        },
+        "parameters_after": {
+            "noise_factor": 0.03724095123141084,
+            "dip_probability": 0.04,
+            "dip_magnitude": 0.15,
+            "login_jitter": 1,
+            "ramp_rate_variance": 0.05,
+            "strike_week_offset": 0,
+            "base_spend_offset": 0.0,
+            "surge_multiplier_cap": 20.0,
+            "stealth_level": 1
+        },
+        "mutation": "Minor parameter drift (undetected \u2014 no major mutation needed)",
+        "event_count": 200
+    }
+]

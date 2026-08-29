@@ -1,0 +1,913 @@
+{
+  "accounts": [
+    {
+      "account_id": "SYN-68F6F0",
+      "transaction_count": 50,
+      "timeline": [
+        {
+          "step": 3,
+          "day": 3,
+          "sequence": 1,
+          "phase": "NORMAL",
+          "transaction": {
+            "transaction_id": "TX-C3269DE6",
+            "account_id": "SYN-68F6F0",
+            "day": 3,
+            "amount": 968,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 4,
+          "day": 4,
+          "sequence": 2,
+          "phase": "NORMAL",
+          "transaction": {
+            "transaction_id": "TX-31AD6146",
+            "account_id": "SYN-68F6F0",
+            "day": 4,
+            "amount": 4932,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 6,
+          "day": 6,
+          "sequence": 3,
+          "phase": "NORMAL",
+          "transaction": {
+            "transaction_id": "TX-B13EEB4B",
+            "account_id": "SYN-68F6F0",
+            "day": 6,
+            "amount": 3987,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 10,
+          "day": 10,
+          "sequence": 4,
+          "phase": "NORMAL",
+          "transaction": {
+            "transaction_id": "TX-7D0B9D1B",
+            "account_id": "SYN-68F6F0",
+            "day": 10,
+            "amount": 3822,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 13,
+          "day": 13,
+          "sequence": 5,
+          "phase": "NORMAL",
+          "transaction": {
+            "transaction_id": "TX-21B59B7B",
+            "account_id": "SYN-68F6F0",
+            "day": 13,
+            "amount": 2843,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 14,
+          "day": 14,
+          "sequence": 6,
+          "phase": "NORMAL",
+          "transaction": {
+            "transaction_id": "TX-3DBF7CB4",
+            "account_id": "SYN-68F6F0",
+            "day": 14,
+            "amount": 3317,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 17,
+          "day": 17,
+          "sequence": 7,
+          "phase": "NORMAL",
+          "transaction": {
+            "transaction_id": "TX-0CBE83D1",
+            "account_id": "SYN-68F6F0",
+            "day": 17,
+            "amount": 1877,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 18,
+          "day": 18,
+          "sequence": 8,
+          "phase": "NORMAL",
+          "transaction": {
+            "transaction_id": "TX-46C77A5A",
+            "account_id": "SYN-68F6F0",
+            "day": 18,
+            "amount": 4930,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 19,
+          "day": 19,
+          "sequence": 9,
+          "phase": "NORMAL",
+          "transaction": {
+            "transaction_id": "TX-211CA2B8",
+            "account_id": "SYN-68F6F0",
+            "day": 19,
+            "amount": 2945,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 27,
+          "day": 27,
+          "sequence": 10,
+          "phase": "NORMAL",
+          "transaction": {
+            "transaction_id": "TX-FB50A6AC",
+            "account_id": "SYN-68F6F0",
+            "day": 27,
+            "amount": 2972,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 28,
+          "day": 28,
+          "sequence": 11,
+          "phase": "NORMAL",
+          "transaction": {
+            "transaction_id": "TX-94D0D566",
+            "account_id": "SYN-68F6F0",
+            "day": 28,
+            "amount": 3395,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 29,
+          "day": 29,
+          "sequence": 12,
+          "phase": "NORMAL",
+          "transaction": {
+            "transaction_id": "TX-95CC94D6",
+            "account_id": "SYN-68F6F0",
+            "day": 29,
+            "amount": 397,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 30,
+          "day": 30,
+          "sequence": 13,
+          "phase": "NORMAL",
+          "transaction": {
+            "transaction_id": "TX-ACFFEB83",
+            "account_id": "SYN-68F6F0",
+            "day": 30,
+            "amount": 757,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 34,
+          "day": 34,
+          "sequence": 14,
+          "phase": "NORMAL",
+          "transaction": {
+            "transaction_id": "TX-C28A13EB",
+            "account_id": "SYN-68F6F0",
+            "day": 34,
+            "amount": 3044,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 35,
+          "day": 35,
+          "sequence": 15,
+          "phase": "NORMAL",
+          "transaction": {
+            "transaction_id": "TX-68A44D01",
+            "account_id": "SYN-68F6F0",
+            "day": 35,
+            "amount": 4962,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 36,
+          "day": 36,
+          "sequence": 16,
+          "phase": "NORMAL",
+          "transaction": {
+            "transaction_id": "TX-6E4A6C40",
+            "account_id": "SYN-68F6F0",
+            "day": 36,
+            "amount": 1422,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 40,
+          "day": 40,
+          "sequence": 17,
+          "phase": "NORMAL",
+          "transaction": {
+            "transaction_id": "TX-A86156D3",
+            "account_id": "SYN-68F6F0",
+            "day": 40,
+            "amount": 755,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 46,
+          "day": 46,
+          "sequence": 18,
+          "phase": "NORMAL",
+          "transaction": {
+            "transaction_id": "TX-F6135A8A",
+            "account_id": "SYN-68F6F0",
+            "day": 46,
+            "amount": 415,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 50,
+          "day": 50,
+          "sequence": 19,
+          "phase": "NORMAL",
+          "transaction": {
+            "transaction_id": "TX-B1BA53AE",
+            "account_id": "SYN-68F6F0",
+            "day": 50,
+            "amount": 3233,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 52,
+          "day": 52,
+          "sequence": 20,
+          "phase": "NORMAL",
+          "transaction": {
+            "transaction_id": "TX-11487EB6",
+            "account_id": "SYN-68F6F0",
+            "day": 52,
+            "amount": 3388,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 55,
+          "day": 55,
+          "sequence": 21,
+          "phase": "NORMAL",
+          "transaction": {
+            "transaction_id": "TX-E184FDD9",
+            "account_id": "SYN-68F6F0",
+            "day": 55,
+            "amount": 4437,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 62,
+          "day": 62,
+          "sequence": 22,
+          "phase": "NORMAL",
+          "transaction": {
+            "transaction_id": "TX-8E89DB05",
+            "account_id": "SYN-68F6F0",
+            "day": 62,
+            "amount": 3253,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 69,
+          "day": 69,
+          "sequence": 23,
+          "phase": "NORMAL",
+          "transaction": {
+            "transaction_id": "TX-6442EE13",
+            "account_id": "SYN-68F6F0",
+            "day": 69,
+            "amount": 1774,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 73,
+          "day": 73,
+          "sequence": 24,
+          "phase": "NORMAL",
+          "transaction": {
+            "transaction_id": "TX-160383FF",
+            "account_id": "SYN-68F6F0",
+            "day": 73,
+            "amount": 1228,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 76,
+          "day": 76,
+          "sequence": 25,
+          "phase": "NORMAL",
+          "transaction": {
+            "transaction_id": "TX-31101DCD",
+            "account_id": "SYN-68F6F0",
+            "day": 76,
+            "amount": 956,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 81,
+          "day": 81,
+          "sequence": 26,
+          "phase": "NORMAL",
+          "transaction": {
+            "transaction_id": "TX-33217FE5",
+            "account_id": "SYN-68F6F0",
+            "day": 81,
+            "amount": 3288,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 86,
+          "day": 86,
+          "sequence": 27,
+          "phase": "NORMAL",
+          "transaction": {
+            "transaction_id": "TX-378B89ED",
+            "account_id": "SYN-68F6F0",
+            "day": 86,
+            "amount": 1012,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 87,
+          "day": 87,
+          "sequence": 28,
+          "phase": "NORMAL",
+          "transaction": {
+            "transaction_id": "TX-D1EF5853",
+            "account_id": "SYN-68F6F0",
+            "day": 87,
+            "amount": 1876,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 99,
+          "day": 99,
+          "sequence": 29,
+          "phase": "NORMAL",
+          "transaction": {
+            "transaction_id": "TX-CD239A27",
+            "account_id": "SYN-68F6F0",
+            "day": 99,
+            "amount": 3256,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 102,
+          "day": 102,
+          "sequence": 30,
+          "phase": "DORMANT",
+          "transaction": {
+            "transaction_id": "TX-9E2CBD0E",
+            "account_id": "SYN-68F6F0",
+            "day": 102,
+            "amount": 423,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 107,
+          "day": 107,
+          "sequence": 31,
+          "phase": "DORMANT",
+          "transaction": {
+            "transaction_id": "TX-5375FEE7",
+            "account_id": "SYN-68F6F0",
+            "day": 107,
+            "amount": 4523,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 109,
+          "day": 109,
+          "sequence": 32,
+          "phase": "DORMANT",
+          "transaction": {
+            "transaction_id": "TX-F244E8DB",
+            "account_id": "SYN-68F6F0",
+            "day": 109,
+            "amount": 4383,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 111,
+          "day": 111,
+          "sequence": 33,
+          "phase": "DORMANT",
+          "transaction": {
+            "transaction_id": "TX-B8980E17",
+            "account_id": "SYN-68F6F0",
+            "day": 111,
+            "amount": 3217,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 115,
+          "day": 115,
+          "sequence": 34,
+          "phase": "DORMANT",
+          "transaction": {
+            "transaction_id": "TX-3EC9E4EB",
+            "account_id": "SYN-68F6F0",
+            "day": 115,
+            "amount": 3984,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 121,
+          "day": 121,
+          "sequence": 35,
+          "phase": "ACTIVATION",
+          "transaction": {
+            "transaction_id": "TX-D6861F99",
+            "account_id": "SYN-68F6F0",
+            "day": 121,
+            "amount": 825,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 123,
+          "day": 123,
+          "sequence": 36,
+          "phase": "ACTIVATION",
+          "transaction": {
+            "transaction_id": "TX-0B5C8721",
+            "account_id": "SYN-68F6F0",
+            "day": 123,
+            "amount": 2757,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 125,
+          "day": 125,
+          "sequence": 37,
+          "phase": "ACTIVATION",
+          "transaction": {
+            "transaction_id": "TX-72DDAB89",
+            "account_id": "SYN-68F6F0",
+            "day": 125,
+            "amount": 1086,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 127,
+          "day": 127,
+          "sequence": 38,
+          "phase": "ACTIVATION",
+          "transaction": {
+            "transaction_id": "TX-7B01B72C",
+            "account_id": "SYN-68F6F0",
+            "day": 127,
+            "amount": 2693,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 130,
+          "day": 130,
+          "sequence": 39,
+          "phase": "ACTIVATION",
+          "transaction": {
+            "transaction_id": "TX-B143C18F",
+            "account_id": "SYN-68F6F0",
+            "day": 130,
+            "amount": 3374,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 136,
+          "day": 136,
+          "sequence": 40,
+          "phase": "ACTIVATION",
+          "transaction": {
+            "transaction_id": "TX-02883AC2",
+            "account_id": "SYN-68F6F0",
+            "day": 136,
+            "amount": 1422,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 142,
+          "day": 142,
+          "sequence": 41,
+          "phase": "ATTACK",
+          "transaction": {
+            "transaction_id": "TX-2E65D8A3",
+            "account_id": "SYN-68F6F0",
+            "day": 142,
+            "amount": 11949.0,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "nameDest": "D-A1672A",
+            "is_attack": true
+          },
+          "attack_type": "SYNTHETIC_IDENTITY",
+          "severity": "MEDIUM"
+        },
+        {
+          "step": 143,
+          "day": 143,
+          "sequence": 42,
+          "phase": "ATTACK",
+          "transaction": {
+            "transaction_id": "TX-A310F86B",
+            "account_id": "SYN-68F6F0",
+            "day": 143,
+            "amount": 1305.0,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "nameDest": "D-966781",
+            "is_attack": true
+          },
+          "attack_type": "SYNTHETIC_IDENTITY",
+          "severity": "MEDIUM"
+        },
+        {
+          "step": 155,
+          "day": 155,
+          "sequence": 43,
+          "phase": "ATTACK",
+          "transaction": {
+            "transaction_id": "TX-5122E785",
+            "account_id": "SYN-68F6F0",
+            "day": 155,
+            "amount": 8511.0,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "nameDest": "D-3780D2",
+            "is_attack": true
+          },
+          "attack_type": "SYNTHETIC_IDENTITY",
+          "severity": "MEDIUM"
+        },
+        {
+          "step": 164,
+          "day": 164,
+          "sequence": 44,
+          "phase": "POST_ATTACK",
+          "transaction": {
+            "transaction_id": "TX-9EB02187",
+            "account_id": "SYN-68F6F0",
+            "day": 164,
+            "amount": 4044,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 165,
+          "day": 165,
+          "sequence": 45,
+          "phase": "POST_ATTACK",
+          "transaction": {
+            "transaction_id": "TX-EC01D955",
+            "account_id": "SYN-68F6F0",
+            "day": 165,
+            "amount": 843,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 167,
+          "day": 167,
+          "sequence": 46,
+          "phase": "POST_ATTACK",
+          "transaction": {
+            "transaction_id": "TX-BACBF692",
+            "account_id": "SYN-68F6F0",
+            "day": 167,
+            "amount": 2324,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 170,
+          "day": 170,
+          "sequence": 47,
+          "phase": "POST_ATTACK",
+          "transaction": {
+            "transaction_id": "TX-7AC7F48C",
+            "account_id": "SYN-68F6F0",
+            "day": 170,
+            "amount": 4854,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 171,
+          "day": 171,
+          "sequence": 48,
+          "phase": "POST_ATTACK",
+          "transaction": {
+            "transaction_id": "TX-96DC12C9",
+            "account_id": "SYN-68F6F0",
+            "day": 171,
+            "amount": 2039,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 174,
+          "day": 174,
+          "sequence": 49,
+          "phase": "POST_ATTACK",
+          "transaction": {
+            "transaction_id": "TX-185FB214",
+            "account_id": "SYN-68F6F0",
+            "day": 174,
+            "amount": 3064,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        },
+        {
+          "step": 175,
+          "day": 175,
+          "sequence": 50,
+          "phase": "POST_ATTACK",
+          "transaction": {
+            "transaction_id": "TX-39264977",
+            "account_id": "SYN-68F6F0",
+            "day": 175,
+            "amount": 4994,
+            "location": "Pune",
+            "device_id": "DEV-82B38B",
+            "transaction_type": "PURCHASE",
+            "is_attack": false
+          },
+          "attack_type": null,
+          "severity": null
+        }
+      ]
+    }
+  ]
+}

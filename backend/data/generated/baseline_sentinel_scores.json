@@ -1,0 +1,3506 @@
+{
+  "dataset": "SENTINEL_RISK_OUTPUT",
+  "version": "1.0",
+  "accounts": [
+    {
+      "account_id": "SYN-8B6C33",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-95E22D",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-F113EF",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-C8206D",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-319270",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-FA79FA",
+      "trajectory_score": 0.239,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4673,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-E02AE4",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-8AAAA8",
+      "trajectory_score": 0.238,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4666,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-3EE640",
+      "trajectory_score": 0.242,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4694,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-3FC298",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-8463E6",
+      "trajectory_score": 0.225,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4575,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-9F6AEA",
+      "trajectory_score": 0.243,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4701,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-B2EC3D",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-DCBBDE",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-71E58F",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-22C804",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-D6D8F1",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-0F94D0",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-3910B7",
+      "trajectory_score": 0.227,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4589,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-57912D",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-0F6401",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-1938BA",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-9EB127",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-3FF972",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-6C94CE",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-B0ACDD",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-227B89",
+      "trajectory_score": 0.245,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4715,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-C46CE7",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-C4D3B2",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-287C36",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-A3D002",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-B79E3C",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-A8BA1D",
+      "trajectory_score": 0.234,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4638,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-999A5C",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-1E00A1",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-8553F7",
+      "trajectory_score": 0.235,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4645,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-622249",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-AE56EF",
+      "trajectory_score": 0.239,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4673,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-8A57B0",
+      "trajectory_score": 0.238,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4666,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-0E6B4F",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-EBA837",
+      "trajectory_score": 0.232,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4624,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-34E107",
+      "trajectory_score": 0.237,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4659,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-831481",
+      "trajectory_score": 0.245,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4715,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-7970F3",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-AAFA52",
+      "trajectory_score": 0.242,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4694,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-4E065E",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-346F8F",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-2674DD",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-66A646",
+      "trajectory_score": 0.242,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4694,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-53C5F1",
+      "trajectory_score": 0.247,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4729,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-644751",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-89964D",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-3E78D9",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-B187B5",
+      "trajectory_score": 0.246,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4722,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-56FA97",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-A05724",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-A423C8",
+      "trajectory_score": 0.209,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4463,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-42933A",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-EDB4A1",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-0DB29F",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-99A649",
+      "trajectory_score": 0.245,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4715,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-AEAE1F",
+      "trajectory_score": 0.239,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4673,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-3A8D3C",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-445B70",
+      "trajectory_score": 0.239,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4673,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-D6E565",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-7D94C4",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-F8F380",
+      "trajectory_score": 0.239,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4673,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-CA8D83",
+      "trajectory_score": 0.238,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4666,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-B4D4C8",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-9105C7",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-07DB02",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-95B52F",
+      "trajectory_score": 0.242,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4694,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-AB2576",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-132682",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-84C7AF",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-3717F8",
+      "trajectory_score": 0.247,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4729,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-156C1C",
+      "trajectory_score": 0.243,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4701,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-5F881E",
+      "trajectory_score": 0.245,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4715,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-9AACAB",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-1EBD5F",
+      "trajectory_score": 0.243,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4701,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-B97EAB",
+      "trajectory_score": 0.245,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4715,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-C33F66",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-56BBCC",
+      "trajectory_score": 0.245,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4715,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-17810B",
+      "trajectory_score": 0.239,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4673,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-C19D32",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-4EB1F1",
+      "trajectory_score": 0.247,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4729,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-10127D",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-732508",
+      "trajectory_score": 0.243,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4701,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-C80997",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-54BB46",
+      "trajectory_score": 0.245,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4715,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-2367BC",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-B750E1",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-49476E",
+      "trajectory_score": 0.242,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4694,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-04C1A8",
+      "trajectory_score": 0.245,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4715,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-3EC7EA",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-35F806",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-C5308D",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-6A4A0B",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-D01DD0",
+      "trajectory_score": 0.225,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4575,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-7A44FD",
+      "trajectory_score": 0.237,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4659,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-3F6AA9",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-EE30D4",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-7AEE31",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-5C4A13",
+      "trajectory_score": 0.237,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4659,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-25B1F3",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-B8CD7D",
+      "trajectory_score": 0.243,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4701,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-A2E840",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-0CA7A1",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-48DEA8",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-457E59",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-BDAAD6",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-842877",
+      "trajectory_score": 0.242,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4694,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-F397A9",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-C48D1D",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-CD8F5E",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-0B6A80",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-070796",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-F47150",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-3BD1E8",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-6E1744",
+      "trajectory_score": 0.245,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4715,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-97864E",
+      "trajectory_score": 0.216,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4512,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-1E1083",
+      "trajectory_score": 0.23,
+      "graph_score": 1.0,
+      "final_risk_score": 0.461,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-746CD7",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-68DB54",
+      "trajectory_score": 0.242,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4694,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-E1FA9C",
+      "trajectory_score": 0.245,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4715,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-D0AF90",
+      "trajectory_score": 0.229,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4603,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-B8C9F9",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-FD9245",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-237DD5",
+      "trajectory_score": 0.238,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4666,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-856A89",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-5FCCA4",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-4AEC02",
+      "trajectory_score": 0.236,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4652,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-A8C672",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-F69146",
+      "trajectory_score": 0.246,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4722,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-B6DE41",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-AE7C9C",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-993D32",
+      "trajectory_score": 0.203,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4421,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-DB2FDF",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-C73B3B",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-052473",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-07BB0C",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-184438",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-DA8D57",
+      "trajectory_score": 0.242,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4694,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-B90106",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-68570D",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-E225EE",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-BBF132",
+      "trajectory_score": 0.243,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4701,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-386D78",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-6730C2",
+      "trajectory_score": 0.243,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4701,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-299883",
+      "trajectory_score": 0.239,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4673,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-7B86D6",
+      "trajectory_score": 0.243,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4701,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-D1F8BD",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-2849B6",
+      "trajectory_score": 0.215,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4505,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-28B850",
+      "trajectory_score": 0.243,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4701,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-441223",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-3DF436",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-DC683A",
+      "trajectory_score": 0.238,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4666,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-3BAF60",
+      "trajectory_score": 0.211,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4477,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-338B68",
+      "trajectory_score": 0.246,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4722,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-206989",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-A9DC4A",
+      "trajectory_score": 0.245,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4715,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-7E93B7",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-3A1FC6",
+      "trajectory_score": 0.202,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4414,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-9309F7",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-DF5BDF",
+      "trajectory_score": 0.23,
+      "graph_score": 1.0,
+      "final_risk_score": 0.461,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-7E95F3",
+      "trajectory_score": 0.239,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4673,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-465ECF",
+      "trajectory_score": 0.239,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4673,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-C412BA",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-8AA86F",
+      "trajectory_score": 0.224,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4568,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-4B35A1",
+      "trajectory_score": 0.245,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4715,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-64DD36",
+      "trajectory_score": 0.225,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4575,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-98E1E6",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-A75413",
+      "trajectory_score": 0.238,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4666,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-B206C5",
+      "trajectory_score": 0.237,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4659,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-3BAE80",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-D5967E",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-2BA471",
+      "trajectory_score": 0.245,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4715,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-319CFD",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-4081F2",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-AC95FB",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-A52ABB",
+      "trajectory_score": 0.242,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4694,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-945547",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-09F7D6",
+      "trajectory_score": 0.215,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4505,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-4FE96F",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-F686A0",
+      "trajectory_score": 0.248,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4736,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-1DB1BC",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-71617B",
+      "trajectory_score": 0.238,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4666,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-69DA29",
+      "trajectory_score": 0.218,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4526,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-E222E3",
+      "trajectory_score": 0.243,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4701,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-CC1209",
+      "trajectory_score": 0.243,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4701,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-786E4F",
+      "trajectory_score": 0.233,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4631,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-30A7E0",
+      "trajectory_score": 0.243,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4701,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-34CA82",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-B7E4A2",
+      "trajectory_score": 0.224,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4568,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-32F658",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-1AE3AD",
+      "trajectory_score": 0.197,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4379,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-7FD913",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-EEBC11",
+      "trajectory_score": 0.238,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4666,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-1B9518",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-9C20DD",
+      "trajectory_score": 0.247,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4729,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-B9D58D",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-1F9C76",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-FC41A5",
+      "trajectory_score": 0.245,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4715,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-C88B0F",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-D169F8",
+      "trajectory_score": 0.195,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4365,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-17B49A",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-F8BF87",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-EDEA68",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-A17136",
+      "trajectory_score": 0.211,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4477,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-A9CFA9",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-B6F435",
+      "trajectory_score": 0.234,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4638,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-4A7CB1",
+      "trajectory_score": 0.242,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4694,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-A5767C",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-D556A2",
+      "trajectory_score": 0.243,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4701,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-DB0C49",
+      "trajectory_score": 0.238,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4666,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-2294CF",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-F4847E",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-229AF1",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-2DF8B4",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-FAB2A0",
+      "trajectory_score": 0.243,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4701,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-EFA239",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-7BAF23",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-951EBE",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-FCC289",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-E4C5C6",
+      "trajectory_score": 0.228,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4596,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-E93EC6",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-599AF9",
+      "trajectory_score": 0.243,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4701,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-F0630D",
+      "trajectory_score": 0.242,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4694,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-A66C75",
+      "trajectory_score": 0.228,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4596,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-C4EC8E",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-EC43D1",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-3414EF",
+      "trajectory_score": 0.197,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4379,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-F0D8CE",
+      "trajectory_score": 0.238,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4666,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-B75257",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-4B70BB",
+      "trajectory_score": 0.243,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4701,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-90DF14",
+      "trajectory_score": 0.247,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4729,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-F574CF",
+      "trajectory_score": 0.238,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4666,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-7A2163",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-C175D1",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-DEB40F",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-046087",
+      "trajectory_score": 0.243,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4701,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-24ACA2",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-B64752",
+      "trajectory_score": 0.227,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4589,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-F2F530",
+      "trajectory_score": 0.243,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4701,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-03D1C4",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-B320EF",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-D35126",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-9AE448",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-B660A7",
+      "trajectory_score": 0.238,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4666,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-6A378D",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-79DDA6",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-807C99",
+      "trajectory_score": 0.238,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4666,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-9DD00C",
+      "trajectory_score": 0.239,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4673,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-7C3BCC",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-CCB14A",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-F637F9",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-81FF1C",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-DD19B7",
+      "trajectory_score": 0.242,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4694,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-4B2901",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-13F776",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-D27416",
+      "trajectory_score": 0.239,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4673,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-F1E3CF",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-33A84A",
+      "trajectory_score": 0.245,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4715,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-4728BF",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-994732",
+      "trajectory_score": 0.238,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4666,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-3C5732",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-CC0C6D",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-F6A752",
+      "trajectory_score": 0.239,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4673,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-3802FB",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-C0C5A6",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-7F0DD5",
+      "trajectory_score": 0.239,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4673,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-A6FE46",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-925789",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-23972D",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-B1F08A",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-7B1D5D",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-259719",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-735F20",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-5D44E5",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-547BC6",
+      "trajectory_score": 0.243,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4701,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-3D2F1D",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-A4B8DA",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-07E090",
+      "trajectory_score": 0.242,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4694,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-74882E",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-957120",
+      "trajectory_score": 0.242,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4694,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-E6F216",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-F4A402",
+      "trajectory_score": 0.239,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4673,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-BA63A3",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-F8BCF9",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-DCB914",
+      "trajectory_score": 0.212,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4484,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-5B0CC4",
+      "trajectory_score": 0.243,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4701,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-D7F17B",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-D8A3DB",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-6510CE",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-3FAE52",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-626652",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-A625DB",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-917C65",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-E716DB",
+      "trajectory_score": 0.238,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4666,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-5AB712",
+      "trajectory_score": 0.226,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4582,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-17BC73",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-8BE794",
+      "trajectory_score": 0.238,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4666,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-7A0FE2",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-AB122B",
+      "trajectory_score": 0.239,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4673,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-703A74",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-FF8FEF",
+      "trajectory_score": 0.236,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4652,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-A898B2",
+      "trajectory_score": 0.243,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4701,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-1C9962",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-42603C",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-D97F1F",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-16BE9D",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-71A8C5",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-414795",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-04CB27",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-662FEC",
+      "trajectory_score": 0.242,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4694,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-E676BC",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-5EBBB6",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-2F0EF2",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-CC2C75",
+      "trajectory_score": 0.211,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4477,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-BC5E65",
+      "trajectory_score": 0.238,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4666,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-5A5496",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-AE583F",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-49D677",
+      "trajectory_score": 0.239,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4673,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-6E91A1",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-1B8EAE",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-9DB433",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-BFFB46",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-E678B4",
+      "trajectory_score": 0.235,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4645,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-5018E6",
+      "trajectory_score": 0.245,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4715,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-2C7569",
+      "trajectory_score": 0.239,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4673,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-9074C4",
+      "trajectory_score": 0.243,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4701,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-42976E",
+      "trajectory_score": 0.245,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4715,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-F02EE0",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-5511CA",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-214F42",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-DD204D",
+      "trajectory_score": 0.239,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4673,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-830C37",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-E228A3",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-B0F855",
+      "trajectory_score": 0.239,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4673,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-4008EF",
+      "trajectory_score": 0.231,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4617,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-614553",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-01C324",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-DF09BE",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-133989",
+      "trajectory_score": 0.245,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4715,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-31BCB1",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-714EA9",
+      "trajectory_score": 0.239,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4673,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-615105",
+      "trajectory_score": 0.237,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4659,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-2DA346",
+      "trajectory_score": 0.242,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4694,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-15D1B0",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-E96619",
+      "trajectory_score": 0.233,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4631,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-B9CF2E",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-82FA7E",
+      "trajectory_score": 0.245,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4715,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-8D56C1",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-CAD226",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-8B1D66",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-A5162D",
+      "trajectory_score": 0.243,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4701,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-650E85",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-8D09C0",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-5DD868",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-489FAE",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-593CF9",
+      "trajectory_score": 0.238,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4666,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-B8DBE0",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-01419B",
+      "trajectory_score": 0.243,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4701,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-6420AD",
+      "trajectory_score": 0.245,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4715,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-DCAAE3",
+      "trajectory_score": 0.238,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4666,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-79EB12",
+      "trajectory_score": 0.218,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4526,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-BF399C",
+      "trajectory_score": 0.242,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4694,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-B8311D",
+      "trajectory_score": 0.238,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4666,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-BC0019",
+      "trajectory_score": 0.242,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4694,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-3737E6",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-0E1F9D",
+      "trajectory_score": 0.243,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4701,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-B7737B",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-349A13",
+      "trajectory_score": 0.213,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4491,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-03B32F",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-F756CB",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-262746",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-5EF98E",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-4BE4DC",
+      "trajectory_score": 0.238,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4666,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-AA8706",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-F3B736",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-E951CD",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-9906DE",
+      "trajectory_score": 0.238,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4666,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-FA9E8C",
+      "trajectory_score": 0.239,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4673,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-5425CC",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-116FE7",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-37A34E",
+      "trajectory_score": 0.242,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4694,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-E37920",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-77E0E6",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-0F45DF",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-580083",
+      "trajectory_score": 0.23,
+      "graph_score": 1.0,
+      "final_risk_score": 0.461,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-D465DA",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-A04BD3",
+      "trajectory_score": 0.23,
+      "graph_score": 1.0,
+      "final_risk_score": 0.461,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-7CB789",
+      "trajectory_score": 0.247,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4729,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-FC659D",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-F00CCC",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-E39A2B",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-A21E2B",
+      "trajectory_score": 0.214,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4498,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-351F4D",
+      "trajectory_score": 0.242,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4694,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-84C481",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-172F02",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-D3C7E8",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-2EE390",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-D19C70",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-C6CF48",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-63AC63",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-599195",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-956440",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-1D2920",
+      "trajectory_score": 0.239,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4673,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-A510B0",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-55337A",
+      "trajectory_score": 0.245,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4715,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-A307E7",
+      "trajectory_score": 0.239,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4673,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-82336F",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-42A6EA",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-D26A6C",
+      "trajectory_score": 0.238,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4666,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-B615BC",
+      "trajectory_score": 0.243,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4701,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-889CD7",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-0DC2B3",
+      "trajectory_score": 0.246,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4722,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-0B5676",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-2D16A2",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-1E2374",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-39CAF0",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-304BB2",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-515A03",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-E3B1C1",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-B21800",
+      "trajectory_score": 0.239,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4673,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-42EF87",
+      "trajectory_score": 0.238,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4666,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-514435",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-2A9209",
+      "trajectory_score": 0.245,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4715,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-447F3E",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-FDAEC1",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-17E32C",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-E6A921",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-873185",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-82BDE5",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-C9D1A0",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-0C208E",
+      "trajectory_score": 0.245,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4715,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-068728",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-0B7DEB",
+      "trajectory_score": 0.236,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4652,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-ED416A",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-E88917",
+      "trajectory_score": 0.238,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4666,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-99A7AA",
+      "trajectory_score": 0.247,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4729,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-B1C728",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-C6F271",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-DE45AD",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-786DA4",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-009BB6",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-07A03D",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-A46104",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-D41858",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-EFFD7C",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-96DCB5",
+      "trajectory_score": 0.239,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4673,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-6C6456",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-8DDE4C",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-41B575",
+      "trajectory_score": 0.245,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4715,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-BFCBC1",
+      "trajectory_score": 0.233,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4631,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-7C95C8",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-2D9F4F",
+      "trajectory_score": 0.238,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4666,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-07FC1F",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-96A3CC",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-EB7BCD",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-ADA67F",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-BF3877",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-BCB338",
+      "trajectory_score": 0.239,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4673,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-1AAB39",
+      "trajectory_score": 0.225,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4575,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-E56670",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-C3A65C",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-2FB45C",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-D318BB",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-1E58E9",
+      "trajectory_score": 0.238,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4666,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-6ADC23",
+      "trajectory_score": 0.238,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4666,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-B6F2B2",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-B739D1",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-7166F5",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-0F0875",
+      "trajectory_score": 0.246,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4722,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-37AABC",
+      "trajectory_score": 0.239,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4673,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-EC4C03",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-6569ED",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-530D7F",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-5C2884",
+      "trajectory_score": 0.242,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4694,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-0F5C80",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-E7C2E0",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-6960F9",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-D04135",
+      "trajectory_score": 0.222,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4554,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-92C4BA",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-D0B1C0",
+      "trajectory_score": 0.238,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4666,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-C50E25",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-AD3674",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-DF7E1E",
+      "trajectory_score": 0.244,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4708,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-3A3636",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-8086D9",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-C1CBF2",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-279040",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-55381B",
+      "trajectory_score": 0.243,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4701,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-6728C7",
+      "trajectory_score": 0.24,
+      "graph_score": 1.0,
+      "final_risk_score": 0.468,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-26CFB2",
+      "trajectory_score": 0.248,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4736,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-0DDBEE",
+      "trajectory_score": 0.239,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4673,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-989C38",
+      "trajectory_score": 0.239,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4673,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-C33A1C",
+      "trajectory_score": 0.242,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4694,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-90F17B",
+      "trajectory_score": 0.243,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4701,
+      "decision": "MEDIUM_RISK"
+    },
+    {
+      "account_id": "SYN-CDA9B6",
+      "trajectory_score": 0.241,
+      "graph_score": 1.0,
+      "final_risk_score": 0.4687,
+      "decision": "MEDIUM_RISK"
+    }
+  ]
+}

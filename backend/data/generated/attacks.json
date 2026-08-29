@@ -1,0 +1,11 @@
+{
+    "attack_id": "ATT-A171BC9E",
+    "account_id": "SYN-A7CBDF",
+    "day": 180,
+    "attack_type": "CASH_OUT",
+    "amount": 250000,
+    "merchant": "Unknown Cash Outlet",
+    "location": "Pune",
+    "device_id": "DEV-FF6EF8",
+    "is_fraud": true
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "account_id": "SYN-6264DE",
+        "month": 1,
+        "utilization_percent": 9
+    },
+    {
+        "account_id": "SYN-6264DE",
+        "month": 2,
+        "utilization_percent": 15
+    },
+    {
+        "account_id": "SYN-6264DE",
+        "month": 3,
+        "utilization_percent": 16
+    },
+    {
+        "account_id": "SYN-6264DE",
+        "month": 4,
+        "utilization_percent": 21
+    },
+    {
+        "account_id": "SYN-6264DE",
+        "month": 5,
+        "utilization_percent": 18
+    },
+    {
+        "account_id": "SYN-6264DE",
+        "month": 6,
+        "utilization_percent": 23
+    }
+]

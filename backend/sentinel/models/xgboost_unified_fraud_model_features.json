@@ -1,0 +1,14 @@
+[
+    "transaction_amount",
+    "account_age",
+    "transaction_count",
+    "avg_transaction_amount",
+    "std_transaction_amount",
+    "max_transaction_amount",
+    "avg_time_gap",
+    "std_time_gap",
+    "cash_out_ratio",
+    "payment_ratio",
+    "transfer_ratio",
+    "debit_ratio"
+]
