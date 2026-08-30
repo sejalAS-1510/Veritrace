@@ -11,18 +11,19 @@ POST /sentinel/analyze          Analyze an externally-supplied timeline
 GET  /sentinel/history          All evaluated identities, newest first
 GET  /sentinel/timeline/{id}    Full weekly timeline for one identity
 GET  /sentinel/graph            Cosine-similarity fraud-ring graph
-GET  /accounts                  Alias for /sentinel/history (broader label)
+GET  /sentinel/rounds           Adversarial round history (legacy alias)
+GET  /accounts                  Alias for /sentinel/history
 GET  /accounts/{id}             Alias for /sentinel/timeline/{id}
-GET  /attacks                   All identities where type=sleeper
-GET  /metrics                   Aggregate detection metrics across all identities
+GET  /attacks                   All sleeper-type identities by risk score
+GET  /metrics                   Aggregate TP/FP/F1 across all identities
 
-Adversarial loop (via adversarial router)
-POST /adversarial/run
-POST /adversarial/reset
-POST /adversarial/feedback
-GET  /adversarial/rounds
-GET  /adversarial/status
-GET  /adversarial/metrics
+Adversarial loop (via adversarial router at /adversarial/*)
+POST /adversarial/run           Full round: Forge → Sentinel → Feedback → Mutate
+POST /adversarial/reset         Reset session
+POST /adversarial/feedback      Inject external Sentinel feedback
+GET  /adversarial/rounds        Live round history
+GET  /adversarial/status        Current Forge params + session stats
+GET  /adversarial/metrics       Precision/Recall/F1/Evasion from live rounds
 """
 
 import time
@@ -33,12 +34,13 @@ from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
-from api.adversarial import router as adversarial_router, _STATE as ADV_STATE
+from api.adversarial import router as adversarial_router
+from api.adversarial import _STATE as ADV_STATE
 from forge.generator import generate_timeline, generate_batch
-from sentinel.trajectory_model import score_trajectory
+from sentinel.trajectory_model import score_full, score_trajectory, models_loaded
 from sentinel.similarity_graph import build_similarity_graph
 
-# ─── App setup ───────────────────────────────────────────────────────────────
+# ─── App ─────────────────────────────────────────────────────────────────────
 
 app = FastAPI(
     title="VeriTrace Sentinel API",
@@ -46,7 +48,7 @@ app = FastAPI(
         "Adversarial AI Defence against GenAI-Scripted Synthetic Identity "
         "& Sleeper Agent Attacks. Forge vs Sentinel arms-race simulation."
     ),
-    version="2.0.0",
+    version="3.0.0",
 )
 
 app.add_middleware(
@@ -60,60 +62,55 @@ app.add_middleware(
 app.include_router(adversarial_router)
 
 # ─── In-memory identity store ─────────────────────────────────────────────────
-# Key: identity_id → full record dict
 
 IDENTITIES_STORE: Dict[str, Dict[str, Any]] = {}
 
 
-# ─── Pydantic models ─────────────────────────────────────────────────────────
+# ─── Pydantic request models ─────────────────────────────────────────────────
 
 class GenerateRequest(BaseModel):
     identity_type: Optional[str] = Field(
         None, description="'sleeper' | 'benign' | null for 50/50 random"
     )
-    weeks: int = Field(24, ge=4, le=52, description="Timeline length in weeks")
-    ring_id: Optional[str] = Field(
-        None, description="Tag to cluster this identity into a fraud ring"
-    )
+    weeks: int = Field(24, ge=4, le=52)
+    ring_id: Optional[str] = Field(None, description="Fraud ring cluster tag")
 
 
 class BatchRequest(BaseModel):
-    count: int = Field(10, ge=2, le=100, description="Number of identities to generate")
-    sleeper_ratio: float = Field(
-        0.5, ge=0.0, le=1.0, description="Fraction that are sleeper agents"
-    )
+    count: int = Field(10, ge=2, le=100)
+    sleeper_ratio: float = Field(0.5, ge=0.0, le=1.0)
 
 
 class AnalyzeRequest(BaseModel):
     timeline: List[Dict[str, Any]] = Field(
-        ..., description="List of weekly event dicts (must include 'week', 'spend', 'login_count')"
+        ..., description="Weekly event list (week, spend, login_count required)"
     )
-    identity_id: Optional[str] = Field(None, description="Optional ID to label this analysis")
+    identity_id: Optional[str] = Field(None)
+    identity_type: Optional[str] = Field(None, description="'sleeper' | 'benign' | 'unknown'")
 
 
-# ─── Helpers ─────────────────────────────────────────────────────────────────
+# ─── Internal helpers ────────────────────────────────────────────────────────
 
 def _score_and_store(raw: Dict[str, Any]) -> Dict[str, Any]:
-    """
-    Runs Sentinel scoring on a raw Forge identity and saves to IDENTITIES_STORE.
-    Returns the full enriched record.
-    """
-    verdict = score_trajectory(raw["timeline"])
+    """Score a raw Forge identity with the full ML+trajectory engine and store it."""
+    verdict = score_full(raw["timeline"])
 
     record: Dict[str, Any] = {
         "id": raw["id"],
-        "type": raw["type"],
+        "type": raw.get("type", "unknown"),
         "ring_id": raw.get("ring_id"),
         "weeks_count": raw.get("weeks_count", len(raw["timeline"])),
         "timeline": raw["timeline"],
         # Sentinel output
         "flagged": verdict["flagged"],
         "risk_score": verdict["risk_score"],
-        "risk_score_pct": round(verdict["risk_score"] * 100, 1),
+        "risk_score_pct": verdict["risk_score_pct"],
         "flag_week": verdict["flag_week"],
         "features": verdict["features"],
         "risk_breakdown": verdict.get("risk_breakdown", {}),
-        # Explainability: human-readable reasons
+        "risk_category": verdict.get("risk_category", "UNKNOWN"),
+        "action": verdict.get("action", "MANUAL_REVIEW"),
+        "ml_available": verdict.get("ml_available", False),
         "detection_reasons": _build_reasons(verdict),
         "created_at": time.strftime("%Y-%m-%d %H:%M:%S"),
     }
@@ -123,52 +120,59 @@ def _score_and_store(raw: Dict[str, Any]) -> Dict[str, Any]:
 
 
 def _build_reasons(verdict: Dict[str, Any]) -> List[str]:
-    """
-    Converts numeric feature scores into human-readable detection reasons
-    for the explainability panel in the dashboard.
-    """
+    """Human-readable detection reasons for the explainability panel."""
     reasons: List[str] = []
     f = verdict.get("features", {})
     bd = verdict.get("risk_breakdown", {})
 
     if f.get("spend_smoothness", 0) > 0.70:
         reasons.append(
-            f"Spend linearity (R²={f['spend_smoothness']:.2f}) — "
-            "incubation spend follows an unnatural straight-line ramp"
+            f"Spend linearity R²={f['spend_smoothness']:.2f} — "
+            "incubation follows an unnatural straight-line ramp"
         )
     if f.get("spend_monotonicity", 0) > 0.75:
         reasons.append(
-            f"Spend monotonicity ({f['spend_monotonicity']*100:.0f}% non-decreasing) — "
+            f"Spend monotonicity {f['spend_monotonicity']*100:.0f}% non-decreasing — "
             "real humans have spending dips; this account never does"
         )
     if f.get("login_regularity", 0) > 0.60:
         reasons.append(
-            f"Login regularity (score={f['login_regularity']:.2f}) — "
-            "sessions occur at near-identical frequency every week"
+            f"Login regularity score={f['login_regularity']:.2f} — "
+            "sessions at near-identical frequency every week"
         )
     if f.get("variance_score", 1) < 0.20:
         reasons.append(
-            f"Low spending variance (CV={f['variance_score']:.3f}) — "
-            "spend distribution is unnaturally tight for a human consumer"
+            f"Low spending variance CV={f['variance_score']:.3f} — "
+            "spend distribution unnaturally tight"
         )
     if f.get("bust_out_ratio", 0) > 0.40:
         reasons.append(
-            f"Terminal transaction anomaly (bust-out ratio={f['bust_out_ratio']:.2f}) — "
-            "final spend deviates far from account's own baseline"
+            f"Terminal transaction anomaly bust-out ratio={f['bust_out_ratio']:.2f} — "
+            "final spend deviates far from account baseline"
         )
     if bd.get("transaction_anomaly", 0) > 0.75:
         reasons.append(
-            f"Transaction z-score anomaly ({bd['transaction_anomaly']:.2f}) — "
-            "final event is a statistical outlier vs this account's history"
+            f"Transaction z-score anomaly={bd['transaction_anomaly']:.2f} — "
+            "final event is a statistical outlier vs own history"
+        )
+    if bd.get("xgb_score") is not None and bd["xgb_score"] > 0.60:
+        reasons.append(
+            f"XGBoost ML fraud probability={bd['xgb_score']:.2f} — "
+            "trained model flags high fraud likelihood"
+        )
+    if bd.get("if_score") is not None and bd["if_score"] > 0.70:
+        reasons.append(
+            f"Isolation Forest anomaly score={bd['if_score']:.2f} — "
+            "behavioral pattern is anomalous relative to normal accounts"
         )
     if not reasons and verdict.get("flagged"):
-        reasons.append("Combined multi-signal trajectory anomaly exceeded threshold")
+        reasons.append("Combined multi-signal trajectory anomaly exceeded detection threshold")
 
     return reasons
 
 
-def _summary_record(r: Dict[str, Any]) -> Dict[str, Any]:
-    """Strips the full timeline from a record for list responses."""
+def _summary(r: Dict[str, Any]) -> Dict[str, Any]:
+    """Slim version for list endpoints (no full timeline)."""
     return {
         "id": r["id"],
         "type": r["type"],
@@ -178,24 +182,26 @@ def _summary_record(r: Dict[str, Any]) -> Dict[str, Any]:
         "flag_week": r["flag_week"],
         "ring_id": r.get("ring_id"),
         "weeks_count": r.get("weeks_count", 24),
+        "risk_category": r.get("risk_category", "UNKNOWN"),
+        "action": r.get("action", "MANUAL_REVIEW"),
         "detection_reasons": r.get("detection_reasons", []),
         "created_at": r.get("created_at"),
     }
 
 
-# ─── Startup seed ─────────────────────────────────────────────────────────────
+# ─── Startup ─────────────────────────────────────────────────────────────────
 
 @app.on_event("startup")
 def seed_initial_identities() -> None:
-    """
-    Seeds 10 identities on startup: ~4 in a coordinated ring, rest random.
-    Gives the frontend graph and history something to display immediately.
-    """
+    """Seeds 10 identities (with a fraud ring cluster) so the UI has data on first load."""
     if not IDENTITIES_STORE:
         batch = generate_batch(count=10, sleeper_ratio=0.5)
         for raw in batch:
             _score_and_store(raw)
-        print(f"[VeriTrace] Seeded {len(IDENTITIES_STORE)} identities on startup.")
+        print(
+            f"[VeriTrace] Startup seed: {len(IDENTITIES_STORE)} identities loaded. "
+            f"ML models: {'ON' if models_loaded() else 'OFF (trajectory fallback)'}"
+        )
 
 
 # ─── Health check ─────────────────────────────────────────────────────────────
@@ -206,11 +212,12 @@ def root() -> Dict[str, Any]:
     flagged = sum(1 for r in IDENTITIES_STORE.values() if r["flagged"])
     return {
         "system": "VeriTrace Sentinel API",
-        "version": "2.0.0",
+        "version": "3.0.0",
         "status": "active",
         "identities_monitored": total,
         "sleeper_agents_flagged": flagged,
         "adversarial_rounds_run": ADV_STATE["round_number"],
+        "ml_models_active": models_loaded(),
         "docs_url": "/docs",
     }
 
@@ -220,9 +227,8 @@ def root() -> Dict[str, Any]:
 @app.post("/forge/generate", tags=["forge"])
 def generate_identity(req: GenerateRequest) -> Dict[str, Any]:
     """
-    Generates one synthetic identity (sleeper or benign) and immediately
-    scores it through Sentinel. Returns the full record including timeline,
-    risk score, flag week, features, and detection reasons.
+    Generates one identity (sleeper or benign) and scores it through Sentinel
+    (XGBoost + Isolation Forest + trajectory analysis fused).
     """
     raw = generate_timeline(
         identity_type=req.identity_type,
@@ -230,7 +236,6 @@ def generate_identity(req: GenerateRequest) -> Dict[str, Any]:
         ring_id=req.ring_id,
     )
     record = _score_and_store(raw)
-
     return {
         "id": record["id"],
         "type": record["type"],
@@ -241,24 +246,23 @@ def generate_identity(req: GenerateRequest) -> Dict[str, Any]:
         "risk_score": record["risk_score"],
         "risk_score_pct": record["risk_score_pct"],
         "flag_week": record["flag_week"],
+        "risk_category": record["risk_category"],
+        "action": record["action"],
         "features": record["features"],
         "risk_breakdown": record["risk_breakdown"],
         "detection_reasons": record["detection_reasons"],
+        "ml_available": record["ml_available"],
     }
 
 
 @app.post("/forge/batch", tags=["forge"])
 def generate_identity_batch(req: BatchRequest) -> Dict[str, Any]:
     """
-    Generates a batch of identities. Always includes one coordinated fraud
-    ring cluster (3–4 sleepers sharing identical behavioural parameters).
-
-    Returns summary list + ring info without full timelines (use
-    GET /sentinel/timeline/{id} for individual timelines).
+    Generates a batch with a built-in fraud ring cluster (3–4 sleepers sharing ring_id).
+    Returns summary list — use GET /sentinel/timeline/{id} for full per-identity data.
     """
     batch = generate_batch(count=req.count, sleeper_ratio=req.sleeper_ratio)
     records = [_score_and_store(raw) for raw in batch]
-
     ring_ids = {r["ring_id"] for r in records if r.get("ring_id")}
     return {
         "generated": len(records),
@@ -266,7 +270,7 @@ def generate_identity_batch(req: BatchRequest) -> Dict[str, Any]:
         "benign": sum(1 for r in records if r["type"] == "benign"),
         "flagged": sum(1 for r in records if r["flagged"]),
         "fraud_rings_seeded": list(ring_ids),
-        "identities": [_summary_record(r) for r in records],
+        "identities": [_summary(r) for r in records],
     }
 
 
@@ -275,34 +279,32 @@ def generate_identity_batch(req: BatchRequest) -> Dict[str, Any]:
 @app.post("/sentinel/analyze", tags=["sentinel"])
 def analyze_timeline(req: AnalyzeRequest) -> Dict[str, Any]:
     """
-    Scores an externally-supplied timeline through Sentinel.
-    Does NOT require a Forge-generated identity — accepts any timeline dict.
-    Useful for Member 1's Forge to push raw timelines for evaluation.
-
-    The identity is stored in IDENTITIES_STORE under the provided id
-    (or a generated one) and appears in history + graph.
+    Scores an externally-supplied weekly timeline through all Sentinel layers.
+    Useful for Member 1/2 to push timelines for evaluation without going through Forge.
     """
     import uuid as _uuid
-
     identity_id = req.identity_id or f"EXT-{_uuid.uuid4().hex[:8].upper()}"
     raw = {
         "id": identity_id,
-        "type": "unknown",
+        "type": req.identity_type or "unknown",
         "ring_id": None,
         "timeline": req.timeline,
         "weeks_count": len(req.timeline),
     }
     record = _score_and_store(raw)
-
     return {
         "id": record["id"],
+        "type": record["type"],
         "flagged": record["flagged"],
         "risk_score": record["risk_score"],
         "risk_score_pct": record["risk_score_pct"],
         "flag_week": record["flag_week"],
+        "risk_category": record["risk_category"],
+        "action": record["action"],
         "features": record["features"],
         "risk_breakdown": record["risk_breakdown"],
         "detection_reasons": record["detection_reasons"],
+        "ml_available": record["ml_available"],
     }
 
 
@@ -312,30 +314,21 @@ def get_history(
     type_filter: Optional[str] = Query(None, description="'sleeper' | 'benign' | 'unknown'"),
     flagged_only: bool = Query(False),
 ) -> List[Dict[str, Any]]:
-    """
-    Returns evaluated identities, newest first.
-    Supports optional filtering by type and flagged status.
-    """
+    """All evaluated identities, newest first. Supports type and flagged filters."""
     records = list(reversed(list(IDENTITIES_STORE.values())))
-
     if type_filter:
         records = [r for r in records if r.get("type") == type_filter]
     if flagged_only:
         records = [r for r in records if r.get("flagged")]
-
-    return [_summary_record(r) for r in records[:limit]]
+    return [_summary(r) for r in records[:limit]]
 
 
 @app.get("/sentinel/timeline/{identity_id}", tags=["sentinel"])
 def get_timeline(identity_id: str) -> Dict[str, Any]:
-    """
-    Returns the full weekly timeline for a single identity plus all
-    Sentinel verdict fields. Used by the Timeline Replay tab.
-    """
+    """Full weekly timeline + all Sentinel verdict fields for one identity."""
     record = IDENTITIES_STORE.get(identity_id)
     if not record:
         raise HTTPException(status_code=404, detail=f"Identity '{identity_id}' not found")
-
     tl = record["timeline"]
     return {
         "id": record["id"],
@@ -346,9 +339,12 @@ def get_timeline(identity_id: str) -> Dict[str, Any]:
         "risk_score": record["risk_score"],
         "risk_score_pct": record.get("risk_score_pct", round(record["risk_score"] * 100, 1)),
         "flag_week": record["flag_week"],
+        "risk_category": record.get("risk_category", "UNKNOWN"),
+        "action": record.get("action", "MANUAL_REVIEW"),
         "features": record.get("features", {}),
         "risk_breakdown": record.get("risk_breakdown", {}),
         "detection_reasons": record.get("detection_reasons", []),
+        "ml_available": record.get("ml_available", False),
         # Flat arrays for chart rendering
         "weeks": [t["week"] for t in tl],
         "spend": [t["spend"] for t in tl],
@@ -357,26 +353,22 @@ def get_timeline(identity_id: str) -> Dict[str, Any]:
         "new_devices": [t.get("new_device", False) for t in tl],
         "location_changes": [t.get("location_change", False) for t in tl],
         "bills_paid": [t.get("bill_paid_on_time", True) for t in tl],
-        # Full timeline for detailed inspection
         "timeline": tl,
     }
 
 
 @app.get("/sentinel/graph", tags=["sentinel"])
 def get_graph(
-    threshold: float = Query(0.88, ge=0.50, le=1.0, description="Cosine similarity threshold"),
+    threshold: float = Query(0.85, ge=0.50, le=1.0),
 ) -> Dict[str, Any]:
-    """
-    Builds and returns the cosine-similarity fraud-ring graph from all
-    stored identities. Edges appear where similarity >= threshold.
-
-    Returns nodes, edges, and detected fraud_rings for the frontend graph tab.
-    """
-    identities = list(IDENTITIES_STORE.values())
-    return build_similarity_graph(identities, similarity_threshold=threshold)
+    """Cosine-similarity fraud-ring graph across all stored identities."""
+    return build_similarity_graph(
+        list(IDENTITIES_STORE.values()),
+        similarity_threshold=threshold,
+    )
 
 
-# ─── Convenience alias endpoints ─────────────────────────────────────────────
+# ─── Alias endpoints ─────────────────────────────────────────────────────────
 
 @app.get("/accounts", tags=["accounts"])
 def list_accounts(
@@ -384,40 +376,30 @@ def list_accounts(
     type_filter: Optional[str] = Query(None),
     flagged_only: bool = Query(False),
 ) -> List[Dict[str, Any]]:
-    """Alias for GET /sentinel/history. Broader label for the project spec."""
     return get_history(limit=limit, type_filter=type_filter, flagged_only=flagged_only)
 
 
 @app.get("/accounts/{identity_id}", tags=["accounts"])
 def get_account(identity_id: str) -> Dict[str, Any]:
-    """Alias for GET /sentinel/timeline/{id}."""
     return get_timeline(identity_id)
 
 
 @app.get("/attacks", tags=["accounts"])
 def list_attacks(limit: int = Query(100, ge=1, le=500)) -> List[Dict[str, Any]]:
-    """
-    Returns all sleeper-type identities (the 'attacks') with their
-    Sentinel verdict. Ordered by risk score descending.
-    """
-    attacks = [
-        r for r in IDENTITIES_STORE.values()
-        if r.get("type") == "sleeper"
-    ]
+    """All sleeper-type identities sorted by risk score (highest first)."""
+    attacks = [r for r in IDENTITIES_STORE.values() if r.get("type") == "sleeper"]
     attacks.sort(key=lambda r: r["risk_score"], reverse=True)
-    return [_summary_record(r) for r in attacks[:limit]]
+    return [_summary(r) for r in attacks[:limit]]
 
 
-# ─── Aggregate metrics endpoint ───────────────────────────────────────────────
+# ─── Aggregate metrics ────────────────────────────────────────────────────────
 
 @app.get("/metrics", tags=["metrics"])
 def get_aggregate_metrics() -> Dict[str, Any]:
     """
-    Computes detection performance across ALL identities in the store
-    (Forge-generated + adversarial + externally analyzed).
-
-    Returns precision, recall, F1, false-positive rate, and per-type counts.
-    These are the real numbers the judges will ask about.
+    Real detection performance metrics computed from all stored identities.
+    Includes precision, recall, F1, false-positive rate, ML model status.
+    These are the judge-facing numbers.
     """
     all_records = list(IDENTITIES_STORE.values())
     total = len(all_records)
@@ -428,31 +410,25 @@ def get_aggregate_metrics() -> Dict[str, Any]:
     sleepers = [r for r in all_records if r.get("type") == "sleeper"]
     benign = [r for r in all_records if r.get("type") == "benign"]
 
-    # True positives: sleepers correctly flagged
     tp = sum(1 for r in sleepers if r["flagged"])
-    # False negatives: sleepers missed
     fn = sum(1 for r in sleepers if not r["flagged"])
-    # False positives: benign incorrectly flagged
     fp = sum(1 for r in benign if r["flagged"])
-    # True negatives: benign correctly cleared
     tn = sum(1 for r in benign if not r["flagged"])
 
     precision = tp / (tp + fp) if (tp + fp) > 0 else None
     recall = tp / (tp + fn) if (tp + fn) > 0 else None
-    f1 = (
-        2 * precision * recall / (precision + recall)
-        if precision and recall
-        else None
-    )
-    false_positive_rate = fp / (fp + tn) if (fp + tn) > 0 else None
-    detection_rate = tp / len(sleepers) if sleepers else None
-    evasion_rate = fn / len(sleepers) if sleepers else None
+    f1 = (2 * precision * recall / (precision + recall)) if (precision and recall) else None
+    fpr = fp / (fp + tn) if (fp + tn) > 0 else None
 
-    # Risk score distributions
     sleeper_risks = [r["risk_score"] for r in sleepers]
     benign_risks = [r["risk_score"] for r in benign]
-
     flag_weeks = [r["flag_week"] for r in sleepers if r.get("flag_week") is not None]
+
+    # Risk category distribution
+    categories = {}
+    for r in all_records:
+        cat = r.get("risk_category", "UNKNOWN")
+        categories[cat] = categories.get(cat, 0) + 1
 
     return {
         "total_identities": total,
@@ -466,31 +442,31 @@ def get_aggregate_metrics() -> Dict[str, Any]:
         "precision": round(precision, 3) if precision is not None else None,
         "recall": round(recall, 3) if recall is not None else None,
         "f1_score": round(f1, 3) if f1 is not None else None,
-        "false_positive_rate_pct": round(false_positive_rate * 100, 1) if false_positive_rate is not None else None,
-        "detection_rate_pct": round(detection_rate * 100, 1) if detection_rate is not None else None,
-        "evasion_rate_pct": round(evasion_rate * 100, 1) if evasion_rate is not None else None,
-        # Risk score stats
+        "false_positive_rate_pct": round(fpr * 100, 1) if fpr is not None else None,
+        "detection_rate_pct": round(tp / len(sleepers) * 100, 1) if sleepers else None,
+        "evasion_rate_pct": round(fn / len(sleepers) * 100, 1) if sleepers else None,
+        # Risk distributions
         "avg_risk_sleeper": round(float(np.mean(sleeper_risks)), 3) if sleeper_risks else None,
         "avg_risk_benign": round(float(np.mean(benign_risks)), 3) if benign_risks else None,
         "max_risk_benign": round(float(np.max(benign_risks)), 3) if benign_risks else None,
         # Early warning
         "avg_flag_week": round(float(np.mean(flag_weeks)), 1) if flag_weeks else None,
         "earliest_flag_week": int(min(flag_weeks)) if flag_weeks else None,
-        # Adversarial round stats (from live adversarial session)
+        # Risk category counts
+        "risk_categories": categories,
+        # ML model status
+        "ml_models_active": models_loaded(),
+        # Adversarial session stats
         "adversarial_rounds": ADV_STATE["round_number"],
         "adversarial_detected": ADV_STATE["total_detected"],
         "adversarial_evaded": ADV_STATE["total_evaded"],
     }
 
 
-# ─── Legacy endpoint (kept for backwards compat with existing frontend) ───────
+# ─── Legacy alias (keeps existing ArmsRaceChart frontend working) ─────────────
 
 @app.get("/sentinel/rounds", tags=["sentinel"])
 def get_legacy_rounds() -> List[Dict[str, Any]]:
-    """
-    Returns adversarial round history.
-    Delegates to /adversarial/rounds — kept so the existing ArmsRaceChart
-    component continues to work without changes.
-    """
+    """Legacy alias → /adversarial/rounds. Keeps ArmsRaceChart component working."""
     from api.adversarial import get_adversarial_rounds
     return get_adversarial_rounds()

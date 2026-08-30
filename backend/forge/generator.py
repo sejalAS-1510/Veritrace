@@ -1,273 +1,22 @@
-import json
+"""
+VeriTrace Forge — Identity & Timeline Generator
+Member 1 owns the identity/timeline generation logic.
+Member 3 owns generate_timeline_adversarial and generate_batch (adversarial loop).
+
+Public API used by api/main.py and api/adversarial.py:
+    generate_timeline(identity_type, weeks, seed, ring_id) -> dict
+    generate_timeline_adversarial(weeks, ring_id, **mutation_kwargs) -> dict
+    generate_batch(count, sleeper_ratio) -> list[dict]
+"""
+
 import random
 import uuid
+from typing import Any, Dict, List, Optional
 
-from datetime import datetime
-from pathlib import Path
+import numpy as np
 
-from backend.forge.dataset_loader import load_paysim_data
-from backend.forge.profile_generator import generate_profile
-from backend.forge.transaction_profile import build_paysim_profile
-from backend.forge.history_generator import (
-    generate_history,
-    generate_timeline_adversarial,
-)
-from backend.forge.feature_extractor import extract_features
 
-from faker import Faker
-
-CITIES = [
-    "Pune",
-    "Mumbai",
-    "Nashik",
-    "Bangalore",
-    "Hyderabad",
-]
-
-
-def create_account():
-    """Create a synthetic customer profile."""
-
-    account_id = "SYN-" + uuid.uuid4().hex[:6].upper()
-
-    account = {
-        "account_id": account_id,
-        "name": fake.name(),
-        "age": random.randint(22, 55),
-        "city": random.choice(CITIES),
-        "occupation": fake.job(),
-        "income": random.randint(35000, 120000),
-        "credit_limit": random.randint(75000, 250000),
-        "created_at": datetime.now().isoformat(),
-
-        # These will be used while generating behavior.
-        "primary_device": "DEV-" + uuid.uuid4().hex[:6].upper(),
-    }
-
-    return account
-
-
-def create_transaction(account_id, day, city, device_id):
-    """Create one normal purchase transaction."""
-
-    transaction = {
-        "transaction_id": "TX-" + uuid.uuid4().hex[:8].upper(),
-        "account_id": account_id,
-        "day": day,
-        "amount": random.randint(200, 5000),
-        "location": city,
-        "device_id": device_id,
-        "transaction_type": "PURCHASE",
-    }
-
-    return transaction
-
-
-def create_transactions(account, number_of_days=180):
-    """
-    Generate normal transactions across the account lifetime.
-
-    Not every day contains a transaction.
-    """
-
-    transactions = []
-
-    for day in range(1, number_of_days + 1):
-
-        # Around 30% of days contain normal spending.
-        if random.random() > 0.30:
-            continue
-
-        transaction = create_transaction(
-            account_id=account["account_id"],
-            day=day,
-            city=account["city"],
-            device_id=account["primary_device"],
-        )
-
-        transactions.append(transaction)
-
-    return transactions
-
-
-def save_json(data, filename):
-    """Save data inside data/generated."""
-
-    output_folder = Path("data/generated")
-    output_folder.mkdir(parents=True, exist_ok=True)
-
-    file_path = output_folder / filename
-
-    with open(file_path, "w", encoding="utf-8") as file:
-        json.dump(data, file, indent=4)
-
-    return file_path
-
-def generate_account_history(
-    number_of_transactions=200,
-    transaction_profile=None
-):
-
-    # ---------------------------------------
-    # Load reference data only when needed
-    # ---------------------------------------
-
-    if transaction_profile is None:
-        paysim = load_paysim_data()
-
-        transaction_profile = build_paysim_profile(
-            paysim
-        )
-
-    # ---------------------------------------
-    # Generate synthetic identity
-    # ---------------------------------------
-
-    profile = generate_profile()
-
-    # ---------------------------------------
-    # Generate behavioral history
-    # ---------------------------------------
-
-    destination_balance = 50000
-
-    history = generate_history(
-        account_id=profile["account_id"],
-        starting_balance=profile["starting_balance"],
-        destination_balance=destination_balance,
-        transaction_types=transaction_profile.transaction_types,
-        average_amount=transaction_profile.average_amount,
-        min_amount=transaction_profile.min_amount,
-        max_amount=transaction_profile.max_amount,
-        number_of_transactions=number_of_transactions
-    )
-
-    # ---------------------------------------
-    # Extract behavioral features
-    # ---------------------------------------
-
-    features = extract_features(history)
-
-    return {
-        "profile": profile,
-        "history": history,
-        "features": features
-    }
-
-def generate_timeline_adversarial(
-    weeks=24,
-    ring_id=None,
-    **kwargs
-):
-    """
-    Wrapper for the adversarial engine.
-
-    Creates a synthetic identity and generates
-    an adversarial behavioral timeline.
-    """
-
-    account_id = "SYN-" + uuid.uuid4().hex[:6].upper()
-
-    timeline = _generate_timeline_adversarial(
-        account_id=account_id,
-        number_of_transactions=weeks,
-        **kwargs
-    )
-
-    return {
-        "id": account_id,
-        "type": "SYNTHETIC_IDENTITY",
-        "ring_id": ring_id,
-        "timeline": timeline
-    }
-
-
-def print_account(account):
-
-    profile = account["profile"]
-    history = account["history"]
-
-    print()
-    print("=" * 60)
-    print("                 FORGE")
-    print("=" * 60)
-
-    print()
-    print("ACCOUNT CREATED")
-    print("-" * 40)
-
-    print(
-        "Account ID:",
-        profile["account_id"]
-    )
-
-    print(
-        "Name:",
-        profile["name"]
-    )
-
-    print(
-        "City:",
-        profile["city"]
-    )
-
-    print(
-        "Income:",
-        f"₹{profile['income']}"
-    )
-
-    print(
-        "Starting balance:",
-        f"₹{profile['starting_balance']}"
-    )
-
-    print(
-        "Device:",
-        profile["device_id"]
-    )
-
-    print()
-    print("BEHAVIORAL HISTORY")
-    print("-" * 40)
-
-    print(
-        "Total transactions:",
-        len(history)
-    )
-
-    print()
-    print("BEHAVIORAL FEATURES")
-    print("-" * 40)
-
-    for key, value in account["features"].items():
-
-     print(
-        f"{key}: {value}"
-    )
-
-    print()
-
-    for transaction in history[:10]:
-
-        print(
-            f"Day {transaction['step']:>3} | "
-            f"{transaction['type']:<10} | "
-            f"₹{transaction['amount']:>10.2f} | "
-            f"Balance: ₹{transaction['newbalanceOrig']:.2f}"
-        )
-
-
-def main():
-
-    print()
-    print("Starting Forge...")
-
-    account = generate_account_history(
-        number_of_transactions=200
-    )
-
-    print_account(account)
-    
+# ─── Adversarial sleeper timeline (mutation-parameterised) ───────────────────
 
 def generate_timeline_adversarial(
     weeks: int = 24,
@@ -280,10 +29,16 @@ def generate_timeline_adversarial(
     strike_week_offset: int = 0,
     base_spend_offset: float = 0.0,
     surge_multiplier_cap: float = 20.0,
-    **kwargs
+    **kwargs,  # absorb any extra mutation params gracefully
 ) -> Dict[str, Any]:
-    """Generates an adversarial sleeper timeline parameterized by mutation engine."""
-    identity_id = f"VT-{random.randint(1000, 9999)}-{uuid.uuid4().hex[:4].upper()}"
+    """
+    Generates a sleeper identity timeline controlled by Forge mutation params.
+    Called each round by api/adversarial.py → POST /adversarial/run.
+
+    The parameters are tuned by forge/mutation.py based on Sentinel feedback,
+    making the attack progressively harder to detect over rounds.
+    """
+    identity_id = f"VT-ADV-{random.randint(1000, 9999)}-{uuid.uuid4().hex[:4].upper()}"
     timeline: List[Dict[str, Any]] = []
 
     if ring_id:
@@ -292,19 +47,35 @@ def generate_timeline_adversarial(
         base_login = 5
     else:
         base_spend = float(np.random.uniform(90.0, 180.0)) + base_spend_offset
+        base_spend = max(50.0, base_spend)
         ramp_rate = float(np.random.uniform(10.0, 22.0))
         base_login = int(np.random.choice([4, 5, 6]))
 
-    strike_week = max(4, min(weeks, 24 + strike_week_offset))
+    # Apply ramp variance
+    ramp_std = ramp_rate * max(0.0, ramp_rate_variance)
+    ramp_rate = float(np.random.normal(ramp_rate, max(0.1, ramp_std)))
+    ramp_rate = max(5.0, ramp_rate)
+
+    strike_week = max(4, min(weeks, weeks + strike_week_offset))
+
+    # Switch to log-curve baseline after heavy mutation (noise_factor > 0.12)
+    # so linear R² drops dramatically, making the trajectory harder to detect
+    use_nonlinear = noise_factor > 0.12
 
     for w in range(1, weeks + 1):
         if w < strike_week:
-            noise = float(np.random.normal(0, max(1.0, base_spend * noise_factor)))
-            ramp_noise = float(np.random.normal(0, max(0.1, ramp_rate * ramp_rate_variance)))
-            spend = max(20.0, base_spend + (w - 1) * (ramp_rate + ramp_noise) + noise)
-            
+            # Incubation phase
+            if use_nonlinear:
+                t_frac = (w - 1) / max(1, strike_week - 2)
+                baseline = base_spend + ramp_rate * (strike_week - 2) * np.log1p(t_frac * 2.718) / np.log1p(2.718)
+            else:
+                baseline = base_spend + (w - 1) * ramp_rate
+
+            noise = float(np.random.normal(0, max(1.0, baseline * noise_factor)))
+            spend = max(20.0, baseline + noise)
+
             if random.random() < dip_probability:
-                spend *= (1.0 - dip_magnitude)
+                spend *= (1.0 - dip_magnitude * random.uniform(0.5, 1.5))
             spend = round(float(spend), 2)
 
             jitter = int(np.random.randint(-login_jitter, login_jitter + 1)) if login_jitter > 0 else 0
@@ -315,11 +86,16 @@ def generate_timeline_adversarial(
             bill_paid_on_time = True
             fraud_strike = False
         else:
+            # Fraud strike (bust-out)
             pre_strike_avg = base_spend + (strike_week - 1) * ramp_rate
-            min_surge = min(3.5, surge_multiplier_cap)
-            max_surge = max(min_surge + 0.5, surge_multiplier_cap)
-            surge_mult = float(np.random.uniform(min_surge, max_surge))
-            spend = round(pre_strike_avg * surge_mult + float(np.random.normal(500, 100)), 2)
+            lo = max(2.0, surge_multiplier_cap * 0.5)
+            hi = max(lo + 0.5, surge_multiplier_cap)
+            surge_mult = float(np.random.uniform(lo, hi))
+            spend = round(
+                pre_strike_avg * surge_mult + float(np.random.normal(0, pre_strike_avg * 0.2)),
+                2,
+            )
+            spend = max(pre_strike_avg * lo, spend)
 
             login_count = int(np.random.randint(18, 36))
             new_device = True
@@ -334,7 +110,7 @@ def generate_timeline_adversarial(
             "new_device": new_device,
             "location_change": location_change,
             "bill_paid_on_time": bill_paid_on_time,
-            "fraud_strike": fraud_strike
+            "fraud_strike": fraud_strike,
         })
 
     return {
@@ -342,18 +118,24 @@ def generate_timeline_adversarial(
         "type": "sleeper",
         "ring_id": ring_id,
         "timeline": timeline,
-        "weeks_count": weeks
+        "weeks_count": weeks,
     }
 
+
+# ─── Standard timeline (sleeper or benign) ───────────────────────────────────
 
 def generate_timeline(
     identity_type: Optional[str] = None,
     weeks: int = 24,
     seed: Optional[int] = None,
     ring_id: Optional[str] = None,
-    **kwargs
+    **kwargs,
 ) -> Dict[str, Any]:
-    """Generates a 24-week timeline for sleeper or benign organic identity."""
+    """
+    Generates a 24-week behavioral timeline.
+    - sleeper: robotic linear ramp + bust-out at week 24
+    - benign:  organic log-normal variance, no fraud strike
+    """
     if seed is not None:
         np.random.seed(seed)
         random.seed(seed)
@@ -362,8 +144,13 @@ def generate_timeline(
         identity_type = "sleeper" if random.random() < 0.5 else "benign"
 
     if identity_type == "sleeper":
-        return generate_timeline_adversarial(weeks=weeks, ring_id=ring_id, **kwargs)
+        # Use the adversarial generator with default (level 1) params
+        raw = generate_timeline_adversarial(weeks=weeks, ring_id=ring_id)
+        # Rename to use clean VT- prefix for non-adversarial seeding
+        raw["id"] = f"VT-{random.randint(1000, 9999)}-{uuid.uuid4().hex[:4].upper()}"
+        return raw
 
+    # Benign: organic human behavior
     identity_id = f"VT-{random.randint(1000, 9999)}-{uuid.uuid4().hex[:4].upper()}"
     timeline: List[Dict[str, Any]] = []
 
@@ -388,7 +175,7 @@ def generate_timeline(
             "new_device": new_device,
             "location_change": location_change,
             "bill_paid_on_time": bill_paid_on_time,
-            "fraud_strike": fraud_strike
+            "fraud_strike": fraud_strike,
         })
 
     return {
@@ -396,13 +183,23 @@ def generate_timeline(
         "type": "benign",
         "ring_id": ring_id,
         "timeline": timeline,
-        "weeks_count": weeks
+        "weeks_count": weeks,
     }
 
 
-def generate_batch(count: int = 10, sleeper_ratio: float = 0.5) -> List[Dict[str, Any]]:
-    """Generates a batch of identities with a realistic mix including a fraud ring cluster."""
-    identities = []
+# ─── Batch generator ─────────────────────────────────────────────────────────
+
+def generate_batch(
+    count: int = 10,
+    sleeper_ratio: float = 0.5,
+) -> List[Dict[str, Any]]:
+    """
+    Generates a batch of identities with a seeded fraud ring cluster.
+    Always creates 3-4 sleepers sharing the same ring_id so the
+    similarity graph has visible clusters from startup.
+    """
+    identities: List[Dict[str, Any]] = []
+
     ring_size = min(4, max(3, int(count * 0.35)))
     ring_tag = f"RING-{uuid.uuid4().hex[:4].upper()}"
 
@@ -415,4 +212,3 @@ def generate_batch(count: int = 10, sleeper_ratio: float = 0.5) -> List[Dict[str
         identities.append(generate_timeline(identity_type=itype))
 
     return identities
-

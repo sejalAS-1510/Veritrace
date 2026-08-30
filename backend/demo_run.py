@@ -1,44 +1,59 @@
-"""Quick demo run — shows the full arms race narrative in the console."""
+"""
+VeriTrace demo — run this to verify the full system works.
+python demo_run.py
+"""
+import warnings
+warnings.filterwarnings("ignore")
+
 from fastapi.testclient import TestClient
 from api.main import app
 
 with TestClient(app) as c:
     root = c.get("/").json()
-    print(f"Server: {root['system']} v{root['version']}")
-    print(f"Seeded: {root['identities_monitored']} identities on startup\n")
+    print(f"\n{'='*55}")
+    print(f"  {root['system']} v{root['version']}")
+    print(f"  Identities seeded : {root['identities_monitored']}")
+    print(f"  ML models active  : {root['ml_models_active']}")
+    print(f"{'='*55}\n")
 
-    print("ADVERSARIAL DEMO (6 rounds):")
-    print("-" * 70)
-    for i in range(6):
-        d = c.post("/adversarial/run").json()
-        bar = "#" * int(d["risk_score_pct"] / 5)
-        sym = "EVADED !!!" if d["outcome"] == "EVADED" else "DETECTED "
-        note = f"  [{d['sentinel_note']}]" if d.get("sentinel_note") else ""
-        traj = d["risk_breakdown"]["trajectory_risk"]
-        tx   = d["risk_breakdown"]["transaction_anomaly"]
-        print(f"  R{d['round_number']}: {sym}  risk={d['risk_score_pct']:5.1f}%  "
-              f"traj={traj:.2f}  tx={tx:.2f}  thresh={d['sentinel_threshold']:.2f}{note}")
-        if d["outcome"] == "DETECTED":
-            print(f"       Forge → {d['mutation_description']}")
-        elif d.get("sentinel_note"):
-            print(f"       Sentinel → {d['sentinel_note']}")
-    print("-" * 70)
-
+    # Show metrics after seed
     m = c.get("/metrics").json()
-    print(f"\nMETRICS (all identities in store):")
-    print(f"  precision={m['precision']}  recall={m['recall']}  f1={m['f1_score']}")
-    print(f"  FP_rate={m['false_positive_rate_pct']}%  detection={m['detection_rate_pct']}%  evasion={m['evasion_rate_pct']}%")
-    print(f"  avg_flag_week={m['avg_flag_week']}  sleeper_risk={m['avg_risk_sleeper']}  benign_max={m['max_risk_benign']}")
+    print("DETECTION METRICS (seed data):")
+    print(f"  precision        = {m['precision']}")
+    print(f"  recall           = {m['recall']}")
+    print(f"  F1               = {m['f1_score']}")
+    print(f"  false positive % = {m['false_positive_rate_pct']}%")
+    print(f"  detection %      = {m['detection_rate_pct']}%")
+    print(f"  avg flag week    = W{m['avg_flag_week']}")
+    print(f"  risk categories  = {m['risk_categories']}\n")
 
-    adv = c.get("/adversarial/metrics").json()
-    print(f"\nADVERSARIAL METRICS (loop only):")
-    print(f"  rounds={adv['total_rounds']}  detected={adv['detected']}  evaded={adv['evaded']}")
-    print(f"  detection_rate={adv['detection_rate_pct']}%  evasion_rate={adv['evasion_rate_pct']}%")
-    print(f"  avg_flag_week={adv['avg_flag_week']}")
+    # Run adversarial loop
+    print("ADVERSARIAL LOOP (8 rounds):")
+    print(f"  {'Round':<8}{'Outcome':<12}{'Risk%':<8}{'Thresh':<8}{'Sentinel note'}")
+    print(f"  {'-'*60}")
+    for i in range(8):
+        d = c.post("/adversarial/run").json()
+        note = d.get("sentinel_note", "")
+        print(f"  R{d['round_number']:<7}{d['outcome']:<12}{d['risk_score_pct']:<8.1f}{d['sentinel_threshold']:<8.2f}{note}")
 
-    status = c.get("/adversarial/status").json()
-    fp = status["forge_params"]
-    print(f"\nFORGE PARAMS after {status['round_number']} rounds:")
-    print(f"  noise={fp['noise_factor']:.3f}  dip_prob={fp['dip_probability']:.2f}  jitter={fp['login_jitter']}  "
-          f"surge_cap={fp['surge_multiplier_cap']:.1f}x  stealth={fp['stealth_level']}")
-    print(f"  sentinel_threshold={status['sentinel_threshold']:.2f}")
+    # Adversarial metrics
+    am = c.get("/adversarial/metrics").json()
+    print(f"\nADVERSARIAL METRICS:")
+    print(f"  detected  = {am['detected']}/{am['total_rounds']}")
+    print(f"  evaded    = {am['evaded']}/{am['total_rounds']}")
+    print(f"  detect%   = {am['detection_rate_pct']}%")
+    print(f"  evasion%  = {am['evasion_rate_pct']}%")
+    print(f"  F1        = {am['f1_score']}")
+
+    # Show Forge evolution
+    st = c.get("/adversarial/status").json()
+    fp = st["forge_params"]
+    print(f"\nFORGE PARAMS (evolved after {st['round_number']} rounds):")
+    print(f"  noise_factor     = {fp['noise_factor']:.3f}  (started 0.035)")
+    print(f"  surge_cap        = {fp['surge_multiplier_cap']:.1f}x  (started 20.0x)")
+    print(f"  login_jitter     = ±{fp['login_jitter']}")
+    print(f"  stealth_level    = {fp['stealth_level']}/3")
+    print(f"  sentinel_thresh  = {st['sentinel_threshold']:.2f}")
+    print(f"\n{'='*55}")
+    print("  All systems operational.")
+    print(f"{'='*55}\n")
